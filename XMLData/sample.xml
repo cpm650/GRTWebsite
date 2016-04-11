@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            An Excerpt From Our CSS Information
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+                <p>All colors will be specified in rgba() format.  The performance drop is considered negligible, yet convenience to new developers is high.</p>
+
+                <p>Due to the xml based format of the site, one stylesheet controls the majority of the site. For cases where a unique style is needed, it is defined either inline or in the head tag of the relevant page(s); ideally, unique styling will be in the head tag to reduce code clutter. This is for load time performance increases and reduced server-side clutter.</p>
+
+                <p>A major exception to the above rule is in the homepage, due to highly specialized CSS, a seperate stylesheet is provided.</p>
+
+                <p>Efforts have been made to ensure no element has two sources of the same attribute.</p>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            Look At This Stock Photo!
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+                <p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
+                <img alt="Test Only" src="imageAssets/stock.jpg"/>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>

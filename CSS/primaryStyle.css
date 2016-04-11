@@ -1,0 +1,137 @@
+/*Default Tag Rules*/
+html, body {
+    height: 100%;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+img{
+    display: inline-block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*General*/
+.wrapper {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subsection{
+    width: 60%;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+.sectionBody p{
+    text-indent: 0px;
+}
+
+.sectionTitle {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px auto 20px auto;
+}
+
+.social-media img{
+    width: 20px;
+    margin: 0px 30px;
+}
+
+/*Navbar and subNavigation*/
+#navbar {
+    height: 60px;
+    border-style: none;
+    text-align: left;
+    background-color: rgb(117, 10, 10);
+    color: rgba(255, 255, 255, 1);
+}
+
+#GRTEmblem {
+    display: inline-block;
+    font-size: 26px;
+    padding: 15px 30px;
+}
+
+#navContainer {
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+
+ul#navList {
+    float: right;
+    font-size: 17px;
+    height: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#navList li {
+    display: inline-block;
+}
+
+ul#navList li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+ul#navList li a:hover {
+    background-color: rgb(97, 0, 0);
+}
+
+/*Sub Navigation for most pages*/
+div#subNavbar{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+ul#subNavList{
+    display: block;
+    font-size: 17px;
+    height: 100%;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+ul#subNavList li{
+    display: inline-block;
+}
+
+ul#subNavList li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+ul#subNavList li a:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+/*Footer Rules*/
+div#footer-wrapper{
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+    bottom: -.5px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(220, 220, 220, 1); /*Temporary*/
+}
