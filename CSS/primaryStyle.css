@@ -7,6 +7,11 @@ html, body {
     font-size: 17px;
 }
 
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
 img{
     display: inline-block;
     margin: 10px auto;
@@ -18,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-/*General*/
+/* Wrappers */
 .wrapper {
     position: relative;
     text-align: center;
@@ -27,6 +32,17 @@ a {
     margin: 0px;
 }
 
+#navigation-wrapper{
+    border-style: none none solid none;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+}
+
+#content-wrapper{
+    text-align: justify;
+}
+
+/* General */
 .subsection{
     width: 60%;
     padding: 10px;
@@ -51,7 +67,6 @@ a {
 
 /*Navbar and subNavigation*/
 #navbar {
-    height: 60px;
     border-style: none;
     text-align: left;
     background-color: rgb(117, 10, 10);
@@ -96,12 +111,16 @@ ul#navList li a:hover {
 }
 
 /*Sub Navigation for most pages*/
-div#subNavbar{
+div.subNavbar{
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
 
-ul#subNavList{
+div.subNavbar:not(.active){
+    display: none;
+}
+
+ul.subNavList{
     display: block;
     font-size: 17px;
     height: 100%;
@@ -110,18 +129,18 @@ ul#subNavList{
     padding: 0px;
 }
 
-ul#subNavList li{
+ul.subNavList li{
     display: inline-block;
 }
 
-ul#subNavList li a {
+ul.subNavList li a {
     display: inline-block;
     padding: 20px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 
-ul#subNavList li a:hover {
+ul.subNavList li a:hover {
     background-color: rgb(40, 40, 40);
 }
 

@@ -27,7 +27,7 @@ All colors will be specified in the rgba() or rgb() formats.  The performance dr
 
 Due to the xml-based format of the site, one stylesheet controls the majority of the site. For cases where a unique style is needed, it is defined either inline or in the head tag of the relevant page(s); ideally, unique styling will be in the head tag to reduce code clutter. This is for load time performance increases and reduced server-side clutter.
 
-A major exception to the above rule is in the homepage, due to highly specialized CSS, a seperate stylesheet is to be provided.
+A major exception to the above rule is in the homepage; due to highly specialized CSS, a seperate stylesheet is to be provided.
 
 Efforts have been made to ensure no element has two sources of the same attribute.
 
@@ -37,6 +37,8 @@ Efforts have been made to ensure no element has two sources of the same attribut
 
 All webpages are built in the PHP 5.5 enviroment.
 
-PHP is used to recreate the HTML required for the footer and header, as well as the parsing of XML in response to GET requests for content distribution.
+PHP is used to recreate the HTML required for "modules" such as the footer and header.
+
+Additionally, the included XML engine is responsible for the the parsing of XML in response to GET requests for content distribution into usable HTML. This engine utilizes Object Oriented Programming instances (similar to Java) to allow flexibility in design via the permission of multiple XML parsings per page. An added benefit of this approach is the ease in training new Webmasters due to the constance of the Java programming language.
 
 Lastly, PHP is used in the contact form to send an email directly to the GRT Webmasters.

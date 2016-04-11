@@ -2,13 +2,13 @@ The following are the technical goals and current-standing of the GRT Website.
 
 =================
 LAST UPDATE TO THESE PLANS: APRIL 10th, 2016
-CURRENT VERSION: V0.5 (In Development)
+CURRENT VERSION: V1.5 (In Development from Previous Site)
 =================
 
 =================
 =  IN PROGRESS  =
 =================
-NEXT STABLE RELEASE: V1.0
+NEXT STABLE RELEASE: V2.0
 EXPECTED DATE OF RELEASE: TBD
 
 OVERSEEING WEBMASTERS:

@@ -1,46 +1,34 @@
 <?php
-
+//TODO INCLUDE GLOBAL VAR ABOUT DEFAULT XML SOURCE/XML PATH
+include "PHP/grtXMLEngine.php";
+$content = new Content();
+$navBar = new navBar();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>GRT | DEFAULT</title>
+
     <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
+    <script type="text/javascript" src="JS/navBarResponse.js"></script>
 </head>
-<body>
-    <div class="wrapper" id="navigation-wrapper">
-        <div class="wrapper" id="navbar">
-            <div id="GRTEmblem"><a href="index.php">GRT</a></div>
-            <div id="navContainer">
-                <ul id="navList">
-                    <li><a href="">About</a></li>
-                    <li><a href="">First</a></li>
-                    <li><a href="">Media</a></li>
-                    <li><a href="">Sponsors</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="wrapper" id="subNavbar">
-            <ul id="subNavList">
-                <li><a href="">About</a></li>
-                <li><a href="">First</a></li>
-                <li><a href="">Media</a></li>
-                <li><a href="">Sponsors</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="wrapepr" id="content-wrapper">
+<body onload="navigationInit(<?php echo $navBar->currentIndex; ?>)">
+    <?php
+    include "modules/navBar.php";
+    ?>
+    <div class="wrapper" id="content-wrapper">
         <?php
-            //TODO INCLUDE GLOBAL VAR ABOUT DEFAULT XML SOURCE/XML PATH
-            include "PHP/grtXMLEngine.php";
+        $content->generateContent();
         ?>
     </div>
-    <div class="wrapper" id="footer-wrapper">
-        &copy; 2016 Gunn Robotics Team. All Rights Reserved.
-        <!-- Eventual Validation Information to be included here -->
-    </div>
+    <?php
+    include "modules/footer.php";
+    ?>
 </body>
 </html>
+<?php
+//CLEANUP
+unset($content);
+unset($navBar);
+?>

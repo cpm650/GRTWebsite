@@ -34,7 +34,7 @@
 
     div#imageFilter{
         height: 100%;
-        background-color: rgba(0, 0, 0, .4);
+        background-color: rgba(0, 0, 0, .75);
     }
 
     div#homeFocus{
@@ -55,7 +55,7 @@
 
     a#focusButton{
         display: block;
-        width: 30%;
+        width: 40%;
         text-transform: uppercase;
         background-color: rgb(255, 255, 255);
         color: rgba(0,0,0,1);
@@ -66,7 +66,7 @@
     }
 
     a#focusButton:hover{
-        background-color: rgb(220, 220, 220);
+        background-color: rgb(210, 210, 210);
     }
 
     div#footer{

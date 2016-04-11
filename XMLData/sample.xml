@@ -10,7 +10,7 @@
 
                 <p>Due to the xml based format of the site, one stylesheet controls the majority of the site. For cases where a unique style is needed, it is defined either inline or in the head tag of the relevant page(s); ideally, unique styling will be in the head tag to reduce code clutter. This is for load time performance increases and reduced server-side clutter.</p>
 
-                <p>A major exception to the above rule is in the homepage, due to highly specialized CSS, a seperate stylesheet is provided.</p>
+                <p>A major exception to the above rule is in the homepage; due to highly specialized CSS, a seperate stylesheet is provided.</p>
 
                 <p>Efforts have been made to ensure no element has two sources of the same attribute.</p>
             ]]>
