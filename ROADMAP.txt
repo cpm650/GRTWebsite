@@ -21,19 +21,28 @@ GOALS FOR NEXT RELEASE:
 OBJECTIVES TOWARD NEXT RELEASE:
     - Publish content:
         - Write and format for publication
+        - Extract Information from Old Site (http://www.gunnrobotics.com/)
         - Branch grtDefault.php to various webpages, prepared for GET Requests
     - Acquire media:
         - Image-assets and vector logo
         - Icons
-    - Finalize PHP source code
+    - Finalize source code
+        - .htaacess
         - Contact Form Code
         - XML Engine Enhancements:
-            - Advanced Debugging and Logging
-            - Defaulting
+            - Advanced Debugging and/or Logging
+            - Defaulting (waiting on branching of grtDefault.php)
+    - Error Pages
+        -Broken, Sad Robot?
+        - Support For:
+            - 400: Bad Request
+            - 404: Not Found
+            - 429: Too Many Requests
+            - 500: Internal Server Error
 
 ==================
 = Eventual Goals =
 ==================
-- Updating Twitter Feed
+- Updating Twitter Feed?
 - Testing and Feedback
 - Administrator Controls

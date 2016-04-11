@@ -17,6 +17,8 @@ class XMLDoc {
 
         if($this->data == false){
             $this->error = true;
+        } else {
+            $this->dataCount = $this->data->count();
         }
     }
 }
@@ -28,8 +30,6 @@ class NavBar extends XMLDoc {
         XMLDoc::XMLDoc("navBar");
 
         if($this->error == false){
-            $this->dataCount = $this->data->count();
-
             $uri = $_SERVER['REQUEST_URI'];
             for($i = 0; $i < $this->dataCount; $i++){
                 if(stripos($uri, $this->data->category[$i]->title) !== false){
@@ -37,7 +37,7 @@ class NavBar extends XMLDoc {
                     break;
                 }
             }
-            
+
         }
     }
 
@@ -78,11 +78,13 @@ class NavBar extends XMLDoc {
                 <div class='" . ($a == 0 ? "active" : "") . " wrapper subNavbar'>
                 <ul class='subNavList'>
                 ";
+
                 for($b = 0; $b < $subPages->count(); $b++){
                     echo "
                     <li><a href=''>" . $subPages[$b] . "</a></li>
                     ";
                 }
+
                 echo "</ul>
                 </div>
                 ";
@@ -98,10 +100,6 @@ class Content extends XMLDoc {
             //XMLDoc::XMLDoc(DEFAULT);
         } else {
             XMLDoc::XMLDoc(htmlspecialchars($_GET["content"]));
-        }
-
-        if($this->error == false){
-            $this->dataCount = $this->data->count();
         }
     }
 

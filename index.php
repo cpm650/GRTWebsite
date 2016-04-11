@@ -86,11 +86,11 @@
             <div id="GRTEmblem"><a href="index.php">GRT</a></div>
             <div id="navContainer">
                 <ul id="navList">
-                    <li><a href="">About</a></li>
-                    <li><a href="">First</a></li>
-                    <li><a href="">Media</a></li>
-                    <li><a href="">Sponsors</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="first.php">First</a></li>
+                    <li><a href="media.php">Media</a></li>
+                    <li><a href="sponsors.php">Sponsors</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -101,8 +101,12 @@
                 <a id="focusButton" href="">See what we do</a>
             </div>
             <div class="wrapper social-media" id="footer">
-                <img alt="Like us on Facebook" src="imageAssets/FB-f-Logo__white_50.png"/>
-                <img alt="Follow us on Twitter" src="imageAssets/TwitterLogo_white.png"/>
+                <a href="https://www.facebook.com/GRT192">
+                    <img alt="Like us on Facebook" src="imageAssets/FB-f-Logo__white_50.png"/>
+                </a>
+                <a href="https://twitter.com/GRT192">
+                    <img alt="Follow us on Twitter" src="imageAssets/TwitterLogo_white.png"/>
+                </a>
             </div>
         </div>
     </div>
