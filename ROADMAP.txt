@@ -1,0 +1,39 @@
+The following are the technical goals and current-standing of the GRT Website.
+
+=================
+LAST UPDATE TO THESE PLANS: APRIL 10th, 2016
+CURRENT VERSION: V0.5 (In Development)
+=================
+
+=================
+=  IN PROGRESS  =
+=================
+NEXT STABLE RELEASE: V1.0
+EXPECTED DATE OF RELEASE: TBD
+
+OVERSEEING WEBMASTERS:
+    - Varun Singh
+    - Joshua Chen
+
+GOALS FOR NEXT RELEASE:
+    - Functioning Initial Design for Website
+
+OBJECTIVES TOWARD NEXT RELEASE:
+    - Publish content:
+        - Write and format for publication
+        - Branch grtDefault.php to various webpages, prepared for GET Requests
+    - Acquire media:
+        - Image-assets and vector logo
+        - Icons
+    - Finalize PHP source code
+        - Contact Form Code
+        - XML Engine Enhancements:
+            - Advanced Debugging and Logging
+            - Defaulting
+
+==================
+= Eventual Goals =
+==================
+- Updating Twitter Feed
+- Testing and Feedback
+- Administrator Controls

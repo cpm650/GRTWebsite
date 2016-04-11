@@ -33,7 +33,10 @@
         </div>
     </div>
     <div class="wrapepr" id="content-wrapper">
-        <?php include "PHP/grtXMLEngine.php";?>
+        <?php
+            //TODO INCLUDE GLOBAL VAR ABOUT DEFAULT XML SOURCE/XML PATH
+            include "PHP/grtXMLEngine.php";
+        ?>
     </div>
     <div class="wrapper" id="footer-wrapper">
         &copy; 2016 Gunn Robotics Team. All Rights Reserved.

@@ -1,5 +1,6 @@
 <?php
-//Advanced Debugging to be Impletmented
+//TODO Advanced Debugging to be Impletmented
+//TODO Built-in Defaulting
 $xmlFile;
 $contentInformation;
 $dataCount;
@@ -16,7 +17,7 @@ if(!xmlInit()){ //function will return false on success
 
 
 //FUNCTIONS
-function xmlInit(){
+function xmlInit(){ //TODO DEFAULT TO A GLOBAL PHP VAR FROM SOURCE PAGE
     if(empty($_GET)){
         return true;
     } else{
@@ -44,6 +45,7 @@ function generateHTML(){
     }
 }
 
+//TODO improve to send data when enviroment is established
 function generateXMLErrors(){
     echo
     "<div class='subsection'>
@@ -60,11 +62,10 @@ function generateXMLErrors(){
     </div>";
 }
 
-//improve to send data when enviroment is established
 function errorCatch($errNo, $errMsg){
     echo
     "<div class='subsection'>
-        <div class='sectionTitle'>Oh no. Something broke! We will start fixing this immediately!</div>
+        <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
         <div class='sectionBody'>
             Error Level $errNo : $errMsg
         </div>
