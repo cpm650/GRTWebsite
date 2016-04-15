@@ -61,13 +61,14 @@ class NavBar extends XMLDoc {
         for($i = 0; $i < $this->dataCount; $i++){
             echo
             "
-            <li><a onmouseover='changeSubNav($i)' href=''>" . $this->data->category[$i]->title . "</a></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . $this->data->category[$i]->title . ".php'>" . $this->data->category[$i]->title . "</a></li>
             ";
         }
     }
 
     private function subNavBars_generate(){
         for($a = 0; $a < $this->dataCount; $a++){
+            $pageAddress = $this->data->category[$a]->title . ".php?pageContent=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
             $subPages = $this->data->category[$a]->subNavBar->page;
 
             if($subPages->count() == 0){
@@ -81,7 +82,7 @@ class NavBar extends XMLDoc {
 
                 for($b = 0; $b < $subPages->count(); $b++){
                     echo "
-                    <li><a href=''>" . $subPages[$b] . "</a></li>
+                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . "</a></li>
                     ";
                 }
 
@@ -93,13 +94,12 @@ class NavBar extends XMLDoc {
     }
 }
 
-class Content extends XMLDoc {
+class PageContent extends XMLDoc {
     function Content(){
         if(empty($_GET)){
-            //TODO DEFAULT
-            //XMLDoc::XMLDoc(DEFAULT);
+            XMLDoc::XMLDoc($pageSource, ENT_QUOTES));
         } else {
-            XMLDoc::XMLDoc(htmlspecialchars($_GET["content"]));
+            XMLDoc::XMLDoc(($pageSource . "/" . htmlspecialchars($_GET["pageContents"]), ENT_QUOTES));
         }
     }
 

@@ -1,7 +1,9 @@
 <?php
-//TODO INCLUDE GLOBAL VAR ABOUT DEFAULT XML SOURCE/XML PATH
 include "PHP/grtXMLEngine.php";
-$content = new Content();
+
+$pageSource = "default"; //name of source page, no extensions. Saves a function callin engine
+
+$pageContent = new PageContent();
 $navBar = new navBar();
 ?>
 <!DOCTYPE html>
@@ -19,7 +21,7 @@ $navBar = new navBar();
     ?>
     <div class="wrapper" id="content-wrapper">
         <?php
-        $content->generateContent();
+        $pageContent->generateContent();
         ?>
     </div>
     <?php

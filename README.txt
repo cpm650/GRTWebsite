@@ -5,7 +5,7 @@ Some methods and implementation details are outlined below:
 ==   GENERAL   ==
 =================
 
-Files are organized within directories by programming language.
+Files are organized within directories by programming language or content-form (images or HTML/PHP modules, such as navBar or footer). With the exception of programming language folders, no directory is named starting with capital letters.
 
 The site uses GET requests to access .xml files in the "XML" directory. These .xml files contain all relevant information about the page that is being accessed including images, titles, and paragraphs.
 
@@ -39,6 +39,6 @@ All webpages are built in the PHP 5.5 enviroment.
 
 PHP is used to recreate the HTML required for "modules" such as the footer and header.
 
-Additionally, the included XML engine is responsible for the the parsing of XML in response to GET requests for content distribution into usable HTML. This engine utilizes Object Oriented Programming instances (similar to Java) to allow flexibility in design via the permission of multiple XML parsings per page. An added benefit of this approach is the ease in training new Webmasters due to the constance of the Java programming language.
+Additionally, the included XML engine is responsible for the the parsing of XML in response to GET requests for content distribution into usable HTML. This engine utilizes Object Oriented Programming instances (similar to Java) to allow flexibility in design via the permission of multiple XML parsings per page. An added benefit of this approach is the ease in training new Webmasters due to the prevalence of the Java programming language.
 
 Lastly, PHP is used in the contact form to send an email directly to the GRT Webmasters.
