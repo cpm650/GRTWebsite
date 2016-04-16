@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Rack 'N' Roll
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+              <p>Rack 'n' Roll is played by two (2) three-team alliances on a 54'x26' 8" field with a center structure (Rack) containing 24 "spider legs." To score, teams use three different types of tubes called "Keepers," "Ringers," and "Spoilers."</p>
+              <p>The game is made up of two scoring periods. The first period is "Autonomous" (the robots run without driver control) lasting 15 seconds. In the autonomous period, robots try to place a "Keeper" tube on one of the spider legs of the Rack using a color vision tracking system to find one of the 3 of 4 four target lights at the top of the rack. Once placed, a "Keeper" tube may not be removed or "Spoiled.""</p>
+              <p>During the second period (2 minutes), the robots are driver controlled. In this period the teams will attempt to score more points by using the robots to add "Ringers" onto the spider legs or by "Spoiling" the opposing teams score by placing a black tube over the "Ringer."" Points are earned and scored exponentially by the number of consecutive Ringers and Keepers in a column or row.</p>
+              <p>Alliances may score additional points if, by the end of the match, their robots are in their home zone and have been lifted off the floor by 4” or more by another robot before the final buzzer sounds.</p>
+              <img alt="Rack 'n' Roll!" src="imageAssets/first/rackNRoll.png"/>
+              <h3>Our Robot</h3>
+              <img alt="Robot Rack 'n' Roll" src="imageAssets/first/rackNRollRobot.png"/>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>

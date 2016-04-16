@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Aim High
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+              <p>"AIM HIGH" will present the teams with several new challenges:  A 3 versus 3 alliance competition, with 3 vs 2 offense/defense periods  A lighted target to improve vision system function (camera and associated electronics)  Launching balls and pushing balls into goals. There are three Goals for each alliance</p>
+              <li>1 Center Goal for each alliance</li>
+              <li>2 Corner Goals for each alliance</li>
+              <p>3 RED human players and 3 BLUE human players stand in their alliance zones. Players must throw retrieved balls over the Plexiglas shields from behind the starting line to replenish alliance robot depleted balls, score single alliance points by manually throwing balls into corner goals, or throwing balls to disrupt opposing alliance ball launches.</p>
+              <p>Each alliance will have a maximum of 40 balls to start the game. Robots may contain up to a maximum of 10 balls at the start. Any balls not contained within the alliance robots will be provided to the alliance human players.</p>
+              <p>Robots will attempt to launch balls into the center goal for 3 points. Robots or human players may score a single point by throwing or pushing balls into the corner goals. Balls must stay in the goal and exit via the exit chute to count for a score. Human players may retrieve balls from the corner goals and/or center goal storage container. Human players can replenish any alliance robot and can share balls to maximize their scoring opportunities.</p>
+              <p>Each 2 minute, 10 second match, will feature two (2) three-team alliances playing from opposite ends of the field. The robots start from mid-field positions. Each match will consist of (4) periods: 1) period one autonomous mode (10 seconds), 2) a second (40 second) period, 3) a third (40 second) period, 4) and a final (40 second) period. After the autonomous period in which the robots control themselves, the robots are controlled by their drivers. During the 10-second autonomous period at the start of a match, all robots can score points. The alliance with the highest score at the end of autonomous period will receive a 10 point bonus and be on "defense" in the next period.</p>
+              <p>During the second and third periods, one alliance is on offense and can score goals, and the other is on defense and cannot score goals. During these offense/defense periods, the defensive alliance must maintain a "BackBot", which remains on its offensive side of the field either gathering balls, or setting up for shots, but not interfering with the offensive alliance.</p>
+              <p>In the third period, the scoring opportunity and the BackBot requirement switches. In the final period both alliances can score goals and/or play defense. Before the end of the match, alliance robots will speed back to their end zones and climb the ramp to the platform. Robots will score points for reaching their home platform before the end of the game: 5 points for one robot, 10 points for two robots and 25 points for 3 or more robots. Robots on an opposing alliances' platform will be scored as points for their opponent.</p>
+              <img alt="Aim High!" src="imageAssets/first/aimHigh.png"/>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>

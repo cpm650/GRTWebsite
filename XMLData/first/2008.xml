@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Overdrive
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+              <p>FIRST Overdrive is a game played on the track.  Two alliances, one red and one blue, composed of three teams each, compete in each match.  The object of the game is to attain a higher score than your opponent by making counter-clockwise laps with your robot around the trackwhile moving large trackballsover and/or under the overpass that bisects the track. Robots are designed to race around a track knocking down 40" inflated Trackballs and moving them around the track, passing them either over or under a 6'6" overpass. Extra points are scored by robots positioning the Trackballs back on the overpass before the end of the 2 minute and 15 second match.</p>
+              <img alt="Overdrive!" src="imageAssets/first/overdrive.png"/>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>
