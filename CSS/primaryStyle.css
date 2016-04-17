@@ -159,3 +159,11 @@ div#footer-wrapper{
     background-color: rgba(0, 0, 0, 1);
     color: rgba(220, 220, 220, 1); /*Temporary*/
 }
+
+div#footer-wrapper a{
+    color: rgb(240, 10, 10);
+}
+
+div#footer-wrapper a:hover{
+    color: rgb(180, 10, 10);
+}
