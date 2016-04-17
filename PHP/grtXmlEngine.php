@@ -80,7 +80,11 @@ class NavBar extends XMLDoc {
                 ";
 
                 for($b = 0; $b < $subPages->count(); $b++){
-                    $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ")); //extract everything after last space
+                    if(strrpos($subPages[$b], " ")){
+                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
+                    } else{
+                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
+                    }
 
                     echo "
                     <li><a href='" . $pageAddress . "'>" . $subPages[$b] . "</a></li>

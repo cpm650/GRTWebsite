@@ -10,7 +10,7 @@ $navBar = new navBar();
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>GRT | DEFAULT</title>
+    <title>GRT | FIRST</title>
 
     <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
     <script type="text/javascript" src="JS/navBarResponse.js"></script>

@@ -32,8 +32,11 @@ OBJECTIVES TOWARD NEXT RELEASE:
         - XML Engine Enhancements:
             - Advanced Debugging and/or Logging
             - Defaulting (waiting on branching of grtDefault.php)
+        - Fix image sizing and long page problem
+            - Possible secondary, horizontal navigation?
+            - Possible absolute position navBar
     - Error Pages
-        -Broken, Sad Robot?
+        - Broken, Sad Robot?
         - Support For:
             - 400: Bad Request
             - 404: Not Found
