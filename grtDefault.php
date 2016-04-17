@@ -1,7 +1,7 @@
 <?php
 include "PHP/grtXMLEngine.php";
 
-$pageSource = "default"; //name of source page, no extensions. Saves a function callin engine
+$GLOBALS['pageSource'] = "default"; //name of source page, no extensions. Saves a function callin engine
 
 $pageContent = new PageContent();
 $navBar = new navBar();

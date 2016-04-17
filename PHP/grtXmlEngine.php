@@ -68,7 +68,6 @@ class NavBar extends XMLDoc {
 
     private function subNavBars_generate(){
         for($a = 0; $a < $this->dataCount; $a++){
-            $pageAddress = $this->data->category[$a]->title . ".php?pageContent=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
             $subPages = $this->data->category[$a]->subNavBar->page;
 
             if($subPages->count() == 0){
@@ -81,6 +80,8 @@ class NavBar extends XMLDoc {
                 ";
 
                 for($b = 0; $b < $subPages->count(); $b++){
+                    $pageAddress = $this->data->category[$a]->title . ".php?pageContent=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
+                    
                     echo "
                     <li><a href='" . $pageAddress . "'>" . $subPages[$b] . "</a></li>
                     ";
@@ -95,11 +96,11 @@ class NavBar extends XMLDoc {
 }
 
 class PageContent extends XMLDoc {
-    function Content(){
-        if(empty($_GET)){
-            XMLDoc::XMLDoc($pageSource, ENT_QUOTES));
+    function PageContent(){
+        if(empty($_GET["pageContents"])){
+            XMLDoc::XMLDoc($GLOBALS['pageSource'], ENT_QUOTES);
         } else {
-            XMLDoc::XMLDoc(($pageSource . "/" . htmlspecialchars($_GET["pageContents"]), ENT_QUOTES));
+            XMLDoc::XMLDoc(($GLOBALS['pageSource'] . "/" . htmlspecialchars($_GET["pageContents"])), ENT_QUOTES);
         }
     }
 
@@ -142,12 +143,14 @@ function generateXMLErrors(){
     </div>";
 }
 
-function errorCatcher($errNo, $errMsg){
+function errorCatcher($errNo, $errMsg, $errFile, $errLine){
     echo
     "<div class='subsection'>
     <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
     <div class='sectionBody'>
-    Error Level $errNo : $errMsg
+    Error Level $errNo : $errMsg<br/>
+    $errFile at line $errLine
+    </br/>
     </div>
     </div>";
 }
