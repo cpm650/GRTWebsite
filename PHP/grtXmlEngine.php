@@ -140,6 +140,7 @@ function generateXMLErrors(){
 
     foreach(libxml_get_errors() as $error){
         echo $error->message;
+        echo "<br />";
     }
 
     echo "
