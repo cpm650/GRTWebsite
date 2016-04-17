@@ -19,8 +19,12 @@ img{
 }
 
 a {
-    color: inherit;
+    color: rgb(240, 10, 10);
     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(180, 10, 10);
 }
 
 /* Wrappers */
@@ -75,6 +79,10 @@ a {
     border-style: none;
     text-align: left;
     background-color: rgb(117, 10, 10);
+    color: rgba(255, 255, 255, 1);
+}
+
+#GRTEmblem a{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -158,12 +166,4 @@ div#footer-wrapper{
     bottom: -.5px;
     background-color: rgba(0, 0, 0, 1);
     color: rgba(220, 220, 220, 1); /*Temporary*/
-}
-
-div#footer-wrapper a{
-    color: rgb(240, 10, 10);
-}
-
-div#footer-wrapper a:hover{
-    color: rgb(180, 10, 10);
 }
