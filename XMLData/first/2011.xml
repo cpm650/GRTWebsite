@@ -6,7 +6,6 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-              <img alt="Logomotion!" src="imageAssets/first/logomotion.png"/>
 
               <p>Logo Motion is played on a 27-by-54 foot carpeted field divided into feeding lanes, scoring zones and the remainder of the playing field. Logo Motion consists of two alliances of three teams each, trying to hang as many "logo pieces" on their 3-by-3 scoring grids. The higher the row on the scoring grid, the more points awarded for a hung logo piece. During the first fifteen seconds of the match, robots autonomously try to hang "ubertubes" for a doubling bonus for that tube and the peg on which it is hung. During the next two minutes, drivers try to retrieve logo pieces and hang them on their scoring grids. A doubling bonus is awarded if the FIRST logo is properly created (in the order triangle, circle, square). The match ends with robots deploying "minibots" up 10 foot high vertical poles, with the minibots making it to the top first earning a greater amount of bonus points.</p>
             ]]>

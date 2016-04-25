@@ -6,7 +6,6 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-              <img alt="Rebound Rumble!" src="imageAssets/first/reboundRumble.png"/>
 
               <p>"Rebound Rumble" is played on a 27' by 54' carpeted area with 7.5" foam basketballs. Alliances of three robots each attempt to score on 4 different hoops at each end of the field, with the top hoop being worth 3 points, the middle hoops 2 points, and the bottom hoop 1 point. The match begins with a 15 second hybrid period when one robot per alliance maybe controlled with with a Microsoft Kinect. An extra three points are earned for each successful basket. Following the hybrid period, the teleop period begins and drivers may control their robots. At the end of the game, robots from the same alliance may balance on one of the three bridges in the center of the field to earn points. During qualification rounds, balancing 1 robot on a bridge is worth 10 points, and balancing 2 or 3 robots is worth 20 points. During elimination rounds, balancing 1 robot is worth 10 points, 2 robots is worth 20 points, and 3 robots is worth 40 points. Balancing with a robot from the opposing alliance however, can earn both robots valuable "Coopertition Points" during the qualification stages.</p>
             ]]>

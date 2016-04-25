@@ -6,7 +6,6 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-              <img alt="Lunacy!" src="imageAssets/first/lunacy.png"/>
               <p>LUNACY is played on a 54' x 27' low friction ﬁeld. Robots are equipped with slippery wheels and payload trailers. LUNACY game pieces are “Orbit Balls” designated as Moon Rocks, Empty Cells, or Super Cells. Two three-team robot alliances collect and score Orbit Balls in trailers attached to the opposing teams’ robots. Human players are positioned around the perimeter of the arena and can score from their stations. Robots are autonomous during the ﬁrst 15 seconds of play, and teleoperated for the remaining 2 minutes. Trailers begin each match empty, and robots may be loaded with up to 7 Moon Rocks by their team prior to the start of the match. Human players are equipped with 20 Moon Rocks, less the number they load into their robot, and a quantity of Empty Cells and Super Cells determined by the outcome of their previous match. If a team has not yet played a match, the human player receives 4 Empty Cells and 2 Super Cells. Moon Rocks and Empty Cells scored in an opponent’s trailer, at any time and by any player, are worth 2 points. Super Cells scored in an opponent’s trailer are worth 15 points. Super Cells must be “activated” before they can be played. Activation occurs when a robot delivers an Empty Cell from their Outpost to their Fueling Station. Empty Cells can be delivered throughout the match. Super Cells may only be played during the last 20 seconds of a match.</p>
             ]]>
         </SSBody>

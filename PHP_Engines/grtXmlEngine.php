@@ -61,7 +61,7 @@ class NavBar extends XMLDoc {
         for($i = 0; $i < $this->dataCount; $i++){
             echo
             "
-            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . $this->data->category[$i]->title . ".php'>" . $this->data->category[$i]->title . "</a></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "</a></li>
             ";
         }
     }
@@ -87,7 +87,7 @@ class NavBar extends XMLDoc {
                     }
 
                     echo "
-                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . "</a></li>
+                    <li><a href='" . formatString($pageAddress) . "'>" . $subPages[$b] . "</a></li>
                     ";
                 }
 
@@ -130,8 +130,13 @@ class PageContent extends XMLDoc {
     }
 }
 
+//Misc important funtions
+public function formatString($s) {
+    return strtolower(substr($s, 0, 1)) . substr($s, 1);
+}
+
 //TODO improve to send data when enviroment is established
-function generateXMLErrors(){
+public function generateXMLErrors(){
     echo
     "<div class='subsection'>
     <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
@@ -148,7 +153,7 @@ function generateXMLErrors(){
     </div>";
 }
 
-function errorCatcher($errNo, $errMsg, $errFile, $errLine){
+public function errorCatcher($errNo, $errMsg, $errFile, $errLine){
     echo
     "<div class='subsection'>
     <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
