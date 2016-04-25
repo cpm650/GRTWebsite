@@ -5,16 +5,6 @@
           FIRST
         </SSTitle>
         <SSBody>
-            <![CDATA[
-              <img alt="First Logo!" src="imageAssets/firstLogo.png"/>
-            ]]>
-        </SSBody>
-    </section>
-    <section>
-        <SSTitle>
-          What is FIRST?
-        </SSTitle>
-        <SSBody>
           <![CDATA[
             <p>"FIRST was founded in 1989 to inspire young people's interest and participation in science and technology. Based in Manchester, NH, the 501 (c) (3) not-for-profit public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills." (<a href="firstinspires.org">firstinspires.org</a>)</p>
           ]]>
@@ -22,7 +12,7 @@
     </section>
     <section>
         <SSTitle>
-          FIRST Mession Statement
+          FIRST Mission Statement
         </SSTitle>
         <SSBody>
           <![CDATA[
