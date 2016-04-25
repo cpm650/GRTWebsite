@@ -30,9 +30,8 @@ class NavBar extends XMLDoc {
         XMLDoc::XMLDoc("navBar");
 
         if($this->error == false){
-            $uri = $_SERVER['REQUEST_URI'];
             for($i = 0; $i < $this->dataCount; $i++){
-                if(stripos($uri, $this->data->category[$i]->title) !== false){
+                if(stripos($GLOBALS['pageSource'], (string)$this->data->category[$i]->title) !== false){
                     $this->currentIndex = $i;
                     break;
                 }
@@ -75,7 +74,7 @@ class NavBar extends XMLDoc {
             } else{
                 echo
                 "
-                <div class='" . ($a == 0 ? "active" : "") . " wrapper subNavbar'>
+                <div class='" . ($a == $this->currentIndex ? "active" : "") . " wrapper subNavbar'>
                 <ul class='subNavList'>
                 ";
 
