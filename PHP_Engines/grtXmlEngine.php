@@ -131,12 +131,12 @@ class PageContent extends XMLDoc {
 }
 
 //Misc important funtions
-public function formatString($s) {
+function formatString($s) {
     return strtolower(substr($s, 0, 1)) . substr($s, 1);
 }
 
 //TODO improve to send data when enviroment is established
-public function generateXMLErrors(){
+function generateXMLErrors(){
     echo
     "<div class='subsection'>
     <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
@@ -153,7 +153,7 @@ public function generateXMLErrors(){
     </div>";
 }
 
-public function errorCatcher($errNo, $errMsg, $errFile, $errLine){
+function errorCatcher($errNo, $errMsg, $errFile, $errLine){
     echo
     "<div class='subsection'>
     <div class='sectionTitle'>Oh no! Something broke! This will get fixed ASAP!</div>
