@@ -24,7 +24,7 @@ class XMLDoc {
 }
 
 class NavBar extends XMLDoc {
-    private $currentIndex = 0;
+    public $currentIndex = 0;
 
     function navBar(){
         XMLDoc::XMLDoc("navBar");
