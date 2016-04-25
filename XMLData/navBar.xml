@@ -3,32 +3,32 @@
     <category>
         <title>About</title>
         <subNavBar>
-            <page>The History</page>
-            <page>The Team</page>
-            <page>The Mentors</page>
+            <page>Team</page>
+            <page>Mentors</page>
+            <page>Awards</page>
+            <page>Groups</page>
+            <page>Outreach</page>
             <page>The Shop</page>
         </subNavBar>
     </category>
     <category>
         <title>First</title>
         <subNavBar>
+            <page>First</page>
             <page>2016</page>
             <page>2015</page>
             <page>2014</page>
             <page>2013</page>
             <page>2012</page>
             <page>2011</page>
+            <page>Previous Years</page>
         </subNavBar>
     </category>
     <category>
         <title>Media</title>
         <subNavBar>
-            <page>2016</page>
-            <page>2015</page>
-            <page>2014</page>
-            <page>2013</page>
-            <page>2012</page>
-            <page>2011</page>
+            <page>Photos</page>
+            <page>Videos</page>
         </subNavBar>
     </category>
     <category>
