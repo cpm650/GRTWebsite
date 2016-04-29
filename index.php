@@ -83,7 +83,7 @@
 <body>
     <div class="wrapper" id="homeBody">
         <div class="wrapper" id="homeNav">
-            <div id="GRTEmblem"><a href="index.php">GRT</a></div>
+            <div id="GRTEmblem"><a href="index.php"><img src="imageAssets/logo.svg" alt="GRT Logo"></a></div>
             <div id="navContainer">
                 <ul id="navList">
                     <li><a href="about.php">About</a></li>

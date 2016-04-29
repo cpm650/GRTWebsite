@@ -1,6 +1,6 @@
 <div class="wrapper" id="navigation-wrapper" onmouseleave="changeSubNav(<?php echo $navBar->currentIndex; ?>)">
     <div class="wrapper" id="navbar">
-        <div id="GRTEmblem"><a href="index.php"><img src="imageAssets/logo.svg" alt="Kiwi standing on oval"></a></div>
+        <div id="GRTEmblem"><a href="index.php"><img src="imageAssets/logo.svg" alt="GRT Logo"></a></div>
         <div id="navContainer">
             <ul id="navList">
                 <?php
