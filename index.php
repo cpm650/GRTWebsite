@@ -23,7 +23,7 @@
 
     div#homeBody{
         height: 100%; /*Change this to height of background when applicable*/
-        background-image: url('imageAssets/stock.jpg');
+        background-image: url('imageAssets/home-image.jpg');
         background-size: 100%;
         overflow: hidden;
     }
@@ -34,7 +34,7 @@
 
     div#imageFilter{
         height: 100%;
-        background-color: rgba(0, 0, 0, .75);
+        background-color: rgba(0, 0, 0, 0);
     }
 
     div#homeFocus{

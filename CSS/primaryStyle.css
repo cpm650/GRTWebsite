@@ -119,7 +119,7 @@ a:hover{
 
 ul#navList {
     float: right;
-    font-size: 13px;
+    font-size: 17px;
     height: 100%;
     list-style-type: none;
     margin: 0px;
@@ -153,7 +153,7 @@ div.subNavbar:not(.active){
 
 ul.subNavList{
     display: block;
-    font-size: 17px;
+    font-size: 13px;
     height: 100%;
     list-style-type: none;
     margin: 0px auto;
