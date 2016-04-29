@@ -83,7 +83,7 @@ a:hover{
     margin: 0px 30px;
 }
 
-.social-media img:nth-child(2){
+.social-media a:nth-child(2) img{
     width: 30px;
     margin: 0px 30px;
 }

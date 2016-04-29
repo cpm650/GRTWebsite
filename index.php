@@ -34,7 +34,7 @@
 
     div#imageFilter{
         height: 100%;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.25);
     }
 
     div#homeFocus{
