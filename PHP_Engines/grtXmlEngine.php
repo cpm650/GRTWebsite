@@ -66,7 +66,7 @@ class NavBar extends XMLDoc {
     }
 
     private function subNavBars_generate(){
-        for($a = 0; $a < $this->dataCount; $a++){
+        for($a = 0; $a < $this->dataCount; $a++){ //each subbar
             $subPages = $this->data->category[$a]->subNavBar->page;
 
             if($subPages->count() == 0){
@@ -78,8 +78,8 @@ class NavBar extends XMLDoc {
                 <ul class='subNavList'>
                 ";
 
-                for($b = 0; $b < $subPages->count(); $b++){
-                    if($i == 0){
+                for($b = 0; $b < $subPages->count(); $b++){ //each tab
+                    if($b == 0){
                         $pageAddress = formatString($this->data->category[$i]->title) + ".php";
                     } else if(strrpos($subPages[$b], " ")){
                         $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
