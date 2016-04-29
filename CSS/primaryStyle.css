@@ -88,6 +88,10 @@ a:hover{
     width: 30px;
 }
 
+.social-media a:nth-child(3) img{
+    width: 34px;
+}
+
 /*Navbar and subNavigation*/
 #navbar {
     border-style: none;

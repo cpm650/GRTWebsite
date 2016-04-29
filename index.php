@@ -62,7 +62,7 @@
         text-decoration: none;
         margin: 40px auto 0px;
         padding: 20px;
-        border-radius: 40px;
+        border-radius: 10px;
     }
 
     a#focusButton:hover{
@@ -108,6 +108,9 @@
                 </a>
                 <a href="https://twitter.com/GRT192">
                     <img alt="Follow us on Twitter" src="imageAssets/TwitterLogo_white.png"/>
+                </a>
+                <a href="https://www.youtube.com/user/gunnrobotics192">
+                    <img alt="Subscribe to us on Youtube" src="imageAssets/YouTube_light_color_icon.png"/>
                 </a>
             </div>
         </div>

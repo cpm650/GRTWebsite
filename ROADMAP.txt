@@ -32,7 +32,7 @@ OBJECTIVES TOWARD NEXT RELEASE:
         - .htaacess
         - Contact Form Code
         - XML Engine Enhancements:
-            - Advanced Debugging and/or Logging
+            - Better Debugging and/or Logging
         - Fix image sizing
     - Error Pages
         - Broken, Sad Robot?
