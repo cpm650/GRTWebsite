@@ -81,11 +81,11 @@ a:hover{
 .social-media img{
     width: 20px;
     margin: 0px 30px;
+    vertical-align: middle;
 }
 
 .social-media a:nth-child(2) img{
     width: 30px;
-    margin: 0px 30px;
 }
 
 /*Navbar and subNavigation*/
