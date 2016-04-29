@@ -21,14 +21,10 @@ GOALS FOR NEXT RELEASE:
 OBJECTIVES TOWARD NEXT RELEASE:
     - Publish content:
         - Write and format for publication
-        - Extract Information from Old Site (http://www.gunnrobotics.com/)
-        - Branch grtDefault.php to various webpages, prepared for GET Requests
     - Acquire media:
         - Image-assets and vector logo
-        - Icons
     - Finalize source code
-        - Changing images as background of landing page
-            - 4-5 slides each
+        - Externalize homepage CSS
         - .htaacess
         - Contact Form Code
         - XML Engine Enhancements:
