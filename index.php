@@ -29,7 +29,7 @@
     }
 
     ul#navList li a:hover {
-        background-color: rgb(0, 0, 0); /*Default*/
+        background-color: rgba(0, 0, 0, .5); /*Default*/
     }
 
     div#imageFilter{
