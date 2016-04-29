@@ -55,7 +55,7 @@
 
     a#focusButton{
         display: block;
-        width: 40%;
+        width: 290px;
         text-transform: uppercase;
         background-color: rgb(255, 255, 255);
         color: rgba(0,0,0,1);
