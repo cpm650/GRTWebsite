@@ -89,7 +89,9 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="first.php">First</a></li>
                     <li><a href="media.php">Media</a></li>
+                    <li><a href="resources.php">Resources</a></li>
                     <li><a href="sponsors.php">Sponsors</a></li>
+                    <li><a href="joining.php">Joining</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
