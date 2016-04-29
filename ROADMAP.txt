@@ -42,6 +42,15 @@ OBJECTIVES TOWARD NEXT RELEASE:
             - 404: Not Found
             - 429: Too Many Requests
             - 500: Internal Server Error
+TO DOs:
+    - Add to main bar:
+        - Add "Resources"
+        - Add "Joining"
+    - About Subtab:
+        - Team , Mentors, Leadership, Groups, Outreach, Awards
+    - Placeholder image
+    - Changing images as background of landing page
+        - 4-5 slides each
 
 ==================
 = Eventual Goals =
