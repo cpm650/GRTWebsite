@@ -5,10 +5,10 @@
         <subNavBar>
             <page>Team</page>
             <page>Mentors</page>
-            <page>Awards</page>
+            <page>Leadership</page>
             <page>Groups</page>
             <page>Outreach</page>
-            <page>The Shop</page>
+            <page>Awards</page>
         </subNavBar>
     </category>
     <category>
@@ -27,12 +27,27 @@
     <category>
         <title>Media</title>
         <subNavBar>
-            <page>Photos</page>
-            <page>Videos</page>
+            <page>2016</page>
+            <page>2015</page>
+            <page>2014</page>
+            <page>2013</page>
+            <page>2012</page>
+            <page>2011</page>
+            <page>Previous Years</page>
+        </subNavBar>
+    </category>
+    <category>
+        <title>Resources</title>
+        <subNavBar>
         </subNavBar>
     </category>
     <category>
         <title>Sponsors</title>
+        <subNavBar>
+        </subNavBar>
+    </category>
+    <category>
+        <title>Joining</title>
         <subNavBar>
         </subNavBar>
     </category>

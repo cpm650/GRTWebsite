@@ -79,10 +79,12 @@ class NavBar extends XMLDoc {
                 ";
 
                 for($b = 0; $b < $subPages->count(); $b++){
-                    if(strrpos($subPages[$b], " ")){
-                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
+                    if($i == 0){
+                        $pageAddress = formatString($this->data->category[$i]->title) + ".php";
+                    } else if(strrpos($subPages[$b], " ")){
+                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
                     } else{
-                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
+                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
                     }
 
                     echo "
@@ -130,6 +132,8 @@ class PageContent extends XMLDoc {
 }
 
 //Misc important funtions
+
+//Lowercases first letter
 function formatString($s) {
     return strtolower(substr($s, 0, 1)) . substr($s, 1);
 }

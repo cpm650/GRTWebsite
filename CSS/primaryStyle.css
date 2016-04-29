@@ -43,6 +43,7 @@ a:hover{
 }
 
 #content-wrapper{
+    margin-top: 80px;
     text-align: justify;
 }
 
@@ -55,6 +56,14 @@ a:hover{
 
 .subsection:first-child{
     margin: 15px auto;
+}
+
+.subsection:first-child .sectionTitle{
+    margin-bottom: 60px;
+}
+
+.sectionBody .image-container {
+    padding: 0px 40px;
 }
 
 .sectionBody p{
@@ -71,6 +80,11 @@ a:hover{
 
 .social-media img{
     width: 20px;
+    margin: 0px 30px;
+}
+
+.social-media img:nth-child(2){
+    width: 30px;
     margin: 0px 30px;
 }
 
@@ -105,7 +119,7 @@ a:hover{
 
 ul#navList {
     float: right;
-    font-size: 17px;
+    font-size: 13px;
     height: 100%;
     list-style-type: none;
     margin: 0px;

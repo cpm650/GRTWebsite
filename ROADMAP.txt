@@ -27,14 +27,13 @@ OBJECTIVES TOWARD NEXT RELEASE:
         - Image-assets and vector logo
         - Icons
     - Finalize source code
+        - Changing images as background of landing page
+            - 4-5 slides each
         - .htaacess
         - Contact Form Code
         - XML Engine Enhancements:
             - Advanced Debugging and/or Logging
-            - Defaulting (waiting on branching of grtDefault.php)
-        - Fix image sizing and long page problem
-            - Possible secondary, horizontal navigation?
-            - Possible absolute position navBar
+        - Fix image sizing
     - Error Pages
         - Broken, Sad Robot?
         - Support For:
@@ -42,15 +41,6 @@ OBJECTIVES TOWARD NEXT RELEASE:
             - 404: Not Found
             - 429: Too Many Requests
             - 500: Internal Server Error
-TO DOs:
-    - Add to main bar:
-        - Add "Resources"
-        - Add "Joining"
-    - About Subtab:
-        - Team , Mentors, Leadership, Groups, Outreach, Awards
-    - Placeholder image
-    - Changing images as background of landing page
-        - 4-5 slides each
 
 ==================
 = Eventual Goals =
