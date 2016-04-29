@@ -82,14 +82,18 @@ a:hover{
     color: rgba(255, 255, 255, 1);
 }
 
+#GRTEmblem {
+    display: inline-block;
+    font-size: 26px;
+    padding: 0px 0px 0px 20px;
+}
+
 #GRTEmblem a{
     color: rgba(255, 255, 255, 1);
 }
 
-#GRTEmblem {
-    display: inline-block;
-    font-size: 26px;
-    padding: 15px 30px;
+#GRTEmblem a img{
+    width: 80px;
 }
 
 #navContainer {
