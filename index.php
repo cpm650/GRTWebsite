@@ -83,7 +83,7 @@
         border-radius: 10px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
 
     a#focusButton:hover{
