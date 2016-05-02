@@ -60,7 +60,7 @@ class NavBar extends XMLDoc {
         for($i = 0; $i < $this->dataCount; $i++){
             echo
             "
-            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "</a><span class='pointer'> <img src='imageAssets/icons/triangle-black.svg' /> </span></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-black.svg' /> </span></a></li>
             ";
         }
     }
@@ -87,8 +87,10 @@ class NavBar extends XMLDoc {
                         $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
                     }
 
+                    $pageAddress = formatString($pageAddress);
+
                     echo "
-                    <li><a href='" . formatString($pageAddress) . "'>" . $subPages[$b] . "</a></li>
+                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['HTTP_REFERER'], $pageAddress) === FALSE ? "" : "<span class='pointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";
                 }
 

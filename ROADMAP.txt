@@ -43,4 +43,4 @@ OBJECTIVES TOWARD NEXT RELEASE:
 ==================
 - Updating Twitter Feed?
 - Testing and Feedback
-- Administrator Controls
+- Administrator Controls?
