@@ -143,6 +143,7 @@ ul#navList li {
 .pointer{
     position: absolute;
     width: 100%;
+    left:0px;
     text-align: center;
     bottom: -20px;
     margin: 0px;
@@ -154,7 +155,8 @@ ul#navList li {
 
 .pointer img{
     position: relative;
-    margin: 0px;
+    display: block;
+    margin: 0px auto;
     left:-50%;
 }
 
