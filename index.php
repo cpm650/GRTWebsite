@@ -20,6 +20,7 @@
         height: 60px;
         border-style: none;
         text-align: left;
+        text-transform: uppercase;
         color: rgba(255, 255, 255, 1);
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -80,7 +81,7 @@
         margin: 40px auto 0px;
         padding: 20px;
         border-radius: 10px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
 
