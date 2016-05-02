@@ -88,11 +88,11 @@ class NavBar extends XMLDoc {
                     }
 
                     $pageAddress = formatString($pageAddress);
-                    echo $_SERVER['HTTP_REFERER'];
+                    echo $_SERVER['SCRIPT_URI'];
                     echo $pageAddress;
-                    
+
                     echo "
-                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['HTTP_REFERER'], $pageAddress) === FALSE ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
+                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['SCRIPT_URI'], $pageAddress) === FALSE ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";
                 }
 
