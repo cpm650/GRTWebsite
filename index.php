@@ -76,14 +76,14 @@
         width: 290px;
         text-transform: uppercase;
         background-color: rgb(255, 255, 255);
-        color: rgba(0,0,0,1);
+        color: rgba(0, 0, 0, 1);
         text-decoration: none;
         margin: 40px auto 0px;
         padding: 20px;
         border-radius: 10px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 4px;
     }
 
     a#focusButton:hover{
