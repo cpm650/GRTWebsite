@@ -20,7 +20,7 @@
         height: 60px;
         border-style: none;
         text-align: left;
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: rgba(255, 255, 255, 1);
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -59,7 +59,7 @@
         width: 60%;
         margin: 0px auto;
         color: rgba(255, 255, 255, 1);
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
 
     }
