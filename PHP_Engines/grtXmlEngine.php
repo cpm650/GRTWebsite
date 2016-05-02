@@ -87,8 +87,6 @@ class NavBar extends XMLDoc {
                         $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
                     }
 
-                    $pageAddress = formatString($pageAddress);
-
                     echo "
                     <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['HTTP_REFERER'], $pageAddress) === FALSE ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";

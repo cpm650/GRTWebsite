@@ -140,14 +140,14 @@ ul#navList li {
     height: 100%;
 }
 
-ul#navList li .pointer{
+.pointer{
     position: absolute;
     width: 50px;
     left: 50%;
     bottom: -10px;
 }
 
-ul#navList li .pointer:not(.activePointer){
+.pointer:not(.activePointer){
     display: none;
 }
 
