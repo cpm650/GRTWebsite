@@ -28,17 +28,17 @@
 
     div.bgImage{
         height: 100%; /*Change this to height of background when applicable*/
-        background-size: 100%;
+        background-size: auto 100%;
         background-position: 50%;
         overflow: hidden;
     }
 
     div#topImage{
-        background-image: url('imageAssets/home-image.jpg');
+        background-image: url('imageAssets/homeSlideshow/2015.jpg');
     }
 
     div#bottomImage{
-        background-image: url('imageAssets/stock.jpg');
+        background-image: url('imageAssets/homeSlideshow/2016.jpg');
     }
 
     ul#navList li a:hover {
