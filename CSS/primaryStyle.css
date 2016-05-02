@@ -202,11 +202,11 @@ ul.subNavList li a {
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(150, 150, 150, 1);
 }
 
-ul.subNavList li a:hover {
-    background-color: rgb(40, 40, 40);
+ul.subNavList li a.active, ul.subNavList li a:hover {
+    color: rgb(150, 150, 150);
 }
 
 /*Footer Rules*/

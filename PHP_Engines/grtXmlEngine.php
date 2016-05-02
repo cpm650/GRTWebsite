@@ -94,7 +94,7 @@ class NavBar extends XMLDoc {
                     $wrongPage = stripos($cleanURI, $pageAddress) == FALSE || strlen(substr($cleanURI, stripos($cleanURI, $pageAddress))) != strlen($pageAddress);
 
                     echo "
-                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . ($wrongPage ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
+                    <li><a " . ($wrongPage ? "" : "class='active' ") . "href='" . $pageAddress . "'>" . $subPages[$b] . ($wrongPage ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";
                 }
 
