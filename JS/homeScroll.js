@@ -13,6 +13,10 @@ var topImage;
 var bottomImage;
 
 function initImgScroll(){
+    if(imageSources.length == 1){
+        return;
+    }
+
     topImage = document.getElementById("topImage");
     bottomImage = document.getElementById("bottomImage");
 

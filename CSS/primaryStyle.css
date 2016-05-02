@@ -5,10 +5,11 @@ html, body {
     padding: 0px;
     margin: 0px;
     font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 * {
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -40,6 +41,9 @@ a:hover{
     border-style: none none solid none;
     border-color: rgb(255, 255, 255);
     border-width: 4px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 #content-wrapper{
@@ -75,6 +79,8 @@ a:hover{
     display: block;
     text-align: center;
     font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     margin: 0px auto 10px auto;
 }
 
@@ -104,10 +110,6 @@ a:hover{
     display: inline-block;
     font-size: 26px;
     padding: 0px 0px 0px 20px;
-}
-
-#GRTEmblem a{
-    color: rgba(255, 255, 255, 1);
 }
 
 #GRTEmblem a img{

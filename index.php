@@ -6,9 +6,9 @@
 <head>
     <meta charset="utf-8" />
     <title>GRT | Home</title>
-    <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
 
-    <script type="text/javascript" src="JS/homeScroll.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
 
     <!--HOMEPAGE SPECIFIC CSS TO IMPROVE PERFORMANCE-->
     <!-- TO BE MOVED EXTERNALLY -->
@@ -26,6 +26,7 @@
     div.bgImage{
         height: 100%; /*Change this to height of background when applicable*/
         background-size: 100%;
+        background-position: 50%;
         overflow: hidden;
     }
 
@@ -75,6 +76,8 @@
         margin: 40px auto 0px;
         padding: 20px;
         border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
     }
 
     a#focusButton:hover{
@@ -91,6 +94,8 @@
         color: #fff; /*Temporary*/
     }
     </style>
+
+    <script type="text/javascript" src="JS/homeScroll.js"></script>
 </head>
 <body onload="initImgScroll()">
     <div class="bgImage wrapper" id="bottomImage">

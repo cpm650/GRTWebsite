@@ -12,8 +12,7 @@ $navBar = new navBar();
     <meta charset="utf-8" />
     <title>GRT | FIRST</title>
 
-    <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
-    <script type="text/javascript" src="JS/navBarResponse.js"></script>
+    <?php include "modules/std-config.php";?>
 </head>
 <body onload="navigationInit(<?php echo $navBar->currentIndex; ?>)">
     <?php
