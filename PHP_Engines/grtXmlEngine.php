@@ -88,9 +88,7 @@ class NavBar extends XMLDoc {
                     }
 
                     $pageAddress = formatString($pageAddress);
-                    echo $_SERVER['REQUEST_URI'];
-                    echo $pageAddress;
-
+                    
                     echo "
                     <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['REQUEST_URI'], $pageAddress) === FALSE ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";
