@@ -21,6 +21,8 @@
         border-style: none;
         text-align: left;
         color: rgba(255, 255, 255, 1);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
     }
 
     div.bgImage{
@@ -64,6 +66,8 @@
     span#homeHeader{
         display: block;
         font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
     }
 
     a#focusButton{
