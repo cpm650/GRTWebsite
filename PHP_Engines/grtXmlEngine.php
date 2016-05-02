@@ -66,6 +66,8 @@ class NavBar extends XMLDoc {
     }
 
     private function subNavBars_generate(){
+        $cleanURI = stripslashes(trim(htmlspecialchars($_SERVER['REQUEST_URI'])));
+
         for($a = 0; $a < $this->dataCount; $a++){ //each subbar
             $subPages = $this->data->category[$a]->subNavBar->page;
 
@@ -88,9 +90,11 @@ class NavBar extends XMLDoc {
                     }
 
                     $pageAddress = formatString($pageAddress);
-                    
+
+                    $wrongPage = stripos($cleanURI, $pageAddress) == FALSE || strlen(substr($cleanURI, stripos($cleanURI, $pageAddress))) != strlen($pageAddress);
+
                     echo "
-                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . (stripos($_SERVER['REQUEST_URI'], $pageAddress) === FALSE ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
+                    <li><a href='" . $pageAddress . "'>" . $subPages[$b] . ($wrongPage ? "" : "<span class='pointer activePointer'> <img src='imageAssets/icons/triangle-white.svg' />") . "</a></li>
                     ";
                 }
 
