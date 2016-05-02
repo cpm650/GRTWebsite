@@ -34,11 +34,11 @@
     }
 
     div#topImage{
-        background-image: url('imageAssets/homeSlideshow/2015.jpg');
+        background-image: url('imageAssets/homeSlideshow/2013.jpg');
     }
 
     div#bottomImage{
-        background-image: url('imageAssets/homeSlideshow/2016.jpg');
+        background-image: url('imageAssets/homeSlideshow/2014.jpg');
     }
 
     ul#navList li a:hover {
@@ -129,13 +129,13 @@
         </div>
         <div class="wrapper social-media" id="footer">
             <a href="https://www.facebook.com/GRT192">
-                <img alt="Like us on Facebook" src="imageAssets/FB-f-Logo__white_50.png"/>
+                <img alt="Like us on Facebook" src="imageAssets/socialMedia/FB-f-Logo__white_50.png"/>
             </a>
             <a href="https://twitter.com/GRT192">
-                <img alt="Follow us on Twitter" src="imageAssets/TwitterLogo_white.png"/>
+                <img alt="Follow us on Twitter" src="imageAssets/socialMedia/TwitterLogo_white.png"/>
             </a>
             <a href="https://www.youtube.com/user/gunnrobotics192">
-                <img alt="Subscribe to us on Youtube" src="imageAssets/YouTube_light_color_icon.png"/>
+                <img alt="Subscribe to us on Youtube" src="imageAssets/socialMedia/YouTube_light_color_icon.png"/>
             </a>
         </div>
     </div>
