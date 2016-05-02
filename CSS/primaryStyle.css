@@ -157,7 +157,6 @@ ul#navList li {
     position: relative;
     display: block;
     margin: 0px auto;
-    left:-50%;
 }
 
 ul#navList li a {
