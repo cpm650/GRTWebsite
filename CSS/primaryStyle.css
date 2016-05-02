@@ -206,7 +206,7 @@ ul.subNavList li a {
 }
 
 ul.subNavList li a.active, ul.subNavList li a:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
 }
 
 /*Footer Rules*/
