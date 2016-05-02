@@ -80,6 +80,7 @@ a:hover{
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    letter-spacing: 1px;
     margin: 0px auto 10px auto;
 }
 
@@ -135,7 +136,25 @@ ul#navList {
 
 ul#navList li {
     display: inline-block;
+    position: relative;
     height: 100%;
+}
+
+ul#navList li .pointer{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    bottom: -10px;
+}
+
+ul#navList li .pointer:not(.activePointer){
+    display: none;
+}
+
+ul#navList li .pointer img{
+    position: relative;
+    margin: 0px;
+    left:-50%;
 }
 
 ul#navList li a {
