@@ -127,9 +127,8 @@ class PageContent extends XMLDoc {
     private function content_generate(){
         for($i = 0; $i < $this->dataCount; $i++){
             $backgroundImage = $this->data->section[$i]->backgroundImage;
-            echo "<span style='color:rgb(255, 0, 0);'>$backgroundImage --" . strlen($backgroundImage) . "</span>";
             echo
-            "<div class='wrapper subsection-wrapper' style='" . ($backgroundImage == FALSE ? "background-color:rgb(255, 255, 255);" : "background-image: url(" . $backgroundImage . "); color:rgb(212, 212, 212);") . "'>
+            "<div class='wrapper subsection-wrapper' style='" . (strlen($backgroundImage) <= 22 ? "background-color:rgb(255, 255, 255);" : "background-image: url(" . $backgroundImage . "); color:rgb(212, 212, 212);") . "'>
             <div class='subsection'>
             <div class='sectionTitle'>" . $this->data->section[$i]->SSTitle . "</div>
             <div class='sectionBody'>
