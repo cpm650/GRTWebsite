@@ -129,7 +129,7 @@ class PageContent extends XMLDoc {
             $backgroundImage = $this->data->section[$i]->backgroundImage;
             echo $backgroundImage;
             echo
-            "<div class='wrapper subsection-wrapper' style='" . ($backgroundImage == FALSE ? "background-color:rgb(255, 255, 255);" : "background-image: url('" . $backgroundImage . "'); color:rgb(212, 212, 212);") . "'>
+            "<div class='wrapper subsection-wrapper' style='" . ($backgroundImage == FALSE ? "background-color:rgb(255, 255, 255);" : "background-image: url(" . $backgroundImage . "); color:rgb(212, 212, 212);") . "'>
             <div class='subsection'>
             <div class='sectionTitle'>" . $this->data->section[$i]->SSTitle . "</div>
             <div class='sectionBody'>
