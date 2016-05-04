@@ -19,11 +19,11 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
+            <p>Our robot weighs 120 pounds, features an award winning worm-gear drive train, is capable of a top speed of 9.5 ft/s, shoots 3 point shots from the key, and is capable of easily crossing the bump. Steakhouse Rodriguez has a reliable intake, which is capable of obtaining balls from anywhere on the field, as well as lowering the bridge. Surgical tubing flails are used on the external roller to neutralize bouncing balls, as well as gathering balls stuck along the walls of the field. To shoot, SR uses a high speed flywheel shooter, which can shoot three top hoop shots in less than 3 seconds. A camera-based tracking system allows the robot to shoot from any location, range permitting. The same system allows for reliable autonomous scoring.</p>
+
             <div class="image-container">
                 <img alt="Steakhouse Rodriguez" src="imageAssets/first/steakhouseRodriguez.png"/>
             </div>
-
-            <p>Our robot weighs 120 pounds, features an award winning worm-gear drive train, is capable of a top speed of 9.5 ft/s, shoots 3 point shots from the key, and is capable of easily crossing the bump. Steakhouse Rodriguez has a reliable intake, which is capable of obtaining balls from anywhere on the field, as well as lowering the bridge. Surgical tubing flails are used on the external roller to neutralize bouncing balls, as well as gathering balls stuck along the walls of the field. To shoot, SR uses a high speed flywheel shooter, which can shoot three top hoop shots in less than 3 seconds. A camera-based tracking system allows the robot to shoot from any location, range permitting. The same system allows for reliable autonomous scoring.</p>
             ]]>
         </SSBody>
         <backgroundImage>
@@ -36,11 +36,11 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
+            <p>Our shooter went through seven vastly different iterations before becoming the final version it is now. The final shooting mechanism features twin 6" flywheels powered by two Fisher-Price motors with a 4:1 gear reduction. This combination allows the shooter to have the top speed to launch the ball across the field. On the way out of the shooter, the ball glides between the flywheels, rolling along three plastic ABS plastic plates at the back. Behind the three flexible plates is a pushing mechanism, powered by a motor with a lead screw. By pushing the flexible plates into different curvatures, this lead screw mechanism provides precise angle adjustment. The shooter is mounted on a 15" Lazy Susan, powered via timing belt by a window motor. On the front is a centered Axis camera. Vision tracking, paired with the rotating turret, allows for quick automatic vision tracking. The entire shooter, including motors, camera, and rotation mechanism, weighs under 8 pounds. Through extensive testing, our shooter shot 30 shots from the key in a row, from 3 different arbitrary locations on the key, and scored 27 balls. This 90% accuracy is attributed to completely automatic code tracking algorithms as well as the robustness of the mechanical design, and it qualifies this shooter as one of the best.</p>
+
             <div class="image-container">
                 <img alt="Shooter" src="imageAssets/first/shooterReboundRumble.png"/>
             </div>
-
-            <p>Our shooter went through seven vastly different iterations before becoming the final version it is now. The final shooting mechanism features twin 6" flywheels powered by two Fisher-Price motors with a 4:1 gear reduction. This combination allows the shooter to have the top speed to launch the ball across the field. On the way out of the shooter, the ball glides between the flywheels, rolling along three plastic ABS plastic plates at the back. Behind the three flexible plates is a pushing mechanism, powered by a motor with a lead screw. By pushing the flexible plates into different curvatures, this lead screw mechanism provides precise angle adjustment. The shooter is mounted on a 15" Lazy Susan, powered via timing belt by a window motor. On the front is a centered Axis camera. Vision tracking, paired with the rotating turret, allows for quick automatic vision tracking. The entire shooter, including motors, camera, and rotation mechanism, weighs under 8 pounds. Through extensive testing, our shooter shot 30 shots from the key in a row, from 3 different arbitrary locations on the key, and scored 27 balls. This 90% accuracy is attributed to completely automatic code tracking algorithms as well as the robustness of the mechanical design, and it qualifies this shooter as one of the best.</p>
             ]]>
         </SSBody>
         <backgroundImage>

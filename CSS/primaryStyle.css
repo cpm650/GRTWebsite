@@ -54,9 +54,12 @@ a:hover{
     width: 100%;
     background-size: 100%;
     background-position: 50% 50%;
+    text-align: justify;
+}
+
+.imaged-subsection-wrapper{
     margin-top:15px;
     padding: 30px 0px 20px 0px;
-    text-align: justify;
 }
 
 /* General */
