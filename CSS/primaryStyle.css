@@ -48,13 +48,13 @@ a:hover{
 
 #content-wrapper{
     margin-top: 80px;
-    text-align: justify;
 }
 
 .subsection-wrapper{
     width: 100%;
     background-size: 100%;
     background-position: 50% 50%;
+    text-align: justify;
 }
 
 /* General */
