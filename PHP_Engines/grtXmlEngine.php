@@ -126,11 +126,14 @@ class PageContent extends XMLDoc {
 
     private function content_generate(){
         for($i = 0; $i < $this->dataCount; $i++){
+            $backgroundImage = $this->data->section[$i]->backgroundImage;
             echo
-            "<div class='subsection'>
+            "<div class='wrapper subsection-wrapper' style='" . ($backgroundImage == FALSE ? "background-color:rgb(255, 255, 255);" : "background-image: url('" . $backgroundImage . "'); color:rgb(212, 212, 212);") . "'>
+            <div class='subsection'>
             <div class='sectionTitle'>" . $this->data->section[$i]->SSTitle . "</div>
             <div class='sectionBody'>
             " . $this->data->section[$i]->SSBody . "
+            </div>
             </div>
             </div>";
         }

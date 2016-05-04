@@ -25,11 +25,11 @@ OBJECTIVES TOWARD NEXT RELEASE:
         - Image-assets and vector logo
     - Finalize source code
         - Externalize homepage CSS
-        - .htaacess
         - Contact Form Code
         - XML Engine Enhancements:
             - Better Debugging and/or Logging
-        - Fix image sizing
+        - Rename Image files by new convention (See "reboundRumble_drivetrain.jpg")
+        - Add backgroundImage property to all XML documents
     - Error Pages
         - Broken, Sad Robot?
         - Support For:

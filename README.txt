@@ -5,7 +5,9 @@ Some methods and implementation details are outlined below:
 ==   GENERAL   ==
 =================
 
-Files are organized within directories by programming language or content-form (images or HTML/PHP modules, such as navBar or footer). With the exception of programming language folders, no directory is named starting with capital letters.
+Files are organized within directories by programming language or content-form (images or HTML/PHP modules, such as navBar or footer).
+
+With the exception of programming language folders, no directory or file is named starting with capital letters. Furthermore, images follow the convention of "<source>_<detail>".
 
 The site uses GET requests to access .xml files in the "XML" directory. These .xml files contain all relevant information about the page that is being accessed including images, titles, and paragraphs.
 
