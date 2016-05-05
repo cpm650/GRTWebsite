@@ -24,6 +24,9 @@ img{
 a {
     color: rgb(240, 10, 10);
     text-decoration: none;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    transition: 0.25s;
 }
 
 a:hover{
