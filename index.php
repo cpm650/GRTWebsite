@@ -69,6 +69,7 @@
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
+        margin-bottom: 10px;
     }
 
     a#focusButton{
@@ -124,7 +125,7 @@
     </div>
     <div class="wrapper" id="bodyContainer">
         <div class="wrapper" id="homeFocus">
-            <span id="homeHeader">GRT 192</span><br />
+            <span id="homeHeader">GRT 192</span>
             We're a robotics team from Gunn High School (Palo Alto, CA) that competes in the FIRST Robotics Competitions as Team 192.
             <a id="focusButton" href="">See what we do</a>
         </div>

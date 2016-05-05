@@ -58,8 +58,8 @@ a:hover{
 }
 
 .imaged-subsection-wrapper{
-    margin: 50px 0px;
-    padding: 30px 0px 20px 0px;
+    margin: 65px 0px;
+    padding: 30px 0px 35px 0px;
 }
 
 /* General */
@@ -84,6 +84,7 @@ a:hover{
 .sectionBody p{
     text-indent: 0px;
     line-height: 26px;
+    margin-bottom: 32px;
 }
 
 .sectionTitle {
