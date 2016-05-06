@@ -1,8 +1,9 @@
 // GLOBALS
 var timer;
-var timeGap = 5 * 1000; //user defined
+var timeGap = 8 * 1000; //user defined gap between images
 var frameSteps = 100; //user defined
 var frameTimeGap = 10; //user defined
+//NOTE: frameSteps * frameTimeGap = transitionTime
 
 var timeToContinue;
 
