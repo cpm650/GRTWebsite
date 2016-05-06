@@ -58,26 +58,27 @@ a:hover{
     background-size: 100%;
     background-position: 50% 50%;
     text-align: justify;
+    margin: 65px 0px;
+    padding: 0px;
 }
 
 .imaged-subsection-wrapper{
-    margin: 65px 0px;
-    padding: 30px 0px 50px 0px;
+    padding: 80px 0px 75px 0px;
+}
+
+.imaged-subsection-wrapper::after{
+    margin-bottom: 80px;
 }
 
 /* General */
 .subsection{
     width: 60%;
-    padding: 10px;
-    margin: 30px auto;
-}
-
-.subsection:first-child{
-    margin: 15px auto;
+    padding: 0px;
+    margin: 0px auto;
 }
 
 .imaged-subsection-wrapper .subsection .sectionTitle{
-    margin-bottom: 92px;
+    margin: 0px auto 92px auto;
 }
 
 .subsection-wrapper:first-child .subsection .sectionTitle{

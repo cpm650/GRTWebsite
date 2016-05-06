@@ -69,12 +69,13 @@
         font-size: 60px;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
+        letter-spacing: 12px;
         margin-bottom: 10px;
     }
 
     a#focusButton{
         display: block;
-        width: 290px;
+        width: 230px;
         text-transform: uppercase;
         background-color: rgb(255, 255, 255);
         color: rgba(0, 0, 0, 1);
