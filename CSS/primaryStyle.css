@@ -62,7 +62,7 @@ a:hover{
 
 .imaged-subsection-wrapper{
     margin: 65px 0px;
-    padding: 30px 0px 35px 0px;
+    padding: 30px 0px 50px 0px;
 }
 
 /* General */
@@ -76,7 +76,11 @@ a:hover{
     margin: 15px auto;
 }
 
-.subsection-wrapper:first-child .subsection .sectionTitle, .imaged-subsection-wrapper .subsection .sectionTitle{
+.imaged-subsection-wrapper .subsection .sectionTitle{
+    margin-bottom: 92px;
+}
+
+.subsection-wrapper:first-child .subsection .sectionTitle{
     margin-bottom: 60px;
 }
 

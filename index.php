@@ -66,7 +66,7 @@
 
     span#homeHeader{
         display: block;
-        font-size: 50px;
+        font-size: 60px;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         margin-bottom: 10px;
@@ -79,11 +79,12 @@
         background-color: rgb(255, 255, 255);
         color: rgba(0, 0, 0, 1);
         text-decoration: none;
-        margin: 40px auto 0px;
-        padding: 20px;
+        margin: 30px auto 0px;
+        padding: 14px;
         border-radius: 10px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
+        font-size: 16px;
         letter-spacing: 2px;
     }
 
