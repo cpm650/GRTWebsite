@@ -50,7 +50,7 @@ a:hover{
 }
 
 #content-wrapper{
-    margin-top: 80px;
+    margin: 80px auto 130px auto;
 }
 
 .subsection-wrapper{
@@ -62,12 +62,22 @@ a:hover{
     padding: 0px;
 }
 
+.subsection-wrapper:first-child{
+    margin-top:0px;
+}
+
+.subsection-wrapper:last-child{
+    margin-bottom:0px;
+}
+
 .imaged-subsection-wrapper{
     padding: 80px 0px 75px 0px;
 }
 
 .imaged-subsection-wrapper::after{
-    margin-bottom: 80px;
+    content: " ";
+    display: block;
+    height: 80px;
 }
 
 /* General */
