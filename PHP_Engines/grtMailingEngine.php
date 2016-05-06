@@ -1,6 +1,6 @@
 <?php
 function clean($in){
-    $out = htmlspecialchars($in, ENT_QUOTES);
-    $out = trim($out);
+        $out = htmlspecialchars(stripslashes(trim($in)), ENT_QUOTES);
+        return $out;
 }
 ?>
