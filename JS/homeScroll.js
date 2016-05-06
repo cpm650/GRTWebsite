@@ -7,7 +7,7 @@ var frameTimeGap = 10; //user defined
 
 var timeToContinue;
 
-var imageSources = ["2013.jpg", "2014.jpg"];
+var imageSources = ["grtGeneric.jpg", "2013.jpg", "2014.jpg"];
 var imageIndex = 0;
 
 var topImage;
@@ -21,7 +21,10 @@ function initImgScroll(){
     topImage = document.getElementById("topImage");
     bottomImage = document.getElementById("bottomImage");
 
+    //these are just to do final checks. The first initialization of HTML attributes is in CSS
+    topImage.style.backgroundImage = "url('imageAssets/homeSlideshow/" + imageSources[0] + "')";
     topImage.style.opacity = 1;
+    bottomImage.style.backgroundImage = "url('imageAssets/homeSlideshow/" + imageSources[1] + "')";
 
     timeToContinue = new Date().getTime() + timeGap;
 

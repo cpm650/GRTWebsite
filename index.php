@@ -34,11 +34,11 @@
     }
 
     div#topImage{
-        background-image: url('imageAssets/homeSlideshow/2013.jpg');
+        background-image: url('imageAssets/homeSlideshow/grtGeneric.jpg');
     }
 
     div#bottomImage{
-        background-image: url('imageAssets/homeSlideshow/2014.jpg');
+        background-image: url('imageAssets/homeSlideshow/2013.jpg');
     }
 
     ul#navList li a:hover {
