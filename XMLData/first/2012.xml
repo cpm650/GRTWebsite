@@ -9,9 +9,9 @@
             <p>"Rebound Rumble" is played on a 27' by 54' carpeted area with 7.5" foam basketballs. Alliances of three robots each attempt to score on 4 different hoops at each end of the field, with the top hoop being worth 3 points, the middle hoops 2 points, and the bottom hoop 1 point. The match begins with a 15 second hybrid period when one robot per alliance maybe controlled with with a Microsoft Kinect. An extra three points are earned for each successful basket. Following the hybrid period, the teleop period begins and drivers may control their robots. At the end of the game, robots from the same alliance may balance on one of the three bridges in the center of the field to earn points. During qualification rounds, balancing 1 robot on a bridge is worth 10 points, and balancing 2 or 3 robots is worth 20 points. During elimination rounds, balancing 1 robot is worth 10 points, 2 robots is worth 20 points, and 3 robots is worth 40 points. Balancing with a robot from the opposing alliance however, can earn both robots valuable "Coopertition Points" during the qualification stages.</p>
             ]]>
         </SSBody>
-        <backgroundImage>
+        <backgroundStyle>
             <![CDATA[]]>
-        </backgroundImage>
+        </backgroundStyle>
     </section>
     <section>
         <SSTitle>
@@ -26,9 +26,9 @@
             </div>
             ]]>
         </SSBody>
-        <backgroundImage>
-            <![CDATA[]]>
-        </backgroundImage>
+        <backgroundStyle>
+            <![CDATA[background-color:rgb(213, 213, 213);]]>
+        </backgroundStyle>
     </section>
     <section>
         <SSTitle>
@@ -43,9 +43,9 @@
             </div>
             ]]>
         </SSBody>
-        <backgroundImage>
+        <backgroundStyle>
             <![CDATA[]]>
-        </backgroundImage>s
+        </backgroundStyle>s
     </section>
     <section>
         <SSTitle>
@@ -58,9 +58,9 @@
             <p>GRT also pioneered a brand new worm-based transmission to power the wheels. The 4-start high-efficiency worm gear is paired with a 40 tooth bronze gear for smooth operation. This setup allows 2 CIM's to be mounted parallel to the sides of the robot, freeing up room for electronics in the center of the robot. In addition, the use of a worm gear allows for a very compact form factor and tiny weight impact. It also makes backdriving our robot much more difficult, which proved very handy on bridges. The 14:1 gearing provides ample torque to win pushing matches. Our revolutionary gearbox is completely student designed and built, and won the Excellence in Engineering Design Award at the Chesapeake Bay Regional 2012.</p>
             ]]>
         </SSBody>
-        <backgroundImage>
-            <![CDATA[imageAssets/first/reboundRumble_drivetrain.jpg]]>
-        </backgroundImage>
+        <backgroundStyle>
+            <![CDATA[background-image: url("imageAssets/first/reboundRumble_drivetrain.jpg"); color:rgb(212, 212, 212);]]>
+        </backgroundStyle>
     </section>
     <section>
         <SSTitle>
@@ -75,8 +75,8 @@
             <p>The ball pickup mechanism is a unique and essential part to the robot. We figured that the shooting abilities of high performing teams would be very similar, and that the real key to being a competitive team would be having an unparalleled ball pickup system. With this in mind, we designed our ball pickup system to be quick, effective, versatile and reliable. We designed a flip down, external ball pickup system that was able to pick up balls as well as push down the ramps in the middle of the field. To ensure quick and effective ball pickup, we added surgical tubing flails to our external ball pickup mechanism. This surgical tubing allowed us to pick balls up quickly, it also allowed us to easily pick up balls that were bouncing or rolling away from us and to retrieve balls from against the wall or corners of the field.</p>
             ]]>
         </SSBody>
-        <backgroundImage>
+        <backgroundStyle>
             <![CDATA[]]>
-        </backgroundImage>
+        </backgroundStyle>
     </section>
 </pageSections>

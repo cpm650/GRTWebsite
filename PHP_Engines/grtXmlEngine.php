@@ -126,12 +126,12 @@ class PageContent extends XMLDoc {
 
     private function content_generate(){
         for($i = 0; $i < $this->dataCount; $i++){
-            $backgroundImage = $this->data->section[$i]->backgroundImage;
+            $backgroundStyle = $this->data->section[$i]->backgroundStyle;
             $sizeOfEmptyCDATA = 22;
 
-            $hasNoImage = strlen($backgroundImage) <= $sizeOfEmptyCDATA;
+            $hasNoBackground = strlen($backgroundStyle) <= $sizeOfEmptyCDATA;
             echo
-            "<div class='wrapper subsection-wrapper" . ($hasNoImage ? "" : " imaged-subsection-wrapper") . "' style='" . ($hasNoImage ? "background-color:rgb(255, 255, 255);" : "background-image: url(" . $backgroundImage . "); color:rgb(212, 212, 212);") . "'>
+            "<div class='wrapper subsection-wrapper" . ($hasNoBackground ? "" : " imaged-subsection-wrapper") . "' style='" . ($hasNoBackground ? "background-color:rgb(255, 255, 255);" : $backgroundStyle) . "'>
             <div class='subsection'>
             <div class='sectionTitle'>" . $this->data->section[$i]->SSTitle . "</div>
             <div class='sectionBody'>
