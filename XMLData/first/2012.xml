@@ -68,11 +68,11 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
+            <p>The ball pickup mechanism is a unique and essential part to the robot. We figured that the shooting abilities of high performing teams would be very similar, and that the real key to being a competitive team would be having an unparalleled ball pickup system. With this in mind, we designed our ball pickup system to be quick, effective, versatile and reliable. We designed a flip down, external ball pickup system that was able to pick up balls as well as push down the ramps in the middle of the field. To ensure quick and effective ball pickup, we added surgical tubing flails to our external ball pickup mechanism. This surgical tubing allowed us to pick balls up quickly, it also allowed us to easily pick up balls that were bouncing or rolling away from us and to retrieve balls from against the wall or corners of the field.</p>
+
             <div class="image-container">
                 <img alt="Ball Pickup" src="imageAssets/first/ballpickupReboundRumble.png"/>
             </div>
-
-            <p>The ball pickup mechanism is a unique and essential part to the robot. We figured that the shooting abilities of high performing teams would be very similar, and that the real key to being a competitive team would be having an unparalleled ball pickup system. With this in mind, we designed our ball pickup system to be quick, effective, versatile and reliable. We designed a flip down, external ball pickup system that was able to pick up balls as well as push down the ramps in the middle of the field. To ensure quick and effective ball pickup, we added surgical tubing flails to our external ball pickup mechanism. This surgical tubing allowed us to pick balls up quickly, it also allowed us to easily pick up balls that were bouncing or rolling away from us and to retrieve balls from against the wall or corners of the field.</p>
             ]]>
         </SSBody>
         <backgroundStyle>
