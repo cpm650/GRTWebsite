@@ -6,7 +6,7 @@ var pointersList;
 function navigationInit(n){
     currentSubNav = n;
     subNavList = document.getElementsByClassName("subNavbar");
-    
+
     pointersList = document.getElementsByClassName("pointer");
     pointersList[n].className = "pointer activePointer";
 }
@@ -14,8 +14,13 @@ function navigationInit(n){
 function changeSubNav(n){
     if(n < subNavList.length){
         movePrimaryPointer(n);
-        subNavList[currentSubNav].className = "wrapper subNavbar";
-        subNavList[n].className = "active wrapper subNavbar";
+        if(subNavList[currentSubNav] != null){
+            subNavList[currentSubNav].className = "wrapper subNavbar";
+        }
+
+        if(subNavList[n] != null){
+            subNavList[n].className = "active wrapper subNavbar";
+        }
         currentSubNav = n;
     }
 }

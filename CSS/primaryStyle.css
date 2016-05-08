@@ -80,7 +80,17 @@ a:hover{
     height: 80px;
 }
 
-/* General */
+/* General Text Formatting */
+.title{
+    display: block;
+    color: rgb(240, 10, 10);
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/* General Structuring */
 .subsection{
     width: 60%;
     padding: 0px;

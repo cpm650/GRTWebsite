@@ -2,7 +2,7 @@
 <pageSections>
     <section>
         <SSTitle>
-            An Excerpt From Our CSS Information
+            This page is a template page.
         </SSTitle>
         <SSBody>
             <![CDATA[
@@ -13,17 +13,6 @@
                 <p>A major exception to the above rule is in the homepage; due to highly specialized CSS, a seperate stylesheet is provided.</p>
 
                 <p>Efforts have been made to ensure no element has two sources of the same attribute.</p>
-            ]]>
-        </SSBody>
-    </section>
-    <section>
-        <SSTitle>
-            Look At This Stock Photo!
-        </SSTitle>
-        <SSBody>
-            <![CDATA[
-                <p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
-                <img alt="Test Only" src="imageAssets/stock.jpg"/>
             ]]>
         </SSBody>
     </section>
