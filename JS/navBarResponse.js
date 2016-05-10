@@ -24,6 +24,8 @@ function changeSubNav(n){
         subNavList[n].className = "active wrapper subNavbar";
     } else if(n == originalNav){
         movePrimaryPointer(n);
+    } else{
+        pointersList[currentSubNav].className = "pointer";
     }
 
     currentSubNav = n;
