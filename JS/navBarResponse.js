@@ -25,7 +25,7 @@ function changeSubNav(n){
     } else if(n == originalNav){
         movePrimaryPointer(n);
     } else{
-        pointersList[currentSubNav].className = "pointer";
+        movePrimaryPointer(originalNav);
     }
 
     currentSubNav = n;
