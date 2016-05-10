@@ -58,9 +58,10 @@ class NavBar extends XMLDoc {
 
     private function navBar_generate(){
         for($i = 0; $i < $this->dataCount; $i++){
+
             echo
             "
-            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-black.svg' /> </span></a></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-" . ($this->data->category[$a]->subNavBar->page->count() <= 0 ? "white" : "black") . ".svg' /> </span></a></li>
             ";
         }
     }
