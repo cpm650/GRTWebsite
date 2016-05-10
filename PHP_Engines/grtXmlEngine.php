@@ -61,7 +61,7 @@ class NavBar extends XMLDoc {
 
             echo
             "
-            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-" . ($this->data->category[$a]->subNavBar->page->count() <= 0 ? "white" : "black") . ".svg' /> </span></a></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-" . ($this->data->category[$i]->subNavBar->page->count() <= 0 ? "white" : "black") . ".svg' /> </span></a></li>
             ";
         }
     }
