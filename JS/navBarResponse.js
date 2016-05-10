@@ -12,17 +12,16 @@ function navigationInit(n){
 }
 
 function changeSubNav(n){
-    if(n < subNavList.length){
-        movePrimaryPointer(n);
-        if(subNavList[currentSubNav] != null){
-            subNavList[currentSubNav].className = "wrapper subNavbar";
-        }
+    movePrimaryPointer(n);
 
-        if(subNavList[n] != null){
-            subNavList[n].className = "active wrapper subNavbar";
-        }
-        currentSubNav = n;
+    if(subNavList[currentSubNav] != null){
+        subNavList[currentSubNav].className = "wrapper subNavbar";
     }
+
+    if(subNavList[n] != null){
+        subNavList[n].className = "active wrapper subNavbar";
+    }
+    currentSubNav = n;
 }
 
 function movePrimaryPointer(n){
