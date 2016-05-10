@@ -1,7 +1,7 @@
 <?php
 include "PHP_Engines/grtXmlEngine.php";
 
-$GLOBALS['pageSource'] = "default"; //name of source page, no extensions. Saves a function callin engine
+$GLOBALS['pageSource'] = "about"; //name of source page, no extensions. Saves a function call in engine
 
 $pageContent = new PageContent();
 $navBar = new navBar();
@@ -10,10 +10,9 @@ $navBar = new navBar();
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>GRT | DEFAULT</title>
+    <title>GRT | FIRST</title>
 
-    <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
-    <script type="text/javascript" src="JS/navBarResponse.js"></script>
+    <?php include "modules/std-config.php";?>
 </head>
 <body onload="navigationInit(<?php echo $navBar->currentIndex; ?>)">
     <?php

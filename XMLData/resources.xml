@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Local FRC Teams
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://www.palyrobotics.com/">Team 8 - Paly Robotics</a></li>
+                <li><a target="_blank"href="http://www.team100.org/">Team 100 - Woodside/Carlmont/Sequoia Robotics</a></li>
+                <li><a target="_blank" href="http://lahsrobotics.org/">Team 114 - Los Altos HS Robotics - Eagle Strike Robotics</a></li>
+                <li><a target="_blank" href="http://mvrt.com/">Team 115 - Monta Vista Robotics - MVRT</a></li>
+                <li><a target="_blank" href="http://www.team254.com/">Team 254 - Bellarmine Robotics - The Cheesy Poofs</a></li>
+                <li><a target="_blank" href="http://604robotics.com/">Team 604 - Leland Robotics - Quixilver</a></li>
+                <li><a target="_blank" href="http://www.vandenrobotics.com/">Team 701 - Vanden Robotics - The RoboVikes</a></li>
+                <li><a target="_blank" href="http://www.aragonrobotics.org/">Team 840 - Aragon Robotics - ART</a></li>
+                <li><a target="_blank" href="http://lynbrookrobotics.com/">Team 846 - Lynbrook Robotics - Funky Monkeys</a></li>
+                <li><a target="_blank" href="http://spartanrobotics.org/">Team 971 - Mountain View - Spartan Robotics</a></li>
+                <li><a target="_blank" href="http://www.gatorbotics.com/">Team 1700 - Castilleja Robotics - Gatorbotics</a></li>
+                <li><a target="_blank" href="http://www.spacecookies.org/">Team 1868 - The Space Cookies</a></li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            General Suppliers
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://www.mcmaster.com/">McMaster-Carr</a>- extreme variety; see also MSC Industrial</li>
+                <li><a target="_blank" href="http://coastaluminum.com/product-catalog/">Coast Aluminum</a>- Bulk metal stock supplier</li>
+                <li><a target="_blank" href="http://www.yelp.com/biz/alan-steel-and-supply-co-redwood-city">Allen Steel & Supply Co.</a>- Small quantity, rush metal stock supplier</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            FIRST Specific Suppliers
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://www.vexrobotics.com/vexpro/">Vex Pro</a>- Gears, motors, various electronics and pneumatics components
+</li>
+                <li><a target="_blank" href="http://www.andymark.biz/">AndyMark, Inc</a>- FIRST specific parts and assemblies
+</li>
+                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- Motors, gearboxes, wheels
+</li>
+                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears
+</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+Controls
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://first.wpi.edu/Images/CMS/First/Getting_Started_with_Java_for_FRC.pdf">Getting Started with Java for FRC (pdf)</a>- Essential reading for understanding Java for the cRIO</li>
+                <li><a target="_blank" href="http://firstforge.wpi.edu/sf/docman/do/listDocuments/projects.wpilib/docman.root">WPILibJ AP</a>- API for the WPI Robotics library used for FRC</li>
+                <li><a target="_blank" href="http://first.wpi.edu/FRC/frcjava.html">WPI FIRST Java Resource Center</a>- wiki, updates, and news for WPILibJ and Java for FRC</li>
+                <li><a target="_blank" href="http://code.google.com/p/grtframework/">grtframework</a>- googlecode project page</li>
+                <li><a target="_blank" href="http://code.google.com/p/grt192/">grt192</a>- googlecode project page</li>
+                <li><a target="_blank" href="http://electricalwhat.com/">Electrical What?!</a>- image based lookup for schematic symbols</li>
+                <li><a target="_blank" href="http://www.sparkfun.com/">Sparkfun Electronics</a>- electronics, sensors, kits, tutorials</li>
+                <li><a target="_blank" href="http://www.jameco.com/">Jameco Electronics</a>- electronics (esp. bulk); see also Digi-Key</li>
+                <li><a target="_blank" href="http://www.digikey.com/">Digi-Key Corp</a>- electronics (esp. bulk); see also Jameco</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+Drivetrain
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://whitney-tool.com/html/calculatorSpeedFeed.html">Whitney Tool Speed and Feed Calculator</a>- Speed and Feed Rates for milling, lathing, drilling</li>
+                <li><a target="_blank" href="http://bostongear.com/pdf/gear_theory.pdf">Gear Theory From Boston Gear</a>- information on various gears (spur, helical, miter/bevel, worm gears) with general formulas for torque, pitch diameter, and velocity.</li>
+                <li><a target="_blank" href="http://www.sdp-si.com/">SDP-SI</a>- Gears, timing belts, etc.</li>
+                <li><a target="_blank" href="http://www.usabearingsandbelts.com/">USA Bearings</a>- Bearings</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            CAD
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://www.firstcadlibrary.com/">FIRST CAD Library</a>- an excellent source of CADs of Kit of Parts materials.</li>
+                <li><a target="_blank" href="http://students.autodesk.com/?nd=first_home">Autodesk FIRST Education Community</a>- source for software, training, and help</li>
+                <li><a target="_blank" href="http://team1323.com/cad/index.html">Team 1323 CAD library</a>- CADs of FIRST parts</li>
+                <li><a target="_blank" href="http://www.catalogds.com/db/service?d=first&c=browse">PTC Creo FIRST CADs</a>- field and KoP CADs</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>
