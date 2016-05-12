@@ -21,6 +21,10 @@ img{
     width: 100%;
 }
 
+p:last-child{
+    margin-bottom: 0px;
+}
+
 a {
     color: rgb(240, 10, 10);
     text-decoration: none;
@@ -71,13 +75,8 @@ a:hover{
 }
 
 .imaged-subsection-wrapper{
-    padding: 80px 0px 75px 0px;
-}
-
-.imaged-subsection-wrapper::after{
-    content: " ";
-    display: block;
-    height: 80px;
+    padding: 80px 0px 110px 0px;
+    margin-bottom: 110px;
 }
 
 /* General Text Formatting */
