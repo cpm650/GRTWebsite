@@ -7,7 +7,7 @@ var frameTimeGap = 10; //user defined
 
 var timeToContinue;
 
-var imageSources = ["grtGeneric.jpg", "2013.jpg", "2014.jpg"];
+var imageSources = ["2013-slide.jpg", "img-light.jpg", "img-dark.jpg", "gear-home.jpg"];
 var imageIndex = 0;
 
 var topImage;

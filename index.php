@@ -34,11 +34,11 @@
     }
 
     div#topImage{
-        background-image: url('imageAssets/homeSlideshow/grtGeneric.jpg');
+        background-image: url('imageAssets/homeSlideshow/2013-slide.jpg');
     }
 
     div#bottomImage{
-        background-image: url('imageAssets/homeSlideshow/2013.jpg');
+        background-image: url('imageAssets/homeSlideshow/img-light.jpg');
     }
 
     ul#navList li a:hover {
@@ -140,6 +140,9 @@
             </a>
             <a href="https://www.youtube.com/user/gunnrobotics192">
                 <img alt="Subscribe to us on Youtube" src="imageAssets/socialMedia/YouTube_light_color_icon.png"/>
+            </a>
+            <a href="https://www.thebluealliance.com/team/192">
+                <img alt="Watch us on The Blue Alliance" src="imageAssets/socialMedia/blue_alliance_logo.png"/>
             </a>
         </div>
     </div>
