@@ -6,16 +6,16 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p><span class="title">Mihir Juvvadi</span>
+            <p><span class="title bold">Mihir Juvvadi</span>
             Team Captain - Student leader of the team, oversees all of the functions of the team from the highest level</p>
 
-            <p><span class="title">Jackson Waschura</span>
+            <p><span class="title bold">Jackson Waschura</span>
             Team Manager - Second in command student leader, works in various team and shop functions</p>
 
-            <p><span class="title">Randy Wu</span>
+            <p><span class="title bold">Randy Wu</span>
             Business Manager - The external relations head of the team, communicates with sponsors, fund raisers, etc.</p>
 
-            <p><span class="title">Joshua Chen</span>
+            <p><span class="title bold">Joshua Chen</span>
             Safety Captain - Oversees shop activities such as training and servicing, as well as other shop projects</p>
 
             ]]>

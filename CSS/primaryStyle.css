@@ -21,6 +21,10 @@ img{
     width: 100%;
 }
 
+p:last-child{
+    margin-bottom: 0px;
+}
+
 a {
     color: rgb(240, 10, 10);
     text-decoration: none;
@@ -71,13 +75,8 @@ a:hover{
 }
 
 .imaged-subsection-wrapper{
-    padding: 80px 0px 75px 0px;
-}
-
-.imaged-subsection-wrapper::after{
-    content: " ";
-    display: block;
-    height: 80px;
+    padding: 80px 0px 110px 0px;
+    margin-bottom: 110px;
 }
 
 /* General Text Formatting */
@@ -106,7 +105,7 @@ a:hover{
 }
 
 .sectionBody .image-container {
-    padding: 0px 40px;
+    padding: 0px;
 }
 
 .sectionBody p{
@@ -120,7 +119,7 @@ a:hover{
     text-align: center;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     margin: 0px auto 15px auto;
 }

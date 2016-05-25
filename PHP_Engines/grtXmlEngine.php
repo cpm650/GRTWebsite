@@ -58,9 +58,10 @@ class NavBar extends XMLDoc {
 
     private function navBar_generate(){
         for($i = 0; $i < $this->dataCount; $i++){
+
             echo
             "
-            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-black.svg' /> </span></a></li>
+            <li><a onmouseover='changeSubNav(" . $i . ")' href='" . formatString($this->data->category[$i]->title) . ".php'>" . $this->data->category[$i]->title . "<span class='pointer'> <img src='imageAssets/icons/triangle-" . ($this->data->category[$i]->subNavBar->page->count() <= 0 ? "white" : "black") . ".svg' /> </span></a></li>
             ";
         }
     }
@@ -82,11 +83,11 @@ class NavBar extends XMLDoc {
 
                 for($b = 0; $b < $subPages->count(); $b++){ //each tab
                     if($b == 0){
-                        $pageAddress = formatString($this->data->category[$a]->title) . ".php";
+                        $pageAddress = $this->data->category[$a]->title . ".php";
                     } else if(strrpos($subPages[$b], " ")){
-                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . substr($subPages[$b], strrpos($subPages[$b], " ") + 1); //extract everything after last space
+                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString(substr($subPages[$b], strrpos($subPages[$b], " ") + 1)); //extract everything after last space
                     } else{
-                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . $subPages[$b];
+                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString($subPages[$b]);
                     }
 
                     $pageAddress = formatString($pageAddress);

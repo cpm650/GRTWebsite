@@ -59,7 +59,7 @@
         width: 60%;
         margin: 0px auto;
         color: rgba(255, 255, 255, 1);
-        font-size: 22px;
+        font-size: 16px;
         text-align: center;
 
     }
