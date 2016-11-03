@@ -4,7 +4,6 @@
         <title>About</title>
         <subNavBar>
             <page>Team</page>
-            <page>Mentors</page>
             <page>Leadership</page>
             <page>Groups</page>
             <page>Outreach</page>
@@ -20,25 +19,22 @@
             <page>2014</page>
             <page>2013</page>
             <page>2012</page>
-            <page>2011</page>
-            <page>Previous Years</page>
         </subNavBar>
     </category>
     <category>
-        <title>Media</title>
+        <title>Mentors</title>
         <subNavBar>
-            <page>2016</page>
-            <page>2015</page>
-            <page>2014</page>
-            <page>2013</page>
-            <page>2012</page>
-            <page>2011</page>
-            <page>Previous Years</page>
+            <page>Kristina</page>
+            <page>Seth</page>
+            <page>Karl</page>
+            <page>charlie</page>
+            <page>Phil</page>
         </subNavBar>
     </category>
     <category>
         <title>Resources</title>
         <subNavBar>
+            <page>resources</page>
         </subNavBar>
     </category>
     <category>
@@ -54,6 +50,7 @@
     <category>
         <title>Contact</title>
         <subNavBar>
+            <page>contact</page>
         </subNavBar>
     </category>
 </navBar>
