@@ -37,6 +37,9 @@
         <SSBody>
          <![CDATA[
             <p>Where once there was nothing but a struggling class with eight students, there is now a thriving program with 10 classes and 4 suggested pathways. GRT has been so successful that there is a new hunger at our school for project-based classes that connect students to the real world. Engineering instructor Bakari Holmes has introduced Digital Electronics and Introduction to Engineering Design, both of which are Project Lead the Way&#174 courses, and both of which feed into our Engineering Technology classes. Mr. Holmes and Mr. Dunbar have worked closely with Josh Paley, our computer science instructor, to create cohesive pathways for students that give them meaningful, contextual engineering experience while still in high school.</p>
+            <div class="image-container">
+                <img alt="Steakhouse Rodriguez" src="imageAssets/first/mentor.jpg"/>
+            </div>
          ]]>
         </SSBody>
     </section>
@@ -57,6 +60,9 @@
         <SSBody>
           <![CDATA[
             <p>We rely on two very strong motivators on this team: the team members' knowledge that their designs may be in completion with other designs, and their knowledge that the rest of the team is depending upon them. This is so unlike most other classroom situations, and it's a big reason why the students on the team work so hard to do well!</p>
+            <div class="image-container">
+                <img alt="Steakhouse Rodriguez" src="imageAssets/first/group.jpg"/>
+            </div>
           ]]>
         </SSBody>
     </section>

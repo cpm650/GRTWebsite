@@ -19,10 +19,10 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>Our robot weighs 120 pounds, has a dedicated bin grabber, and is optimized to quickly make a 4-stack and put a bin on top. A large, flat chassis allows our robot to steadily, yet quickly navigate the field without fear of toppling our stacks over. Our tote lifter has self-adjusting ?fingers? that conform to the tote?s contour in order to quickly grab the tote with minimal driver intervention. </p>
+            <p>Our robot weighs 120 pounds, has a dedicated bin grabber, and is optimized to quickly make a 4-stack and put a bin on top. A large, flat chassis allows our robot to steadily, yet quickly navigate the field without fear of toppling our stacks over. Our tote lifter has self-adjusting fingers that conform to the tote's contour in order to quickly grab the tote with minimal driver intervention. </p>
 
             <div class="image-container">
-                <img alt="Steakhouse Rodriguez" src="imageAssets/first/2012.jpg"/>
+                <img alt="Steakhouse Rodriguez" src="imageAssets/first/5711496.jpg"/>
             </div>
             ]]>
         </SSBody>
@@ -36,11 +36,9 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>Inspired by forklifts, our elevator slides over a pair of 2x1 box beam with precision-placed ball bearings to prevent binding and bending. The whole system is powered by a custom-made, 2-CIM gearbox with a chain drive. At the end of the modular elevator box is a number of aluminum ?fingers? that reach under tote?s ridge to securely and quickly lift the container. Each ?finger? is held up by a rubber band, that allows for conformity to the tote?s underside while still collectively able to lift up to 3 totes at once. </p>
+            <p>Inspired by forklifts, our elevator slides over a pair of 2x1 box beam with precision-placed ball bearings to prevent binding and bending. The whole system is powered by a custom-made, 2-CIM gearbox with a chain drive. At the end of the modular elevator box is a number of aluminum fingers that reach under tote's ridge to securely and quickly lift the container. Each finger is held up by a rubber band, that allows for conformity to the tote's underside while still collectively able to lift up to 3 totes at once. </p>
 
-            <div class="image-container">
-                <img alt="Shooter" src="imageAssets/first/shooterReboundRumble.png"/>
-            </div>
+
             ]]>
         </SSBody>
         <backgroundStyle>
@@ -53,7 +51,7 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>Despite designing improvements to our previous year?s two-speed gearbox, our drivetrain team decided that a single-speed gearbox would provide the necessary stability and reliability that moving stacks of totes requires. Combined with our traditional belt-in-tube west-coast drive, it allowed for an extremely smooth and steady drive that took up a minimal amount of space on the chassis. </p>
+            <p>Despite designing improvements to our previous year's two-speed gearbox, our drivetrain team decided that a single-speed gearbox would provide the necessary stability and reliability that moving stacks of totes requires. Combined with our traditional belt-in-tube west-coast drive, it allowed for an extremely smooth and steady drive that took up a minimal amount of space on the chassis. </p>
 
             ]]>
         </SSBody>
@@ -69,9 +67,7 @@
             <![CDATA[
             <p>Arguably more important than our tote stacker, our dedicated bin grabber can easily grab bins from the middle barrier and hold it upright even when moving around and performing other actions. Combined with our autonomous, it allowed our team to make a 24-point stack within the first 30 seconds of teleop. The simple and effective triangle on the end is kept upright no matter what angle the arm is at thanks to a clever linkage system.</p>
 
-            <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/first/ballpickupReboundRumble.png"/>
-            </div>
+
             ]]>
         </SSBody>
         <backgroundStyle>

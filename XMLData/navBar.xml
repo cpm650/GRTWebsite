@@ -19,38 +19,37 @@
             <page>2014</page>
             <page>2013</page>
             <page>2012</page>
+
         </subNavBar>
     </category>
     <category>
         <title>Mentors</title>
         <subNavBar>
-            <page>Kristina</page>
-            <page>Seth</page>
-            <page>Karl</page>
-            <page>charlie</page>
-            <page>Phil</page>
+            <page></page>
         </subNavBar>
     </category>
     <category>
         <title>Resources</title>
         <subNavBar>
-            <page>resources</page>
+            <page></page>
         </subNavBar>
     </category>
     <category>
         <title>Sponsors</title>
         <subNavBar>
+            <page></page>>
         </subNavBar>
     </category>
     <category>
         <title>Joining</title>
         <subNavBar>
+            <page></page>>
         </subNavBar>
     </category>
     <category>
         <title>Contact</title>
         <subNavBar>
-            <page>contact</page>
+            <page></page>
         </subNavBar>
     </category>
 </navBar>

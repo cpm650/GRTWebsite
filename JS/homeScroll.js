@@ -2,12 +2,12 @@
 var timer;
 var timeGap = 8 * 1000; //user defined gap between images
 var frameSteps = 100; //user defined
-var frameTimeGap = 10; //user defined
+var frameTimeGap = 5; //user defined
 //NOTE: frameSteps * frameTimeGap = transitionTime
 
 var timeToContinue;
 
-var imageSources = ["2013-slide.jpg", "img-light.jpg", "img-dark.jpg", "gear-home.jpg"];
+var imageSources = ["2013-slide.jpg", "img-dark.jpg", "gear-home.jpg"];
 var imageIndex = 0;
 
 var topImage;

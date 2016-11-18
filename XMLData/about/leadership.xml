@@ -16,12 +16,15 @@
             <p><span class="title bold">Team Manager</span>
             The team manager participates in team planning activities and is responsible for designing shop projects to develop teamwork and shop skills.  The manager works closely with team members to ensure that everybody understands their roles and responsibilities. </p>
 
-            <p><span class="title bold">Buisness Manager</span>
-            The business manager participates in team planning activities and is responsible for fund-raising activities and outreach events, such as corporate sponsor visits and the Palo Alto May Fete Parade.  The business manager is also responsible for coordinating videos and presentations for the FIRST Robotics Chairman?s Award and Entrepreneur's Award. </p>
+            <p><span class="title bold">Business Manager</span>
+            The business manager participates in team planning activities and is responsible for fund-raising activities and outreach events, such as corporate sponsor visits and the Palo Alto May Fete Parade.  The business manager is also responsible for coordinating videos and presentations for the FIRST Robotics Chairmans Award and Entrepreneur's Award. </p>
 
             <p><span class="title bold">Safety Captain</span>
             The safety captain participates in team planning activities and is responsible for safety in the shop, coordinating shop training for all team members, daily shop cleanup, and plans for emergency situations both in the shop and at competitions. The safety captain is also responsible for preparing the GRT safety manual and presenting the safety award at FIRST Robotics competitions. </p>
 
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/Leadership.jpg"/>
+            </div>
             ]]>
         </SSBody>
     </section>

@@ -22,7 +22,7 @@
             <p>Our robot weighs 120 pounds, and features a triple-award winning drivetrain, and can quickly pick up and shoot into the high goal from 20 feet away. Redshift has a lightweight and quick-to-deploy pickup that can reliably feed the ball into our high-powered shooter. Our compact, high-efficiency, two-speed gearbox lets Redshift traverse the field very quickly, yet have enough torque to win most pushing matches.</p>
 
             <div class="image-container">
-                <img alt="Steakhouse Rodriguez" src="imageAssets/first/2012.jpg"/>
+                <img alt="Steakhouse Rodriguez" src="imageAssets/first/redshift.jpg"/>
             </div>
             ]]>
         </SSBody>
@@ -32,14 +32,14 @@
     </section>
     <section>
         <SSTitle>
-            Drivetrain
+            Pickup
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> Redshifts belt-in-tube west-coast drive allows for an efficient and compact power transfer, leaving more space for onboard mechanisms. </p>
+            <p>Redshifts ball pickup mechanism consists of a deployable roller held up by two PVC pipes. The roller is deployed by two car window motors with a large chain reduction in order to quickly and sturdily hold out an essential mechanism. The roller itself is powered by a single chain-driven (MOTOR), easily capable of dragging the large ball over the bumper. Our team decided to use PVC tubing for the arm as a fail point, since in a high-speed game like Aerial Assist, any objects protruding from the bumper are bound to break. By making the arm something easily replaceable and breakable, we protect the more delicate metal parts and can quickly replace a part. </p>
 
             <div class="image-container">
-                <img alt="Shooter" src="imageAssets/first/shooterReboundRumble.png"/>
+                <img alt="Shooter" src="imageAssets/first/2014bot_1.jpg"/>
             </div>
             ]]>
         </SSBody>
@@ -49,11 +49,11 @@
     </section>
     <section>
         <SSTitle>
-            Pickup
+            Drivetrain
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>Redshifts ball pickup mechanism consists of a deployable roller held up by two PVC pipes. The roller is deployed by two car window motors with a large chain reduction in order to quickly and sturdily hold out an essential mechanism. The roller itself is powered by a single chain-driven (MOTOR), easily capable of dragging the large ball over the bumper. Our team decided to use PVC tubing for the arm as a fail point, since in a high-speed game like Aerial Assist, any objects protruding from the bumper are bound to break. By making the arm something easily replaceable and breakable, we protect the more delicate metal parts and can quickly replace a part. </p>
+            <p> Redshifts belt-in-tube west-coast drive allows for an efficient and compact power transfer, leaving more space for onboard mechanisms. </p>
 
             ]]>
         </SSBody>
@@ -67,11 +67,8 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>A simple spring-powered catapult, Redshifts short throw allows us to fire from distance reliably and without any rev-up time. The catapult is powered by a custom ball-shift winch which will shift into neutral to release the ball and fire. Unlike traditional catapults, Redshift?s catapult has practically no leverage, meaning the catapult is compact enough to fit entirely onto the base of the robot. </p>
+            <p>A simple spring-powered catapult, Redshifts short throw allows us to fire from distance reliably and without any rev-up time. The catapult is powered by a custom ball-shift winch which will shift into neutral to release the ball and fire. Unlike traditional catapults, Redshift's catapult has practically no leverage, meaning the catapult is compact enough to fit entirely onto the base of the robot. </p>
 
-            <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/first/ballpickupReboundRumble.png"/>
-            </div>
             ]]>
         </SSBody>
         <backgroundStyle>

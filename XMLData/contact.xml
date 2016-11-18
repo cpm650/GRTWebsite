@@ -2,11 +2,16 @@
 <pageSections>
     <section>
         <SSTitle>
-            Contact
+            Information for prospective students and parents:
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p>If you would like to contact the team with any suggestions or opportunities please email: gunnrobotics192@gmail.com</p>
+            <center>If you would like to contact the team with any suggestions or opportunities, please email: </center>
+            <center>gunnrobotics192@gmail.com</center>
+            <p></p>
+            <div class="image-container">
+                <img alt="Steakhouse Rodriguez" src="imageAssets/first/Contact.JPG"/>
+            </div>
             ]]>
         </SSBody>
     </section>
