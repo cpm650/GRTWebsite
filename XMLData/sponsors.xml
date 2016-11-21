@@ -18,6 +18,9 @@
         <SSBody>
             <![CDATA[
             <p> SRI is an independant research center that works with clients to turn ideas into products. One of our mentors, Karl Van Dyk, is from SRT.</p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/sri.png"/>
+            </div>
             ]]>
         </SSBody>
     </section>
@@ -28,6 +31,9 @@
         <SSBody>
             <![CDATA[
             <p> Bosch provides most of the GRT mentors. It is a German Robotics Company specializing in Autonomous technologies. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors. </p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/bosch.png"/>
+            </div>
             ]]>
         </SSBody>
     </section>
@@ -38,6 +44,9 @@
         <SSBody>
             <![CDATA[
             <p> Qualcomm is a wireless telecommunications research and development company.</p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/qual.png"/>
+            </div>
             ]]>
         </SSBody>
     </section>
@@ -48,6 +57,9 @@
         <SSBody>
             <![CDATA[
             <p> Madco is the local welding and gas supplier. </p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/madco.png"/>
+            </div>
             ]]>
         </SSBody>
     </section>
@@ -58,6 +70,9 @@
         <SSBody>
             <![CDATA[
             <p> Non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/pausd.png"/>
+            </div>
             ]]>
         </SSBody>
     </section>
