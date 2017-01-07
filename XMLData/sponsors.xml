@@ -6,21 +6,8 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> THIS IS A TESTTTT Gunn Robotics is generously funded by sponsors and companies from around the bay. We would like to especially thank them for providing mentor support and assets for team trips.
+            <p> Gunn Robotics is generously funded by sponsors and companies from around the bay. We would like to especially thank them for providing mentor support and assets for team trips.
             We receive money for supplies, as well as money from the school to pay mentors. </p>
-            ]]>
-        </SSBody>
-    </section>
-    <section>
-        <SSTitle>
-            SRI
-        </SSTitle>
-        <SSBody>
-            <![CDATA[
-            <p> SRI is an independant research center that works with clients to turn ideas into products. One of our mentors, Karl Van Dyk, is from SRT.</p>
-            <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/team/sri.png" height="20%"/>
-            </div>
             ]]>
         </SSBody>
     </section>
@@ -32,7 +19,24 @@
             <![CDATA[
             <p> Bosch provides most of the GRT mentors. It is a German Robotics Company specializing in Autonomous technologies. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors. </p>
             <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/team/bosch.png"/>
+                <center>
+                <img alt="Ball Pickup" src="imageAssets/team/bosch.png" style="width:50%"/>
+                </center>
+            </div>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            SRI
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p> SRI is an independant research center that works with clients to turn ideas into products. One of our mentors, Karl Van Dyk, is from SRT.</p>
+            <div class="image-container">
+                <center>
+                <img alt="Ball Pickup" src="imageAssets/team/sri.png" style="width:50%"/>
+                </center>
             </div>
             ]]>
         </SSBody>
@@ -45,7 +49,9 @@
             <![CDATA[
             <p> Qualcomm is a wireless telecommunications research and development company.</p>
             <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/team/qual.png"/>
+                <center>
+                <img alt="Ball Pickup" src="imageAssets/team/qual.png" style="width:50%"/>
+                </center>
             </div>
             ]]>
         </SSBody>
@@ -58,7 +64,9 @@
             <![CDATA[
             <p> Madco is the local welding and gas supplier. </p>
             <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/team/madco.png"/>
+                <center>
+                <img alt="Ball Pickup" src="imageAssets/team/madco.png" style="width:50%"/>
+                </center>
             </div>
             ]]>
         </SSBody>
@@ -71,7 +79,9 @@
             <![CDATA[
             <p> Non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
             <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/team/pausd.png"/>
+                <center>
+                <img alt="Ball Pickup" src="imageAssets/team/pausd.png" style="width:50%"/>
+                </center>
             </div>
             ]]>
         </SSBody>

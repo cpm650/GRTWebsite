@@ -38,7 +38,7 @@
     }
 
     div#bottomImage{
-        background-image: url('imageAssets/homeSlideshow/img-light.jpg');
+        background-image: url('imageAssets/homeSlideshow/crimp.jpg');
     }
 
     ul#navList li a:hover {
@@ -117,7 +117,7 @@
             <ul id="navList">
                 <li><a href="about.php">About</a></li>
                 <li><a href="first.php">First</a></li>
-                <li><a href="media.php">Media</a></li>
+                <li><a href="mentors.php">Mentors</a></li>
                 <li><a href="resources.php">Resources</a></li>
                 <li><a href="sponsors.php">Sponsors</a></li>
                 <li><a href="joining.php">Joining</a></li>
@@ -128,8 +128,9 @@
     <div class="wrapper" id="bodyContainer">
         <div class="wrapper" id="homeFocus">
             <span id="homeHeader">GRT 192</span>
-            We're a robotics team from Gunn High School (Palo Alto, CA) that competes in the FIRST Robotics Competitions as Team 192.
-            <a id="focusButton" href="">See what we do</a>
+            <font size="+2">We're a robotics team from Gunn High School (Palo Alto, CA) that competes in the FIRST Robotics Competitions as Team 192.</font>
+
+            <a id="focusButton" href="about.php">See What We Do</a>
         </div>
         <div class="wrapper social-media" id="footer">
             <a href="https://www.facebook.com/GRT192">
