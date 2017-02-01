@@ -2,6 +2,14 @@
 <pageSections>
     <section>
         <SSTitle>
+            General
+        </SSTitle>
+        <![CDATA[
+        <p>Each GRT team group is lead by team veterans who plan, manage and participate in the work of the group.  In addition, the group leads are responsible for planning and providing training to interested new members each fall, so that the team’s knowledge is passed on from year to year.</p>
+        ]]>
+    </section>
+    <section>
+        <SSTitle>
             Controls
         </SSTitle>
         <SSBody>
@@ -68,6 +76,22 @@
                 The team is proud to report a grand total of zero accidents or injuries while using our welders. This is a result of our excellent safety policies and training. Having welders allows the team to enjoy a high degree of flexibility. When welding during build, it is essential that all mechanism groups have access to the frame and a quick return on any part they need welded, which is not possible when parts must be sent out for welding. It is also much cheaper, with terrific sponsors such as Madco and the Linde Group donating the argon gas. This means that our welds are done at next to no cost.</p>
                 ]]>
         </SSBody>
+    </section>
+    <section>
+        <SSTitle>
+            Animation
+        </SSTitle>
+        <![CDATA[
+        <p>Herp a derp derp. Makes memes that move.</p>
+        ]]>
+    </section>
+    <section>
+        <SSTitle>
+            Strategy
+        </SSTitle>
+        <![CDATA[
+        <p>Smart ppl, I woulden't know.</p>
+        ]]>
     </section>
 
 </pageSections>
