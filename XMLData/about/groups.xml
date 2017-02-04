@@ -4,9 +4,11 @@
         <SSTitle>
             General
         </SSTitle>
+        <SSBody>
         <![CDATA[
         <p>Each GRT team group is lead by team veterans who plan, manage and participate in the work of the group.  In addition, the group leads are responsible for planning and providing training to interested new members each fall, so that the team’s knowledge is passed on from year to year.</p>
         ]]>
+    </SSBody>
     </section>
     <section>
         <SSTitle>
@@ -82,7 +84,8 @@
             Animation
         </SSTitle>
         <![CDATA[
-        <p>Herp a derp derp. Makes memes that move.</p>
+        <p><span class="title bold">About</span>
+        Herp a derp derp. Makes memes that move.</p>
         ]]>
     </section>
     <section>
@@ -90,7 +93,8 @@
             Strategy
         </SSTitle>
         <![CDATA[
-        <p>Smart ppl, I woulden't know.</p>
+        <p><span class="title bold">About</span>
+        Smart ppl, I woulden't know.</p>
         ]]>
     </section>
 
