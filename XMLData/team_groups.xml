@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Drive Train
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p><span class="title bold">About</span>Drive trains are the systems that make the robot move, and often form the backbone of the chassis. Our drive train group is well-known within the FIRST Robotics community for our student - designed and built - custom gearboxes, their intricate design work and precision manufacturing.
+            Because the need for robot movement is universal to any game design we may be given, the drive train group does significant work during the pre-season (before the design prompt is issued in January) to develop practical, efficient and elegant designs. Design considerations range from power, maneuverability, efficiency and weight, to production concerns such as cost and manufacturability.
+            All of the design work, from initial simulations to determine basic power and reduction to the final CAD modeling, is done by our students. These designs then go out to student machinists in our shop, who manufacture high precision parts on our mills and lathes. </p>
+            <p><span class="title bold">2 Speed Drive Gearbox</span>One of our main development projects over the last few years has been our 2 speed, ball shifting gearbox. This version is a 3 stage reduction, which allows us to use it with 6 inch or larger wheels (a larger wheel would otherwise gear up the transmission).
+            Our gearboxes are by far the smallest of their kind, with a footprint extending from the transmissions only 2.7 inches. This comes courtesy of a several innovations. Most notable are the inverted shifters: these are the pneumatics that drive the shifting cluster, turned around and set within the gearbox itself, cutting about 2 inches out of the width. Using this linkage to pull the shifter from afar, the cluster performs better than an off-the-shelf equivalent, holding a gear and shifting down to 25 PSI of pressure. Other innovations include the first reduction of the gearbox, accomplished through a belt drive on the face of the box. This further reduces profile, and allows the motors to be turned backwards, with most of their volume outside of the robot base area. </p>
+            <p><span class="title bold">Belt-in-Tube Transmission</span>For several years now, we have been using a transmission that gets the power to the wheels via a series of GT3 belts, laid inside box-beam transmission tubes. These box-beam tubes create as an effective housing, as well as core members of the robot?s structure. In response to the terrain obstacles of FIRST Stronghold, we adapted this arrangement in a bent-tube design, maintaining the characteristics of our traditional design, while lifting the large front and back wheels off the ground to help us tackle the worst of the obstacles.</p>
+            <p><span class="title bold">Training</span>Training of new members of the drive train group is crucial to its success, asuccess, and so it begins as soon as general shop training for the team has completed. The foundation for our designers and machinists alike begins on the lathes, on the lathes, where students learn to manufacture complex, high precision parts.  The technique of try-until-you-succeed works very well, and in the process, the students develop a very keen understanding of how the parts will be interacting in the systems they will go on to design.
+            During the later stages of build season, the lead drive train designer(s) for the year will begin working with a small group of students on the intricacies of gearbox and transmission design. The final competition robot will usually include at least one system designed by these trainees, something like a winch or flywheel gearbox.
+            After competition seasons end, the drive train design training begins in earnest. Here the designers that have just gone through a year of development, building and competition help their successors through the problems that they faced. This training carries on into the summer, where much of the formality of the earlier lessons is lost, and the mentorship slowly morphs into the new teams research and development for the following year.
+            The importance of the effectiveness of this process should be clearly evident. On student design teams such as this, where the turnover of head designers is almost 100% from year to year, it is critical that this knowledge gets passed down, so that we can continue to improve, and further our legacy of stunning student design.</p>
+            <div class="image-container">
+                <img alt="Ball Pickup" src="imageAssets/first/Groups-DT.jpg"/>
+            </div>
+            ]]>
+        </SSBody>
+    </section>
+</pageSections>

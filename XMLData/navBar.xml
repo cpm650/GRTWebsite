@@ -22,6 +22,18 @@
 
         </subNavBar>
     </category>
+        <category>
+        <title>Team_Groups</title>
+        <subNavBar>
+            <page>Controls</page>
+            <page>Drive_Train</page>
+            <page>CNC</page>
+            <page>Pneumatics</page>
+            <page>Animation</page>
+            <page>Welding</page>
+
+        </subNavBar>
+    </category>
     <category>
         <title>Mentors</title>
         <subNavBar>
@@ -37,13 +49,13 @@
     <category>
         <title>Sponsors</title>
         <subNavBar>
-            <page></page>>
+            <page></page>
         </subNavBar>
     </category>
     <category>
         <title>Joining</title>
         <subNavBar>
-            <page></page>>
+            <page></page>
         </subNavBar>
     </category>
     <category>
