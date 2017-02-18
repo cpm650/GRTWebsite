@@ -22,8 +22,8 @@
 
         </subNavBar>
     </category>
-        <category>
-        <title>Team_Groups</title>
+    <category>
+        <title>team_groups</title>
         <subNavBar>
             <page>Controls</page>
             <page>Drive_Train</page>
