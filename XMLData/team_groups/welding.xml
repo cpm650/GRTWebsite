@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<pageSections>
+    <section>
+        <SSTitle>
+            Welding
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+                <p><span class="title bold">About</span>We are proud to say that most of our robot is manufactured by students, including the welding. Our shop includes a welding room complete with a TIG welder, two MIG welders, Oxy-Acetylene torch, and various other smaller torches. Support from our wonderful sponsors The Linde Group and Madco Welding provide cylinders of gas required for welding and the supplies needed to maintain our tools.  Welds are stronger, more versatile, and lighter than any other way of connecting the frame of a competition robot where every ounce counts.
+                The welding group consists of a few dedicated members who spend many hours in the shop welding parts and mechanisms. It operates in much the same way as the rest of the team does in having the senior members of the welding group teach newer members. Our most common medium is aluminum, though we are versed in steel as well as bronze.</p>
+                <p><span class="title bold">What is Welding?</span>For those curious as to just what welding actually is, here is a simple answer: It's not magic. Despite the "pretty" (if you look at it directly) (don't do that) glowing wand and the remarkably magical finished product where there used to be two separate pieces, welding is actually a relatively simple concept and practice. The method is different for each type of welding tool; in our shop we use a machine known as a TIG welder, or Tungsten Inert Gas welder.
+                In a TIG welder, an arc is created by an alternating current of electricity which is shielded by an inert gas to prevent atmospheric contamination, usually Argon, CO2, or mix of both. The arc is able to heat the metal to its melting point at which the two pieces of metal will fuse together with the help of some filler metal. The filler metal replaces the volume lost due to penetration and the natural contraction of metals such as aluminum after being heated. As a result of the constant addition of small amounts of filler metal, small beads will form on the weld, giving TIG welding a telltale appearance. </p>
+                <p><span class="title bold">Why is it a Unique Opportunity?</span>Welding is a defining experience that is not only invaluable experience for any student, but also represents the self-sustainability and financial responsibility of the Gunn Robotics Team. Students that are involved in welding will have gained a skill that proves they are capable, dedicated, and safe. It shows that a student has implicit knowledge of the structure of the robot. Also, it's pretty darn awesome.
+                The team is proud to report a grand total of zero accidents or injuries while using our welders. This is a result of our excellent safety policies and training. Having welders allows the team to enjoy a high degree of flexibility. When welding during build, it is essential that all mechanism groups have access to the frame and a quick return on any part they need welded, which is not possible when parts must be sent out for welding. It is also much cheaper, with terrific sponsors such as Madco and the Linde Group donating the argon gas. This means that our welds are done at next to no cost.</p>
+                ]]>
+        </SSBody>
+    </section>
+</pageSections>
