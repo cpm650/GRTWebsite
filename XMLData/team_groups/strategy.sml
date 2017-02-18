@@ -2,12 +2,11 @@
 <pageSections>
     <section>
         <SSTitle>
-            Strategy
+            Welding
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <p>Wauuu strats</p>
-
+                <p>Pro Strats</p>
                 ]]>
         </SSBody>
     </section>
