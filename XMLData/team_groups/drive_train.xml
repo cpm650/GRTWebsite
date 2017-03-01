@@ -6,13 +6,7 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p><span class="title bold">About</span>Drive trains are the systems that make the robot move, and often form the backbone of the chassis. Our drive train group is well-known within the FIRST Robotics community for our student - designed and built - custom gearboxes, their intricate design work and precision manufacturing.
-            Because the need for robot movement is universal to any game design we may be given, the drive train group does significant work during the pre-season (before the design prompt is issued in January) to develop practical, efficient and elegant designs. Design considerations range from power, maneuverability, efficiency and weight, to production concerns such as cost and manufacturability.
-            All of the design work, from initial simulations to determine basic power and reduction to the final CAD modeling, is done by our students. These designs then go out to student machinists in our shop, who manufacture high precision parts on our mills and lathes. 
-            </p>
-            <div class="image-container">
-                <img alt="Ball Pickup" src="imageAssets/first/Groups-DT.jpg"/>
-            </div>
+            <p>DT</p>
             ]]>
         </SSBody>
     </section>
