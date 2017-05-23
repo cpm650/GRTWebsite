@@ -11,12 +11,12 @@
 
                 <p><span class="title bold">Swerve</span>For the 2017 game, we developed a new swerve drivetrain. This drive system required a much more complex control due to the additional axis of rotation of the wheel. We installed versaplanetary encoders on each module to control the angle of the wheel, and limit switches for in-match zeroing. The driver was given the option for ackerman steering, which is similar to previous drive control systems, but is more sophisticated, and strafing, in which the robot goes in any direction without changing orientation. These two modes allowed the driver to quickly move across the field around defense and then make accurate movements to score gears.
                 </p>
-                <img src="imageAssets/subgroups/Controls_swerve.png" alt="Calculations" style= "stylesheet">
+                <img src="imageAssets/subgroups/Controls_swerve.png" alt="Calculations">
 
                 <p><span class="title bold">Robot Vision</span>For the 2016 game, one of our main challenges was developing a working robot vision system. We used OpenCV to detect the goals (marked by reflective tape on the field) and fire boulders automatically. We used vision in autonomous mode to consistently score high goal shots and in teleop mode to make control of the shooter easier for the driver, by aiming and firing at the press of a button.
                 </p> 
                 
-                <img src="imageAssets/subgroups/Controls_robot_vision.png" alt="Collaboration" style="stylesheet">
+                <img src="imageAssets/subgroups/Controls_robot_vision.png" alt="Collaboration">
 
                 <p><span class="title bold">Autonomous</span>Each FIRST match is split into two sections: autonomous and teleop. The autonomous period typically lasts fifteen seconds and allows no driver operation. Each year, there are different tasks that can be completed during autonomous for a variety of points. In years like 2016 when there are many different task options, our team has developed many different autonomous modes. The strategically best option is chosen before each match. For autonomous, we either use hard-coded or recorded values to run the sequence that completes the task. In hard-coded autonomous modes, we manually tell the robot exactly what to do for specified distances or amounts of time. This is useful for simple autonomous procedures. For more complicated ones, we sometimes turn to recording. In this case, a driver will perform the sequence with full control of the robot while our code records the values sent to the different mechanisms. We save the sequence to a file and play back whenever we run autonomous. 
                 </p>    
@@ -27,12 +27,12 @@
                 <p><span class="title bold">Electrical</span>The most important part of the electrical system is the Roborio, the onboard computer which controls all of the code. Each motor is controlled by a motor controller (Talon SRX), which allows for variable control. We control the pneumatic actuators through a solenoid. Other components are used for power distribution and conversion of different voltages used across the robot.
                 </p> 
 
-                <img src="imageAssets/subgroups/Controls_electrical.png" alt="Layout of wires in controls" style="stylesheet"> 
+                <img src="imageAssets/subgroups/Controls_electrical.png" alt="Layout of wires in controls"> 
 
                 <p><span class="title bold">Training</span>The training for the controls group occurs in the fall semester in two sections: whole team training and specialized training. For whole team training, we spend one day teaching the entire team the basics of electronics and controls components, addressing the broad areas of safety, sensors, and electronic setup of the robot. After this session, in-depth training occurs throughout the rest of the semester for those who are interested in joining the group. For wiring, members are taught crimping and soldering. For coding, we teach how to use Python, the basics of object-oriented programing, and how to use github to collaborate with the rest of the group.
                 </p>   
 
-                <img src="imageAssets/subgroups/Controls_training.png" alt="Controls training" style="stylesheet"> 
+                <img src="imageAssets/subgroups/Controls_training.png" alt="Controls training"> 
                 ]]>
         </SSBody>
     </section>
