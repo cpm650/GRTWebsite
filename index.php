@@ -1,6 +1,7 @@
 <?php
 
 ?>
+<!-- This is the file for what is shown on the home page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
