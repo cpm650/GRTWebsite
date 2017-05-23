@@ -133,16 +133,16 @@
             <a id="focusButton" href="about.php">See What We Do</a>
         </div>
         <div class="wrapper social-media" id="footer">
-            <a href="https://www.facebook.com/GRT192">
+            <a href="https://www.facebook.com/GRT192" target="_blank">
                 <img alt="Like us on Facebook" src="imageAssets/socialMedia/FB-f-Logo__white_50.png"/>
             </a>
-            <a href="https://twitter.com/GRT192">
+            <a href="https://twitter.com/GRT192" target="_blank">
                 <img alt="Follow us on Twitter" src="imageAssets/socialMedia/TwitterLogo_white.png"/>
             </a>
-            <a href="https://www.youtube.com/user/gunnrobotics192">
+            <a href="https://www.youtube.com/user/gunnrobotics192" target="_blank">
                 <img alt="Subscribe to us on Youtube" src="imageAssets/socialMedia/YouTube_light_color_icon.png"/>
             </a>
-            <a href="https://www.thebluealliance.com/team/192">
+            <a href="https://www.thebluealliance.com/team/192" target="_blank">
                 <img alt="Watch us on The Blue Alliance" src="imageAssets/socialMedia/blue_alliance_logo.png"/>
             </a>
         </div>
