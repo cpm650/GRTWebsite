@@ -25,7 +25,7 @@
         <title>team_groups</title>
         <subNavBar>
             <page>Controls</page>
-            <page>drive_train</page>
+            <page>drivetrain</page>
             <page>CNC</page>
             <page>Pneumatics</page>
             <page>Animation</page>
