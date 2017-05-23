@@ -1,7 +1,7 @@
 <?php
 include "PHP_Engines/grtXmlEngine.php";
 
-$GLOBALS['pageSource'] = "team_groups"; //name of source page, no extensions. Saves a function call in engine
+$GLOBALS['pageSource'] = "Team Groups"; //name of source page, no extensions. Saves a function call in engine
 
 $pageContent = new PageContent();
 $navBar = new navBar();
