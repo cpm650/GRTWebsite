@@ -22,11 +22,11 @@
         </subNavBar>
     </category>
     <category>
-        <title>team_groups</title>
+        <title>Team Groups</title>
         <subNavBar>
             <page>Controls</page>
-            <page>drive_train</page>
-            <page>cnc</page>
+            <page>Drive Train</page>
+            <page>cNC</page>
             <page>Pneumatics</page>
             <page>Animation</page>
             <page>Welding</page>
