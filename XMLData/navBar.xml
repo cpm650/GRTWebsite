@@ -22,7 +22,7 @@
         </subNavBar>
     </category>
     <category>
-        <title>team_groups</title>
+        <title>subgroups</title>
         <subNavBar>
             <page>Controls</page>
             <page>Drivetrain</page>
