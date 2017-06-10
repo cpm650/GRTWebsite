@@ -27,6 +27,8 @@
                 <p><span class="title bold">Electrical</span>The most important part of the electrical system is the Roborio, the onboard computer which controls all of the code. Each motor is controlled by a motor controller (Talon SRX), which allows for variable control. We control the pneumatic actuators through a solenoid. Other components are used for power distribution and conversion of different voltages used across the robot.
                 </p> 
 
+                <div class="image-containter"><img alt="Wiring the robot" src="imageAssets/subgroups/controls1.jpg"/>
+
                 <img src="imageAssets/subgroups/Controls_electrical.png" alt="Layout of wires in controls"> 
 
                 <p><span class="title bold">Training</span>The training for the controls group occurs in the fall semester in two sections: whole team training and specialized training. For whole team training, we spend one day teaching the entire team the basics of electronics and controls components, addressing the broad areas of safety, sensors, and electronic setup of the robot. After this session, in-depth training occurs throughout the rest of the semester for those who are interested in joining the group. For wiring, members are taught crimping and soldering. For coding, we teach how to use Python, the basics of object-oriented programing, and how to use github to collaborate with the rest of the group.
