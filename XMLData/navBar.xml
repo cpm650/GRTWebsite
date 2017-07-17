@@ -37,31 +37,31 @@
     <category>
         <title>Mentors</title>
         <subNavBar>
-            <page>granlund</page>
+            <page>mentors</page>
         </subNavBar>
     </category>
     <category>
         <title>Resources</title>
         <subNavBar>
-            <page></page>
+            <page>resources</page>
         </subNavBar>
     </category>
     <category>
         <title>Sponsors</title>
         <subNavBar>
-            <page></page>
+            <page>sponsors</page>
         </subNavBar>
     </category>
     <category>
         <title>Joining</title>
         <subNavBar>
-            <page></page>
+            <page>joining</page>
         </subNavBar>
     </category>
     <category>
         <title>Contact</title>
         <subNavBar>
-            <page></page>
+            <page>contact</page>
         </subNavBar>
     </category>
 </navBar>
