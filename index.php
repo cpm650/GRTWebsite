@@ -4,10 +4,10 @@
 <!-- This is the file for what is shown on the home page -->
 <!DOCTYPE html>
 <html lang="en">
-<h1>
+<!-- <h1>
     Website is currently under construction!
-</h1>
-<!-- <head>
+</h1> -->
+<head>
     <meta charset="utf-8" />
     <title>GRT | Home</title>
 
@@ -16,7 +16,7 @@
 
     <!--HOMEPAGE SPECIFIC CSS TO IMPROVE PERFORMANCE-->
     <!-- TO BE MOVED EXTERNALLY -->
-    <!-- <style type="text/css">
+    <style type="text/css">
     div#homeNav{
         position: absolute;
         top: 0px;
@@ -151,5 +151,5 @@
             </a>
         </div>
     </div>
-</body> -->
+</body>
 </html>
