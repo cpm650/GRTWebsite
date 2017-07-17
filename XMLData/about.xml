@@ -20,13 +20,13 @@
             <div class="image-container"><img alt="Happy Girl" src="imageAssets/team/happyGirl.png"/>
             </div>
 
-            <div class ="image-container"><img alt="GRT Parents Night Demo" src="imageAssets/team/parentsnight.jpg"/>
-            </div>
 
             <p><span class="title bold">Our Work Space</span>
             Our shop has expanded from a few tools fit for a science fair project to a small-scale manufacturing facility capable of producing extremely precise parts.  Our shop now holds eighteen machines, used on a regular basis.</p>
 
 
+            <div class ="image-container"><img alt="GRT Parents Night" src="imageAssets/team/parentsnight.jpg"/>
+            </div>
             
             <p><span class="title bold">Power Tools</span>
               <li> 2 vertical bandsaws(metal and wood), horizontal bandsaw, table saw, vertical panel saw</li>
