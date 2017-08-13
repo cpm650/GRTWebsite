@@ -6,37 +6,16 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-           <p><span class="title bold">About</span>The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      
-           <a href = "https://github.com/grt192" target="_blank"> https://github.com/grt192</a>.
-                </p>
 
-                <p><span class="title bold">Swerve</span>For the 2017 game, we developed a new swerve drivetrain. This drive system required a much more complex control due to the additional axis of rotation of the wheel. We installed versaplanetary encoders on each module to control the angle of the wheel, and limit switches for in-match zeroing. The driver was given the option for ackerman steering, which is similar to previous drive control systems, but is more sophisticated, and strafing, in which the robot goes in any direction without changing orientation. These two modes allowed the driver to quickly move across the field around defense and then make accurate movements to score gears.
-                </p>
-                <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
+                <p><span class="title bold">About</span>Pneumatics is the branch of engineering that involves the transmission of power using pressurized air (instead of, for instance, electricity). Typically, pressurized air (<100 psi) is stored in a tank using a compressor, and then its release from the tank is controlled using pressure regulators, valves, and tubing.  GRT’s robots often have pneumatic systems powering mechanical parts, especially mechanisms that require linear motion.</p>
 
-                <p><span class="title bold">Robot Vision</span>For the 2016 game, one of our main challenges was developing a working robot vision system. We used OpenCV to detect the goals (marked by reflective tape on the field) and fire boulders automatically. We used vision in autonomous mode to consistently score high goal shots and in teleop mode to make control of the shooter easier for the driver, by aiming and firing at the press of a button.
+                <p><span class="title bold">Projects</span>Every year, the pneumatics group plans the use and placement of pneumatic system components for both a fall “haunted house” project for a local elementary school and for the FIRST competition robot.</p>
+
+                <img src="imageAssets/subgroups/noomatics1.jpg" alt="Pneumatics">
+
+                <p><span class="title bold">Training</span>To start pneumatics training, we learn all of the components (e.g. tubing, actuators, solenoids, tanks, and safety equipment) so everyone understands the basic concepts behind each piece of equipment. Practice exercises are assigned, such as turning two single acting solenoids into one double acting solenoid. Planning, assembling, and troubleshooting all of the pneumatics components required for the “haunted house” project is the main training activity before build season.
                 </p> 
                 
-                <img src="imageAssets/subgroups/Controls_robot_vision.jpg" alt="Collaboration">
-
-                <p><span class="title bold">Autonomous</span>Each FIRST match is split into two sections: autonomous and teleop. The autonomous period typically lasts fifteen seconds and allows no driver operation. Each year, there are different tasks that can be completed during autonomous for a variety of points. In years like 2016 when there are many different task options, our team has developed many different autonomous modes. The strategically best option is chosen before each match. For autonomous, we either use hard-coded or recorded values to run the sequence that completes the task. In hard-coded autonomous modes, we manually tell the robot exactly what to do for specified distances or amounts of time. This is useful for simple autonomous procedures. For more complicated ones, we sometimes turn to recording. In this case, a driver will perform the sequence with full control of the robot while our code records the values sent to the different mechanisms. We save the sequence to a file and play back whenever we run autonomous. 
-                </p>    
-
-                <p><span class="title bold">Python</span>Each year, we build our code off the GRTPyFramework, which we have developed as a basis for our robot code. Beyond basic framework and abstractions, GRTPyFramework provides a method by which more sophisticated logic and abstractions can be developed, provided a particular code structure is followed in line with design methodology. The two most important parts of the code are mechanisms and controllers. For mechanisms, we create classes for each of the mechanisms that includes all of the actions necessary. Controllers dictate how and when the different mechanism actions are called based largely on inputs from our sensors.
-                </p>   
-
-                <p><span class="title bold">Electrical</span>The most important part of the electrical system is the Roborio, the onboard computer which controls all of the code. Each motor is controlled by a motor controller (Talon SRX), which allows for variable control. We control the pneumatic actuators through a solenoid. Other components are used for power distribution and conversion of different voltages used across the robot.
-                </p> 
-
-                <img src="imageAssets/subgroups/controls1.jpg" alt="Wiring the robot">
-
-                <img src="imageAssets/subgroups/Controls_electrical.jpg" alt="Layout of wires in controls"> 
-
-                <p><span class="title bold">Training</span>The training for the controls group occurs in the fall semester in two sections: whole team training and specialized training. For whole team training, we spend one day teaching the entire team the basics of electronics and controls components, addressing the broad areas of safety, sensors, and electronic setup of the robot. After this session, in-depth training occurs throughout the rest of the semester for those who are interested in joining the group. For wiring, members are taught crimping and soldering. For coding, we teach how to use Python, the basics of object-oriented programing, and how to use github to collaborate with the rest of the group.
-                </p>   
-
-                <img src="imageAssets/subgroups/Controls_training.jpg" alt="Controls training"> 
-            </div>
             ]]>
         </SSBody>
       </section>
