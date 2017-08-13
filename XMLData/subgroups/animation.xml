@@ -6,9 +6,25 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <p><span class="title bold">Purpose</span>The Animation Team is a subgroup that produces 3D animations to compete for the annual Safety Animation Award and Digital Animation Award. The subgroup works with software such as Autodesk Maya, Adobe Photoshop, and Adobe Premiere to create original and expressive animations while highlighting some of the mediums most exciting possibilities. Members of the Animation Team work together to write stories, model objects, animate characters, and render scenes.</p>
+                <p><span class="title bold">About</span>The Animation Team is a subgroup that produces 3D animations to compete for the annual Safety Animation Award and Digital Animation Award. The subgroup works with software such as Autodesk Maya, Adobe Photoshop, and Adobe Premiere to create original and expressive animations while highlighting some of the medium’s most exciting possibilities. Members of the Animation Team work together to write stories, model objects, animate characters, and render scenes.</p>
 
-                <p><span class="title bold">What We Do</span>When the Animation Team is not hard at work on a full-length animation, its members work on personal projects and website content to improve their animating skills. Personal modeling projects range from cream-filled cookies to old wooden buckets and anything in between. The extra time spent experimenting in Maya helps teach new team members faster and more effective techniques.</p>
+                
+
+                <p><span class="title bold">Personal Projects</span>When the Animation Team is not hard at work on a full-length animation, its members work on personal projects and website content to improve their animating skills. Personal modeling projects can be robotics related, but are also often a great way to bridge students’ outside interests with the technical knowledge they are accumulating on the team. Even if a project isn’t directly useful to GRT, the extra time spent experimenting in Maya helps teach new team members faster and more effective techniques. Pictured here are personal projects from 2017: cream-filled cookies, a senior project visualization and a mobile game asset.</p>
+
+                <div class="image-container">
+                <img alt="Personal Projects" src="imageAssets/subgroups/Animation1.jpg"/>
+                </div>
+
+
+                <p><span class="title bold">Shop Projects</span>Each fall, GRT prepares rookies for build season by producing its own offseason robotics competition. The project is meant to mirror the feeling of build season and give rookies a taste of the second-semester rush. The Animation Team provides graphics to flesh-out the rule book and represent important parts of the game visually. In 2017, the shop project required robots to open drawers to retrieve game pieces and move them across the field.</p>
+
+                <div class="image-container">
+                <img alt="Shop Project Graphics" src="imageAssets/subgroups/Animation2.jpg"/>
+                </div>
+
+                <p><span class="title bold">Training</span>Animation Team rookies are not expected to have any animation knowledge prior to joining the team. At the beginning of each year, the Animation Lead organizes group modeling sessions in which both rookies and experienced students can work together. Veteran members of the group are expected to teach rookies everything they need to know in order to participate. Some veterans will have more experience in certain areas of animation than others, and as such, will teach the most difficult techniques and tricks in that area. Rookies also utilize free online resources such as YouTube tutorials, 3D modeling forums, and open source projects.
+                After the group sessions and any one-on-one lessons that rookies may have requested, the new batch of animators are ready to contribute to the group. By this point they are expected to have a basic understanding of modeling and texturing, as those are the easiest tasks to complete contemporaneously. Animation of models, scene composition, lighting, and rendering are all taught by the veterans most experienced in that area. Rookies who seek these additional skills and techniques are trained on an individual level.</p>
 
                 ]]>
         </SSBody>
