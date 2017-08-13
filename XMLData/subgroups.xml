@@ -27,7 +27,7 @@
                 <p><span class="title bold">Electrical</span>The most important part of the electrical system is the Roborio, the onboard computer which controls all of the code. Each motor is controlled by a motor controller (Talon SRX), which allows for variable control. We control the pneumatic actuators through a solenoid. Other components are used for power distribution and conversion of different voltages used across the robot.
                 </p> 
 
-                <div class="image-containter"><img alt="Wiring the robot" src="imageAssets/subgroups/controls1.png"/>
+                <img src="imageAssets/subgroups/controls1.jpg" alt="Wiring the robot">
 
                 <img src="imageAssets/subgroups/Controls_electrical.jpg" alt="Layout of wires in controls"> 
 

@@ -8,7 +8,7 @@
                 <![CDATA[
                 <p><span class="title bold">About</span>Pneumatics is the branch of engineering that involves the transmission of power using pressurized air (instead of, for instance, electricity). Typically, pressurized air (<100 psi) is stored in a tank using a compressor, and then its release from the tank is controlled using pressure regulators, valves, and tubing.  GRT’s robots often have pneumatic systems powering mechanical parts, especially mechanisms that require linear motion.</p>
 
-                <div class="image-container"><img alt="Pneumatics" src="imageAssets/subgroups/noomatics1.jpg"/></div>
+                <img alt="Pneumatics" src="imageAssets/subgroups/noomatics1.jpg">
 
                 <p><span class="title bold">Projcets</span>Every year, the pneumatics group plans the use and placement of pneumatic system components for both a fall “haunted house” project for a local elementary school and for the FIRST competition robot.</p>
 
