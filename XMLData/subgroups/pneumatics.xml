@@ -6,16 +6,11 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
+           <p><span class="title bold">About</span>
+                Pneumatics is the branch of engineering htat involves the tarnsmission of power using pressurized air (instead of, for instance, electricity). Typically, pressurized air (<100 psi) is stored in a tank using a compressor, and then its release from the tank is controlled using pressure regulators, valves, and tubing. GRT's robots often have pneumatic systems powering mechanical parts, especially mechanisms that require linear motion.
+                </p>
 
-                <p><span class="title bold">About</span>Pneumatics is the branch of engineering that involves the transmission of power using pressurized air (instead of, for instance, electricity). Typically, pressurized air (<100 psi) is stored in a tank using a compressor, and then its release from the tank is controlled using pressure regulators, valves, and tubing.  GRT’s robots often have pneumatic systems powering mechanical parts, especially mechanisms that require linear motion.</p>
-
-                <p><span class="title bold">Projects</span>Every year, the pneumatics group plans the use and placement of pneumatic system components for both a fall “haunted house” project for a local elementary school and for the FIRST competition robot.</p>
-
-                <img src="imageAssets/subgroups/noomatics1.jpg" alt="Pneumatics">
-
-                <p><span class="title bold">Training</span>To start pneumatics training, we learn all of the components (e.g. tubing, actuators, solenoids, tanks, and safety equipment) so everyone understands the basic concepts behind each piece of equipment. Practice exercises are assigned, such as turning two single acting solenoids into one double acting solenoid. Planning, assembling, and troubleshooting all of the pneumatics components required for the “haunted house” project is the main training activity before build season.
-                </p> 
-            </div> 
+            </div>
             ]]>
         </SSBody>
       </section>
