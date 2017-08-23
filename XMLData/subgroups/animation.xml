@@ -15,7 +15,9 @@
 
         </p>
 
-                        <img src="imageAssets/subgroups/Animation1.jpg" alt="cream-filled cookies and personal projects">
+                     <div class="image-container">
+                      <img src="imageAssets/subgroups/Animation1.jpg" alt="cream-filled cookies and personal projects">
+</div>  
 
 
         <p><span class="title bold">Shop Project Graphics</span>
@@ -23,8 +25,10 @@
 
         </p>
 
+               <div class="image-container">
                 <img src="imageAssets/subgroups/Animation2.jpg" alt="Cabinet Clash 2017">
 
+</div> 
 
         <p><span class="title bold">Training</span>
         Animation Team rookies are not expected to have any animation knowledge prior to joining. At the beginning of each year, the Animation Lead organizes group modeling sessions in which both rookies and veterans can work to gether. Veterans are expected to teach rookies everything they need to know in order to participate. Some veterans will have more experience in certain areas of animation than others, and as such, will teach teh most difficult techniques and tricks in that area. Rookies also utilize free, online resources such as YouTube tutorials, 3D modeling forums, and open source projects.
