@@ -54,4 +54,10 @@
             <page>contact</page>
         </subNavBar>
     </category>
+    <category>
+        <title>Updates</title>
+        <subNavBar>
+            <page>updates</page>
+        </subNavBar>
+    </category>
 </navBar>
