@@ -6,13 +6,13 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p><span class="title bold">About</span>
+            <p><span class="title bold">1About</span>
             Pneumatics is the branch of engineering that involves the transmission of power using pressurized air (instead of, for instance, electricity). Typically, pressurized air (<100 pise) is stored in a tank using a compressor, and then its release from the tank is controlled using pressure regulators, valves, and tubing. GRT's robots often have pneumatic systems powering mechanical parts, especially mechanisms that require linear motion.
 
              </p>
                           <div class="image-container">
                              <img src="imageAssets/subgroups/noomatics1.jpg" alt="Close-up of pneumatics">
-</div>  
+</div>
 
 
             <p><span class="title bold">Projects</span>
@@ -21,7 +21,7 @@
 
               <p><span class="title bold">Training</span>
               To start pneumatics training we learn all of the components (e.g. tubing, actuators, solenoids, tanks,
-              and safety equipment) so everyone understands the basic concepts behind each piece of equipment. Practice exersizes are assigned, such as turning two single acting solenoids into one double acting solenoid. Planning, assembling, and troubleshooting all of the pneumatics components required for the "haunted house" project is the main training activity before build season. 
+              and safety equipment) so everyone understands the basic concepts behind each piece of equipment. Practice exersizes are assigned, such as turning two single acting solenoids into one double acting solenoid. Planning, assembling, and troubleshooting all of the pneumatics components required for the "haunted house" project is the main training activity before build season.
           </p>
 
 
