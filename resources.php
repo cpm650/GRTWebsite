@@ -1,5 +1,5 @@
 <?php
-include "PHP_Engines/grtXmlEngine.php";
+include "PHP_Engines/grtXmlsEngine.php";
 
 $GLOBALS['pageSource'] = "resources"; //name of source page, no extensions. Saves a function call in engine
 
