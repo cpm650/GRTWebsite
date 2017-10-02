@@ -70,4 +70,10 @@
             <page>updates</page>
         </subNavBar>
     </category>
+    <category>
+        <title>Donations</title>
+        <subNavBar>
+            <page>donations</page>
+        </subNavBar>
+    </category>
 </navBar>
