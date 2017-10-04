@@ -148,8 +148,11 @@ class PageContent extends XMLDoc {
 
 //Lowercases first letter
 function formatString($s) {
-    return $s ;
-    // strtolower(substr($s, 0, 1)) . substr($s, 1);
+    if($s == "CNC"){
+        return $s;
+    }else{
+        return strtolower(substr($s, 0, 1)) . substr($s, 1);
+    }
 }
 
 //TODO improve to send data when enviroment is established
