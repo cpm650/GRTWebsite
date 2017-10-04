@@ -149,7 +149,7 @@ class PageContent extends XMLDoc {
 //Lowercases first letter
 function formatString($s) {
     if($s == "CNC"){
-        return $s;
+        return strtolower($s);
     }else{
         return strtolower(substr($s, 0, 1)) . substr($s, 1);
     }
