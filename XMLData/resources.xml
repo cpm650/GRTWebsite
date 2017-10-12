@@ -28,6 +28,26 @@
     </section>
     <section>
         <SSTitle>
+            FIRST Specific Suppliers
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a>- controls electronics</li>
+
+                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- motors, gearboxes, wheels</li>
+
+                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears</li>
+
+                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a>- solenoid valves, bearings, planetary gear boxes, wheels</li>
+
+
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
+    <section>
+        <SSTitle>
             General Suppliers
         </SSTitle>
         <SSBody>
@@ -48,26 +68,7 @@
             ]]>
         </SSBody>
     </section>
-    <section>
-        <SSTitle>
-            FIRST Specific Suppliers
-        </SSTitle>
-        <SSBody>
-            <![CDATA[
-            <ul>
-                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a>- controls electronics</li>
 
-                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- motors, gearboxes, wheels</li>
-
-                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears</li>
-
-                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a>- solenoid valves, bearings, planetary gear boxes, wheels</li>
-
-
-            </ul>
-            ]]>
-        </SSBody>
-    </section>
     <section>
         <SSTitle>
             Controls
