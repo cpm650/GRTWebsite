@@ -34,8 +34,7 @@
             <![CDATA[
             <ul>
                 <li><a target="_blank" href="http://www.yelp.com/biz/alan-steel-and-supply-co-redwood-city">Alan Steel & Supply Co.</a>- sheet metal and aluminum boxbeam</li>
-                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a>- Controls electronics</li>
-                <li><a target="_blank" href="http://www.bimba.com/">Bimba</a>- Pneumatics Components</li>
+                <li><a target="_blank" href="http://www.bimba.com/">Bimba</a>- pneumatics Components</li>
                 <li><a target="_blank" href="http://coastaluminum.com/product-catalog/">Coast Aluminum</a>- aluminum, boxbeam, rod stock and sheets</li>
                 <li><a target="_blank" href="http://homedepot.com/">Home Depot</a>- wood, paintbrushes, paint, hinges, roofing</li>
                 <li><a target="_blank" href="http://www.joann.com/">Joann Fabrics</a>- bumper cloth</li>
@@ -45,7 +44,6 @@
                 <li><a target="_blank" href="http://osh.com/">Orchard Supply</a>- wood, paint, paintbrushes, hinges, fasteners</li>
                 <li><a target="_blank" href="http://tapplastics.com/">TAP Plastics</a>- plastic stock, acrylic glue</li>
                 <li><a target="_blank" href="http://usabearingsandbelts.com/">USA Bearings + Belts</a>- ball bearings + belts (surprise!)</li>
-                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a>- solenoid valves, bearings, planetary gear boxes, wheels</li>
             </ul>
             ]]>
         </SSBody>
@@ -57,21 +55,22 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://www.vexrobotics.com/vexpro/">Vex Pro</a>- Gears, motors, various electronics and pneumatics components
-</li>
-                <li><a target="_blank" href="http://www.andymark.biz/">AndyMark, Inc</a>- FIRST specific parts and assemblies
-</li>
-                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- Motors, gearboxes, wheels
-</li>
-                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears
-</li>
+                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a>- controls electronics</li>
+
+                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- motors, gearboxes, wheels</li>
+
+                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears</li>
+
+                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a>- solenoid valves, bearings, planetary gear boxes, wheels</li>
+
+
             </ul>
             ]]>
         </SSBody>
     </section>
     <section>
         <SSTitle>
-Controls
+            Controls
         </SSTitle>
         <SSBody>
             <![CDATA[
@@ -91,7 +90,7 @@ Controls
     </section>
     <section>
         <SSTitle>
-Drivetrain
+            Drivetrain
         </SSTitle>
         <SSBody>
             <![CDATA[
