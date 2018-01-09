@@ -53,18 +53,12 @@ a:hover{
     width: 100%;
 }
 
+.hoverimg:hover{
+    opacity:.5;
+}
 .hoverimg_descriptionlayer {
     align-items: center;
     visibility: hidden;
-    top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(36, 62, 206, 0.6);
-  color: #fff;
-  opacity: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .hoverimg:hover .hoverimg_descriptionlayer {
@@ -78,7 +72,6 @@ a:hover{
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 #navigation-wrapper{
