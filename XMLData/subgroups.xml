@@ -13,7 +13,7 @@
                 </p>
 
                 <div class="hoverimg">
-                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations" />
+                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
                     <div class="hoverimg_descriptionlayer">
                         <div class="hovertext"> test </div>
                     </div>
