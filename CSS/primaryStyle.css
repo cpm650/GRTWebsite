@@ -73,7 +73,7 @@ a:hover{
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  transition: opacity 1s, visibility .1s;
+  transition: opacity 1s, visibility 1s;
 
 }
 
