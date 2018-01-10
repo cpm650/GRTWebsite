@@ -54,6 +54,7 @@ a:hover{
 }
 
 .hoverimg:hover{
+    transition: opacity .2s, visibility .2s;
     opacity:.5;
 }
 .hoverimg_descriptionlayer {
@@ -64,6 +65,8 @@ a:hover{
 .hoverimg:hover .hoverimg_descriptionlayer {
     visibility: visible;
     opacity: 1;
+    transition: opacity .2s, visibility .2s;
+
 }
 .hovertext {
   color: black;
