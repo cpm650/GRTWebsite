@@ -15,7 +15,7 @@
                 <div class="hoverimg">
                     <img class="hoverimgimg" src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
                     <div class="hoverimg_descriptionlayer">
-                        <div class="hovertext"> test </div>
+                        <div> test </div>
                     </div>
                 </div>
 
