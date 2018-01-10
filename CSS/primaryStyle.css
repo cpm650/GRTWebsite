@@ -54,18 +54,17 @@ a:hover{
 }
 
 .hoverimg:hover .hoverimgimg{
-    transition: opacity .1s, visibility .1s;
+    transition: opacity 1s, visibility 1s;
     opacity:.5;
 }
 .hoverimg_descriptionlayer {
     align-items: center;
     visibility: hidden;
 }
-
 .hoverimg:hover .hoverimg_descriptionlayer {
     visibility: visible;
     opacity: 1;
-    transition: opacity .1s, visibility .1s;
+    transition: opacity 1s, visibility .1s;
 
 }
 .hovertext {
