@@ -53,7 +53,7 @@ a:hover{
     width: 100%;
 }
 
-.hoverimg:hover{
+.hoverimg:hover .hoverimgimg{
     transition: opacity .2s, visibility .2s;
     opacity:.5;
 }

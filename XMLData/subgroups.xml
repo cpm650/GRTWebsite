@@ -12,8 +12,8 @@
                 <p><span class="title bold">Swerve</span>For the 2017 game, we developed a new swerve drivetrain. This drive system required a much more complex control due to the additional axis of rotation of the wheel. We installed versaplanetary encoders on each module to control the angle of the wheel, and limit switches for in-match zeroing. The driver was given the option for ackerman steering, which is similar to previous drive control systems, but is more sophisticated, and strafing, in which the robot goes in any direction without changing orientation. These two modes allowed the driver to quickly move across the field around defense and then make accurate movements to score gears.
                 </p>
 
-                <div class="hoverimgimg">
-                    <img class="hoverimg" src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
+                <div class="hoverimg">
+                    <img class="hoverimgimg" src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
                     <div class="hoverimg_descriptionlayer">
                         <div class="hovertext"> test </div>
                     </div>
