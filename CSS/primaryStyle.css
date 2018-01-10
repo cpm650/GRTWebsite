@@ -64,7 +64,6 @@ a:hover{
 .hoverimg:hover .hoverimg_descriptionlayer {
     visibility: visible;
     opacity: 1;
-    transition: opacity 1s, visibility .1s;
 
 }
 .hovertext {
@@ -74,6 +73,8 @@ a:hover{
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
+  transition: opacity 1s, visibility .1s;
+
 }
 
 #navigation-wrapper{
