@@ -60,10 +60,6 @@ a:hover{
 .hoverimg_descriptionlayer {
     align-items: center;
     visibility: hidden;
-}
-.hoverimg:hover .hoverimg_descriptionlayer {
-    visibility: visible;
-    opacity: 1;
     color: black;
     font-size: 20px;
     top: 50%;
@@ -71,6 +67,11 @@ a:hover{
     position: absolute;
     transform: translate(-50%, -50%);
     transition: opacity 1s, visibility 1s;
+}
+.hoverimg:hover .hoverimg_descriptionlayer {
+    visibility: visible;
+    opacity: 1;
+
 
 }
 
