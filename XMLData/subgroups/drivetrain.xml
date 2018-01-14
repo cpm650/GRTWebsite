@@ -17,9 +17,14 @@
             During the later stages of build season, the lead drive train designer(s) for the year will begin working with a small group of students on the intricacies of gearbox and transmission design. The final competition robot will usually include at least one system designed by these trainees, something like a winch or flywheel gearbox.
             After competition seasons end, the drive train design training begins in earnest. Here the designers that have just gone through a year of development, building and competition help their successors through the problems that they faced. This training carries on into the summer, where much of the formality of the earlier lessons is lost, and the mentorship slowly morphs into the new teams research and development for the following year.
             The importance of the effectiveness of this process should be clearly evident. On student design teams such as this, where the turnover of head designers is almost 100% from year to year, it is critical that this knowledge gets passed down, so that we can continue to improve, and further our legacy of stunning student design.</p>
-            <div class="image-container">
-                <img alt="Gearbox" src="imageAssets/first/Groups-DT.jpg"/>
-            </div>
+            <div class="hoverimg">
+                <img class="hoverimgimg" src="imageAssets/first/Groups-DT.jpg" alt="gearbox">
+                <div class="hoverimg_descriptionlayer">
+                    <div>
+                        Gearbox
+                    </div>
+                </div>
+            <div>
             ]]>
         </SSBody>
     </section>
