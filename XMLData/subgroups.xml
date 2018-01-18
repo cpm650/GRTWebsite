@@ -10,11 +10,11 @@
                 </p>
 
                 <div class="tab">
-                    <button class="tablinks" onclick="openImgDescription(event, 'stuff')">stuffff</button>
+                    <button class="tablinks" onclick="openImgDescription(event, 'defaultTab')">stuffff</button>
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff1')">stuffff1</button>
                 </div>
 
-                <div id="stuff" class="tabcontent">
+                <div id="defaultTab" class="tabcontent">
                     <h3> Hi </h3>
                 </div>
                 <div id="stuff1" class="tabcontent">
