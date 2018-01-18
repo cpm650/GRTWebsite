@@ -11,6 +11,7 @@
 
                 <div class="tab">
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff')">stuffff</button>
+                    <button class="tablinks" onclick="openImgDescription(event, 'stuff1')">stuffff1</button>
                 </div>
 
                 <div id="stuff" class="tabcontent">
