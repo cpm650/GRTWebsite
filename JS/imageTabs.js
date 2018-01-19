@@ -1,7 +1,8 @@
+document.getElementById("defaultTab").click();
+
+
 function openImgDescription(evt, imgName){
     var i, tabcontent, tablinks;
-    document.getElementById("defaultTab").click();
-
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++){
         tabcontent[i].style.display = "none";
