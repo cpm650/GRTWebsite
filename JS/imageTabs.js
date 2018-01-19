@@ -15,6 +15,6 @@ function openImgDescription(evt, imgName){
 
 }
 
-function openDefaults(){
+function openDefaults(evt){
     document.getElementById("defaultTab").click();
 }
