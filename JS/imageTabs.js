@@ -11,7 +11,7 @@ function openImgDescription(evt, imgName){
     }
 
     document.getElementById(imgName).style.display = "block";
-    evt.currentTarget.className += "active";
+    evt.currentTarget.className += " active";
 
 }
 
