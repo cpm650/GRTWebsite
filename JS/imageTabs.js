@@ -1,5 +1,6 @@
 function openImgDescription(evt, imgName){
     var i, tabcontent, tablinks;
+    document.getElementById("defaultTab").click();
 
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++){
@@ -14,5 +15,4 @@ function openImgDescription(evt, imgName){
     document.getElementById(imgName).style.display = "block";
     evt.currentTarget.className += "active";
 
-    document.getElementById("defaultTab").click();
 }
