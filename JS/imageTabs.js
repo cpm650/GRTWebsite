@@ -1,6 +1,3 @@
-document.getElementById("defaultTab").click();
-
-
 function openImgDescription(evt, imgName){
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -16,4 +13,8 @@ function openImgDescription(evt, imgName){
     document.getElementById(imgName).style.display = "block";
     evt.currentTarget.className += "active";
 
+}
+
+function openDefaults{
+    document.getElementById("defaultTab").click();
 }
