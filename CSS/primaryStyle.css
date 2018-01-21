@@ -16,9 +16,9 @@ html, body {
 }
 
 img{
-    display: inline-block;
-    margin: 10px auto;
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 p:last-child{
@@ -323,4 +323,9 @@ div#footer-wrapper{
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+.tablinks {
+    width: 200px;
+    height: 100px;
 }
