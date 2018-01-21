@@ -269,7 +269,7 @@ div#footer-wrapper{
 }
 
 /*Testing in progress*/
-.hoverimg {
+/*.hoverimg {
     position: relative;
     display: inline-block;
     margin: 10px auto;
@@ -333,4 +333,32 @@ div#footer-wrapper{
 .tablinks {
     width: 200px;
     height: 100px;
+}*/
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: .8;
+    cursor: pointer;;
+}
+
+.column img:hover{
+    opacity: 1.0;
+}
+
+.testBox {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
 }
