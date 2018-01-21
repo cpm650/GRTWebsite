@@ -12,10 +12,14 @@
 
                 <div class="tab">
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff')" id = "defaultTab">
-                        <img src="imageAssets/subgroups/Controls_swerve.jpg">
+                        <div>
+                        <img class="tabImage" src="imageAssets/subgroups/Controls_swerve.jpg">
+                        </div>
                     </button>
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff1')">
-                        <img src="imageAssets/subgroups/Controls_swerve.jpg">
+                        <div>
+                        <img clas="tabImage" src="imageAssets/subgroups/Controls_swerve.jpg">
+                        </div>
                     </button>
                 </div>
 
