@@ -11,10 +11,10 @@
 
             <div class="row">
                 <div class="column">
-                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Nature" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                    <img src="imageAssets/subgroups/Controls_robot_vision.jpg" alt="Fjords" style="width:100%" onclick="myFunction(this);">
+                    <img src="imageAssets/subgroups/Controls_robot_vision.jpg" alt="Fjords" onclick="myFunction(this);">
                 </div>
             </div>
 
