@@ -6,21 +6,29 @@
         </SSTitle>
         <SSBody>
         <![CDATA[
-        <p><span class="title bold">About</span>The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      <a href = "https://github.com/grt192" target="_blank"> https://github.com/grt192</a>.
+        <p><span class="title bold">About</span>The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      <a href="https://github.com/grt192" target="_blank"> https://github.com/grt192</a>.
         </p>
 
             <div class="row">
                 <div class="column">
-                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="Nature" onclick="myFunction(this);">
+                    <img src="imageAssets/subgroups/Controls_swerve.jpg" alt="The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      " onclick="myFunction(this);" class="tabImage">
+<script> function myFunction(imgs){
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
                 </div>
                 <div class="column">
-                    <img src="imageAssets/subgroups/Controls_robot_vision.jpg" alt="Fjords" onclick="myFunction(this);">
+                    <img src="imageAssets/subgroups/Controls_robot_vision.jpg" alt="Each FIRST match is split into two sections: autonomous and teleop. The autonomous period typically lasts fifteen seconds and allows no driver operation. Each year, there are different tasks that can be completed during autonomous for a variety of points. In years like 2016 when there are many different task options, our team has developed many different autonomous modes. The strategically best option is chosen before each match. For autonomous, we either use hard-coded or recorded values to run the sequence that completes the task. In hard-coded autonomous modes, we manually tell the robot exactly what to do for specified distances or amounts of time. This is useful for simple autonomous procedures. For more complicated ones, we sometimes turn to recording. In this case, a driver will perform the sequence with full control of the robot while our code records the values sent to the different mechanisms. We save the sequence to a file and play back whenever we run autonomous." onclick="myFunction(this);" class="tabImage">
                 </div>
             </div>
 
-            <div class="testBox">
-                <img id="expandedImg" style="width:100%">
-                <div id="imgtext"></div>
+            <div class="testBox" style="display: block;">
+                <img id="expandedImg" style="width:100%" src="http://gunnrobotics.com/imageAssets/subgroups/Controls_swerve.jpg">
+                <div id="imgtext">The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      </div>
             </div>
 
             <!-- <div class="tab">
