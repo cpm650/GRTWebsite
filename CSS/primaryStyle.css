@@ -366,6 +366,6 @@ div#footer-wrapper{
     position: absolute;
     padding: 20px;
     top: 15px;
-    color: white;
+    color: rgb(100,100,100);
     font-size: 24px;
 }
