@@ -16,12 +16,12 @@
         </div>
 
         <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/PM5544_with_non-PAL_signals.png/384px-PM5544_with_non-PAL_signals.png" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);"/>
-            <img src="http://www.dinosaurfact.net/Pictures/Nigersaurus3.jpg" alt="hi rex" onclick="myFunction(this);"/>
+            <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);">
+            <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);">
         </div>
 
-        <div id="imgCont" style="display: block;">
-            <img id="expandedImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/PM5544_with_non-PAL_signals.png/384px-PM5544_with_non-PAL_signals.png"/>
+        <div id="imgCont">
+            <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
         </div>
 
         </SSBody>
