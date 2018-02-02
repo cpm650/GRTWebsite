@@ -16,8 +16,8 @@
         </div>
 
         <div class="col">
-            <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);">
-            <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);">
+            <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);" />
+            <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);" />
         </div>
 
         <div id="imgCont">
