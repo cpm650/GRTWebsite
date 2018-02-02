@@ -5,24 +5,24 @@
             Controls
         </SSTitle>
         <SSBody>
-        <div id="disp">
-            <div id="dispTitle">
-                <p> test </p>
+            <div id="disp">
+                <div id="dispTitle">
+                    <p> test </p>
+                </div>
+
+                <div id="dispText">
+                    asdfasdfasdfasdfasdf
+                </div>
             </div>
 
-            <div id="dispText">
-                asdfasdfasdfasdfasdf
+            <div class="col">
+                <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);" />
+                <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);" />
             </div>
-        </div>
 
-        <div class="col">
-            <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);" />
-            <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);" />
-        </div>
-
-        <div id="imgCont">
-            <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
-        </div>
+            <div id="imgCont">
+                <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
+            </div>
 
         </SSBody>
       </section>
