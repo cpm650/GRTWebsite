@@ -369,3 +369,45 @@ div#footer-wrapper{
     color: white;
     font-size: 24px;
 }
+
+#disp {
+    position: relative;
+    background-color: red;
+    height: 600px;
+    max-width: 25vw;
+    left:0px;
+}
+
+.col {
+    position:absolute;
+    width: 20vw;;
+    top: 0;
+    left:25vw;
+}
+
+.col img{
+    cursor: pointer;
+}
+#dispTitle p {
+    position: relative;
+    margin: 15px;
+    top: 15px;
+    background-color blue;
+}
+
+#dispText {
+    position: relative;
+    padding: 15px;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+#imgCont {
+    position: absolute;
+    left: 45vw;
+    background-color: blue;
+    height: 600px;
+    width: 55vw;;
+    top: 0px;
+
+}
