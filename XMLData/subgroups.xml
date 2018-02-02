@@ -5,7 +5,7 @@
             Controls
         </SSTitle>
         <SSBody>
-            <div id="disp">
+            <!-- <div id="disp">
                 <div id="dispTitle">
                     <p> test </p>
                 </div>
@@ -16,14 +16,14 @@
             </div>
 
             <div class="col">
-                <!-- <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);" />
-                <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);" /> -->
+                <img src="imageAssets/subgroups/noomatics1.jpg" alt="asdfasdfasdfasdfasdf" onclick="myFunction(this);" />
+                <img src="imageAssets/subgroups/noomatics1.jpg" alt="hi rex" onclick="myFunction(this);" />
             </div>
 
             <div id="imgCont">
                 <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
-            </div>
-
+            </div> -->
+            <p>test</p>
         </SSBody>
       </section>
 </pageSections>
