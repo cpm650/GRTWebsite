@@ -6,7 +6,7 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <!-- <div id="disp">
+            <div id="disp">
                 <div id="dispTitle">
                     <p> test </p>
                 </div>
@@ -23,8 +23,7 @@
 
             <div id="imgCont">
                 <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
-            </div> -->
-            <p>test</p>
+            </div>
             ]]>
 
         </SSBody>
