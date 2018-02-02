@@ -5,6 +5,7 @@
             Controls
         </SSTitle>
         <SSBody>
+            <![CDATA[
             <!-- <div id="disp">
                 <div id="dispTitle">
                     <p> test </p>
@@ -24,6 +25,8 @@
                 <img id="expandedImg" src="imageAssets/subgroups/noomatics1.jpg"/>
             </div> -->
             <p>test</p>
+            ]]>
+
         </SSBody>
       </section>
 </pageSections>
