@@ -97,7 +97,7 @@ a:hover{
 /* General Structuring */
 .subsection{
     width: 100%;
-    padding: 60px;
+    padding: 120px;
     margin: 0px auto;
 }
 
@@ -343,7 +343,7 @@ div#footer-wrapper{
 
 .column img {
     opacity: .8;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .column img:hover{
