@@ -9,7 +9,7 @@
             <![CDATA[
            <p><span class="title bold">About</span>The controls group is responsible for two main tasks: electrical design and wiring, and software coding. Electrical design involves working with mechanism and drive train teams to incorporate sensors that will collect information necessary to run the robot, and uses technical skills such as crimping, soldering and troubleshooting to complete the wiring on the robot. Software coding involves designing and writing the code that makes all the mechanisms move while collecting data from on-board sensors, allowing the robot to operate in both autonomous mode and from the driver station in tele-operation mode. Our code is written in Python, which not only allows for fast coding during build and competition but is also easy to teach to inexperienced coders. Our code repositories are available at:      <a href = "https://github.com/grt192" target="_blank"> https://github.com/grt192</a>.
                 </p>
-
+<!--
                 <div class="tab">
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff')" id = "defaultTab">
                         <img src="imageAssets/subgroups/Controls_swerve.jpg">
@@ -17,25 +17,25 @@
                     <button class="tablinks" onclick="openImgDescription(event, 'stuff1')">
                         <img src="imageAssets/subgroups/Controls_swerve.jpg">
                     </button>
-                </div>
+                </div> -->
 
-                <div id="stuff" class="tabcontent">
+                <!-- <div id="stuff" class="tabcontent">
                     <h3> Hi </h3>
                 </div>
                 <div id="stuff1" class="tabcontent">
                     <h3> Hi1 </h3>
-                </div>
+                </div> -->
 
 
                 <p><span class="title bold">Swerve</span>For the 2017 game, we developed a new swerve drivetrain. This drive system required a much more complex control due to the additional axis of rotation of the wheel. We installed versaplanetary encoders on each module to control the angle of the wheel, and limit switches for in-match zeroing. The driver was given the option for ackerman steering, which is similar to previous drive control systems, but is more sophisticated, and strafing, in which the robot goes in any direction without changing orientation. These two modes allowed the driver to quickly move across the field around defense and then make accurate movements to score gears.
                 </p>
 
-                <div class="hoverimg">
+                <!-- <div class="hoverimg">
                     <img class="hoverimgimg" src="imageAssets/subgroups/Controls_swerve.jpg" alt="Calculations">
                     <div class="hoverimg_descriptionlayer">
                         <div> test </div>
                     </div>
-                </div>
+                </div> -->
 
                 <p><span class="title bold">Robot Vision</span>For the 2016 game, one of our main challenges was developing a working robot vision system. We used OpenCV to detect the goals (marked by reflective tape on the field) and fire boulders automatically. We used vision in autonomous mode to consistently score high goal shots and in teleop mode to make control of the shooter easier for the driver, by aiming and firing at the press of a button.
                 </p>
