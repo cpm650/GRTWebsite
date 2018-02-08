@@ -18,8 +18,12 @@
             <b2><span class="bold">What is your favorite GRT experience?</span></b2>
             <p>I love to watch the students work through their ideas to reach a solution, when the lightbulb goes off.</p>
 
+            <div class="wrap-image">
             <img src="imageAssets/mentors/Seth.jpg" alt="Seth lecturing about rivet spacing">
+            </div>
+            <div class="wrap-image">
             <img src="imageAssets/mentors/WoodieFlowers.jpg" alt="Seth's Woodie Flower Banner">
+            </div>
 
             ]]>
         </SSBody>
