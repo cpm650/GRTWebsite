@@ -96,8 +96,8 @@ a:hover{
 
 /* General Structuring */
 .subsection{
-    width: 100%;
-    padding: 120px;
+    width: 60%;
+    padding: 0px;
     margin: 0px auto;
 }
 
