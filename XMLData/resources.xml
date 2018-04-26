@@ -119,4 +119,16 @@
             ]]>
         </SSBody>
     </section>
+    <section>
+        <SSTitle>
+            Special Mentions
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <ul>
+                <li><a target="_blank" href="https://www.mapcon.com/us-en/guide-to-robotics">Mapcon Robotics Guide</a>- An accessible and thorough resource for learning about Robotics--suggested by Ms. Zimri and her Junior Scouts.</li>
+            </ul>
+            ]]>
+        </SSBody>
+    </section>
 </pageSections>

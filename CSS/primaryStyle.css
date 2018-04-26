@@ -16,10 +16,9 @@ html, body {
 }
 
 .tabImage{
-    display: absolute;
+    display: flex;
     max-width: 100%;
     max-height: 100%;
-    height: 15vw;
 }
 img{
     display: inline-block;
@@ -97,7 +96,7 @@ a:hover{
 
 /* General Structuring */
 .subsection{
-    width: 100%;
+    width: 60%;
     padding: 0px;
     margin: 0px auto;
 }
@@ -335,22 +334,32 @@ div#footer-wrapper{
     width: 200px;
     height: 100px;
 }*/
+<<<<<<< HEAD
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+=======
+>>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
 
 .column {
     float: left;
     width: 25%;
+<<<<<<< HEAD
     max-height: 15%;
+=======
+>>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
     padding: 10px;
 }
 
 .column img {
     opacity: .8;
+<<<<<<< HEAD
     cursor: pointer;;
+=======
+    cursor: pointer;
+>>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
 }
 
 .column img:hover{
@@ -364,9 +373,19 @@ div#footer-wrapper{
 
 #imgtext {
     position: absolute;
+<<<<<<< HEAD
     padding: 20px;
     top: 15px;
     color: rgb(100,100,100);
     font-size: 24px;
     font-weight: bold;
+=======
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.wrap-image {
+>>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
 }
