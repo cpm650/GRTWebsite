@@ -64,6 +64,12 @@
         </subNavBar>
     </category>
     <category>
+        <title>Summer</title>
+        <subNavBar>
+            <page>Register</page>
+        </subNavBar>
+    </category>
+    <category>
         <title>Contact</title>
         <subNavBar>
             <page>contact</page>
