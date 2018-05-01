@@ -6,7 +6,8 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <p>To register for GRT summer camp 2018, please fill out the following form:</p>
+            <p>To register for GRT summer camp 2018, please fill out the following form:</p>
+            <form action="../registration.php" method="post" enctype="multipart/form-data">
             ]]>
         </SSBody>
       </section>
