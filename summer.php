@@ -10,7 +10,7 @@ $navBar = new navBar();
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>GRT | FIRST</title>
+    <title>GRT | Summer</title>
 
     <?php include "modules/std-config.php";?>
 </head>
