@@ -182,8 +182,8 @@ include "modules/navBar.php";
     <div class='subsection'>
         <div class='sectionTitle'>Contact information</div>
         <div class='sectionBody'>
-        First name:<input type="text" name="parent_firstname"><br>
-        Last name:<input type="text" name="parent_lastname"><br>
+        Parent's first name:<input type="text" name="parent_firstname"><br>
+        Parent's last name:<input type="text" name="parent_lastname"><br>
         <span class='error'><?php echo $parent_nameerror;?></span><br>
         Parent's email:<input type="text" name="parent_email">
         <span class='error'><?php echo $parent_emailerror;?></span><br>
