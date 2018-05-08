@@ -1,10 +1,9 @@
 <?php
-ob_start();
 include "PHP_Engines/grtXmlEngine.php";
 
 $GLOBALS['pageSource'] = "summer"; //name of source page, no extensions. Saves a function call in engine
 
-$pageContent = new PageContent();
+#$pageContent = new PageContent();
 $navBar = new navBar();
 ?>
 <!DOCTYPE html>
@@ -12,7 +11,6 @@ $navBar = new navBar();
 <head>
     <meta charset="utf-8" />
     <title>GRT | Summer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!--For Bootstrap-->
     <style>
         .error {color: #FF0000;}
         .button-red{
@@ -20,8 +18,11 @@ $navBar = new navBar();
             background-color:rgb(170,10,10);
             border-color:rgb(170,10,10);
         }
+        .success{color:rgb(170,10,10);}
     </style>
     <?php include "modules/std-config.php";?>
+    <link rel='stylesheet' href='CSS/bootstrap-iso.css'>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
 </head>
 <body onload="navigationInit(<?php echo $navBar->currentIndex; ?>)">
 <?php
@@ -33,8 +34,9 @@ include "modules/navBar.php";
     $parent_emailerror=$otherschoolerror=$parent_phoneerror='';
     $addresserror=$emergencyerror=$allergyerror=$healtherror='';
     $fooderror=$gradeerror='';
+    $success='<h1 class="success">Register for GRT summer camp 2018!</h1><br><br>';
     if($_SERVER['REQUEST_METHOD']=='POST'){
-        if(empty($_POST['school'])){
+        if($_POST['school']=='select'){
             $schoolerror='Required';
             $error=1;
         }
@@ -111,18 +113,19 @@ include "modules/navBar.php";
             if($_POST['health']=='no') {$health='no';}
             else {$health=test_input($_POST['yes_health']);}
             $comment=test_input($_POST['comment']);
-            $fileout=fopen('./summer_data.csv','a') or die('Cannot open file');
-            fwrite($fileout,'\n'.$firstname.','.$lastname.','.$_POST['birthday'].',');
+            $fileout=fopen('../summer_data.csv','a') or die('Cannot open file');
+            fwrite($fileout,"\n".$firstname.','.$lastname.','.$_POST['birthday'].',');
             fwrite($fileout,$school.','.$parent_firstname.','.$parent_lastname.',');
             fwrite($fileout,$parent_email.','.$parent_phone.','.$address.',');
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
             fwrite($fileout,$food.','.$health.','.$_POST['grade'].','.$comment.';');
             fclose($fileout);
-            //ob_end_clean();
+            $success='<h1 class="success">Success!</h1><br>You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.<br><br><br>';
         }
     }
 ?>
-<div class="wrapper" id="content-wrapper">
+<div class="wrapper bootstrap-iso" id="content-wrapper">
+    <?php echo $success?>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='subsection'>
@@ -132,11 +135,23 @@ include "modules/navBar.php";
         Last name:<input type="text" name="lastname"><br>
         <span class='error'><?php echo $nameerror;?></span><br>
         Birthday:<input type="date" name="birthday"><br>
-        Which school will you be going to next semester?
-        <span class="error"><?php echo $schoolerror;?></span><br>
-        <input type="radio" name="school" value="terman">Terman Middle School<br>
-        <input type="radio" name="school" value="jls">JLS Middle School<br>
-        <input type="radio" name="school" value='other'>Other<br>
+        Which school will you be going to next semester?<br>
+        <select name='school'>
+            <option value='select'>Select</option>
+            <option value='addison'>Addison Elementary</option>
+            <option value='barron park'>Barron Park Elementary</option>
+            <option value='duveneck'>Duveneck Elementary</option>
+            <option value='el carmelo'>El Carmelo Elementary</option>
+            <option value='escondido'>Escondido Elementary</option>
+            <option value='fairmeadow'>Fairmeadow Elementary</option>
+            <option value='hoover'>Herbert Hoover Elementary</option>
+            <option value='juana briones'>Juana Briones Elementary</option>
+            <option value='nixon'>Lucille M. Nixon Elementary</option>
+            <option value='ohlone'>Ohlone Elementary</option>
+            <option value='palo verde'>Palo Verde Elementary</option>
+            <option value='walter hays'>Walter Hays Elementary</option>
+            <option value='other'>Other</option>
+        </select><span class="error"><?php echo $schoolerror;?></span><br>
         If other, please specify:<br>
         <input type="text" name="other_school"><br>
         <span class="error"><?php echo $otherschoolerror?></span>
@@ -204,7 +219,7 @@ include "modules/navBar.php";
         <input type="text" name="yes_health"><br>
         <span class='error'><?php echo $healtherror;?></span><br>
         </div>
-    <button class='btn button-red btn-lg btn-block' type='submit'>&gt;&gt;Let's go!&lt;&lt;</button>
+    <button class='btn btn-lg btn-block button-red' type='submit'>&gt;&gt;Let's go!&lt;&lt;</button>
     </div>
     </div>
     <!--<input type="submit" value="submit" name="submit">-->
