@@ -113,8 +113,8 @@ include "modules/navBar.php";
             if($_POST['health']=='no') {$health='no';}
             else {$health=test_input($_POST['yes_health']);}
             $comment=test_input($_POST['comment']);
-            $fileout=fopen('../summer_data.csv','a') or die('Cannot open file');
-            fwrite($fileout,"\n".$firstname.','.$lastname.','.$_POST['birthday'].',');
+            $fileout=fopen('../../summer_data.csv','a') or die('Cannot open file');
+            fwrite($fileout,$firstname.','.$lastname.','.$_POST['birthday'].',');
             fwrite($fileout,$school.','.$parent_firstname.','.$parent_lastname.',');
             fwrite($fileout,$parent_email.','.$parent_phone.','.$address.',');
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
