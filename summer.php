@@ -18,7 +18,8 @@ $navBar = new navBar();
             background-color:rgb(170,10,10);
             border-color:rgb(170,10,10);
         }
-        .success{color:rgb(170,10,10);}
+        .success{color:rgb(170,10,10);text-align:center;}
+        .center{text-align:center;}
     </style>
     <?php include "modules/std-config.php";?>
     <link rel='stylesheet' href='CSS/bootstrap-iso.css'>
@@ -33,7 +34,7 @@ include "modules/navBar.php";
     $nameerror=$parent_nameerror=$schoolerror=$birthdayerror='';
     $parent_emailerror=$otherschoolerror=$parent_phoneerror='';
     $addresserror=$emergencyerror=$allergyerror=$healtherror='';
-    $fooderror=$gradeerror='';
+    $fooderror=$gradeerror=$hidden='';
     $success='<h1 class="success">Register for GRT summer camp 2018!</h1><br><br>';
     if($_SERVER['REQUEST_METHOD']=='POST'){
         if($_POST['school']=='select'){
@@ -120,12 +121,15 @@ include "modules/navBar.php";
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
             fwrite($fileout,$food.','.$health.','.$_POST['grade'].','.$comment.';');
             fclose($fileout);
-            $success='<h1 class="success">Success!</h1><br>You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.<br><br><br>';
+            $success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
+            $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<img src="imageAssets/summer/success.jpg"></div></div></div></div>';
+            $hidden='hidden';
         }
     }
 ?>
 <div class="wrapper bootstrap-iso" id="content-wrapper">
-    <?php echo $success?>
+    <?php echo $success;?>
+    <div <?php echo $hidden;?>>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='subsection'>
@@ -156,7 +160,7 @@ include "modules/navBar.php";
         <input type="text" name="other_school"><br>
         <span class="error"><?php echo $otherschoolerror?></span>
         <br>
-        Which grade will you be in?<br>
+        Which grade will you be in next semester?<br>
         <select name='grade'>
             <option value='select'>Select</option>
             <option value='pre'>Preschool</option>
@@ -224,6 +228,7 @@ include "modules/navBar.php";
     </div>
     <!--<input type="submit" value="submit" name="submit">-->
     </form>
+    </div>
 </div>
 <?php
 include "modules/footer.php";

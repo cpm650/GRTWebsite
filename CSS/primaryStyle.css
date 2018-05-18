@@ -334,32 +334,17 @@ div#footer-wrapper{
     width: 200px;
     height: 100px;
 }*/
-<<<<<<< HEAD
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-=======
->>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
 
 .column {
     float: left;
     width: 25%;
-<<<<<<< HEAD
     max-height: 15%;
-=======
->>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
     padding: 10px;
 }
 
 .column img {
     opacity: .8;
-<<<<<<< HEAD
-    cursor: pointer;;
-=======
     cursor: pointer;
->>>>>>> e09ef38d23418047c08d5e98969105ae90a48ecc
 }
 
 .column img:hover{
