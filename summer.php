@@ -123,7 +123,7 @@ include "modules/navBar.php";
             fwrite($fileout,$food.','.$health.','.$_POST['grade'].','.$comment.';');
             fclose($fileout);
             $success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
-            $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<img src="imageAssets/summer/success.jpg"></div></div></div></div>';
+            $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<br><br>Please contact us at <a href="mailto:gunnrobotics192@gmail.com">gunnrobotics192@gmail.com</a> for scholarship information or questions.</div><img src="imageAssets/summer/success.jpg"></div></div></div>';
             $hidden='hidden';
         }
     }
