@@ -94,12 +94,13 @@ include "modules/navBar.php";
           $data = stripslashes($data);
           $data = htmlspecialchars($data);
           $data=str_replace(',','.',$data);
+          $data=str_replace(';','.',$data);
           return $data;
         }
         if($error==0){
             $firstname=test_input($_POST['firstname']);
             $lastname=test_input($_POST['lastname']);
-            if($_POST['school']!='other') {$school=$_POST['school'];}
+            if($_POST['school']!='other') {$school=test_input($_POST['school']);}
             else {$school=test_input($_POST['other_school']);}
             $parent_firstname=test_input($_POST['parent_firstname']);
             $parent_lastname=test_input($_POST['parent_lastname']);
