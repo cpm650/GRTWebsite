@@ -2,91 +2,31 @@
 <pageSections>
     <section>
         <SSTitle>
-            Register
+            2018 Robotics summer camp
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <?php
-                // define variables and set to empty values
-                $nameErr = $emailErr = $genderErr = $websiteErr = "";
-                $name = $email = $gender = $comment = $website = "";
-
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                  if (empty($_POST["name"])) {
-                    $nameErr = "Name is required";
-                  } else {
-                    $name = test_input($_POST["name"]);
-                  }
-                  
-                  if (empty($_POST["email"])) {
-                    $emailErr = "Email is required";
-                  } else {
-                    $email = test_input($_POST["email"]);
-                  }
-                    
-                  if (empty($_POST["website"])) {
-                    $website = "";
-                  } else {
-                    $website = test_input($_POST["website"]);
-                  }
-
-                  if (empty($_POST["comment"])) {
-                    $comment = "";
-                  } else {
-                    $comment = test_input($_POST["comment"]);
-                  }
-
-                  if (empty($_POST["gender"])) {
-                    $genderErr = "Gender is required";
-                  } else {
-                    $gender = test_input($_POST["gender"]);
-                  }
-                }
-
-                function test_input($data) {
-                  $data = trim($data);
-                  $data = stripslashes($data);
-                  $data = htmlspecialchars($data);
-                  return $data;
-                }
-                ?>
-
-                <h2>PHP Form Validation Example</h2>
-                <p><span class="error">* required field</span></p>
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-                  Name: <input type="text" name="name">
-                  <span class="error">* <?php echo $nameErr;?></span>
-                  <br><br>
-                  E-mail: <input type="text" name="email">
-                  <span class="error">* <?php echo $emailErr;?></span>
-                  <br><br>
-                  Website: <input type="text" name="website">
-                  <span class="error"><?php echo $websiteErr;?></span>
-                  <br><br>
-                  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-                  <br><br>
-                  Gender:
-                  <input type="radio" name="gender" value="female">Female
-                  <input type="radio" name="gender" value="male">Male
-                  <input type="radio" name="gender" value="other">Other
-                  <span class="error">* <?php echo $genderErr;?></span>
-                  <br><br>
-                  <input type="submit" name="submit" value="Submit">  
-                </form>
-
-                <?php
-                echo "<h2>Your Input:</h2>";
-                echo $name;
-                echo "<br>";
-                echo $email;
-                echo "<br>";
-                echo $website;
-                echo "<br>";
-                echo $comment;
-                echo "<br>";
-                echo $gender;
-                ?>
+                <p class='bold'>Come join the Gunn HS Robotics Team this summer to enjoy a thrilling and valuable robotics experience! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete and complete challenges while learning the fundamental skills for being an engineer.</p>
+                <img src='imageAssets/summer/IMG_8135.JPG' alt='Come tour our shop!'>
             ]]>
         </SSBody>
-      </section>
+    </section>
+    <section>
+        <SSTitle>
+            FAQ
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+                <p><span class='title bold'>When and where is it&#63;</span>The summer camp will be held from 8:30am to 3pm on June 11-15, 2018, at the Gunn HS Robotics Lab (L-5) at Gunn High School.</p>
+                <iframe class="map-bottom" src="https://www.google.com/maps/embed/v1/place&#63;key=AIzaSyCyIkrDoUFbj8yZHBkiH03I0yyh1VsTfvI&amp;q=Henry+M+Gunn+High+School" allowfullscreen="" width="598" height="450">
+                </iframe>
+                <p><span class='title bold'>Who is the camp for&#63;</span>The recommended age range for campers is rising 5th graders to rising 8th graders. A beginner skill level is recommended as well.</p>
+                <p><span class='title bold'>Is there a recommended donation&#63;</span>We recommend a donation of $350 to cover material costs and snacks. To donate, please mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.</p>
+                <p><span class='title bold'>When should I register my camper&#63;</span>If you would like to attend, please register by the end of the day on Friday, May 25, 2018. If you have registered online, you will receive a confirmation email shortly after. If you have registered by mail, you will receive a confirmation email once your form is accepted.</p>
+                <p><span class='title bold'>Who are the counselors&#63;</span>The counselors running the camp and teaching the course material are current students on the Gunn HS Robotics Team! All of our counselors are enthusiastic and eager to teach, and are all trained in the coding and assembly of VEX IQ robotics.</p>
+                <p><span class='title bold'>Will food be provided&#63;</span>We ask that your child bring their own lunch and reusable water bottle, but snacks will be provided throughout the day.</p>
+                <p><span class='title bold'>I have other questions, who should I ask&#63;</span>If you have other questions, please contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a>.</p>
+            ]]>
+        </SSBody>
+    </section>
 </pageSections>

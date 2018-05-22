@@ -84,10 +84,23 @@ class NavBar extends XMLDoc {
                 for($b = 0; $b < $subPages->count(); $b++){ //each tab
                     if($b == 0){
                         $pageAddress = $this->data->category[$a]->title . ".php";
-                    } else if(strrpos($subPages[$b], " ")){
-                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString(substr($subPages[$b], strrpos($subPages[$b], " ") + 1)); //extract everything after last space
-                    } else{
-                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString($subPages[$b]);
+                    }
+                    /*else if(strrpos($subPages[$b], " ")){
+                        if(strpos($subPages[$b],'source')===true){
+                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString(substr($subPages[$b], strrpos($subPages[$b], " ") + 1)).$subPages[$b]; //extract everything after last space
+                        }
+                        else{
+                            $pageAddress=formatString(substr($subPages[$b],strpos($subPages[$b],'source')+6));
+                        }
+                    }*/
+                    else{
+                        if(strpos($subPages[$b],':')===false){
+                            $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString($subPages[$b]);
+                        }
+                        else{
+                            $pageAddress=formatString(substr($subPages[$b],strpos($subPages[$b],':')+1));
+                            $subPages[$b]=substr($subPages[$b],0,strpos($subPages[$b],':'));
+                        }
                     }
 
                     $pageAddress = formatString($pageAddress);
