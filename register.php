@@ -164,14 +164,11 @@ include "modules/navBar.php";
         Which grade will you be in next semester?<br>
         <select name='grade'>
             <option value='select'>Select</option>
-            <option value='pre'>Preschool</option>
-            <option value='1'>1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
             <option value='5'>5</option>
             <option value='6'>6</option>
-            <option value='mid'>&gt;6</option>
+            <option value='7'>7</option>
+            <option value='8'>8</option>
+            <!--<option value='mid'>&gt;8</option>-->
         </select>
         <br>
         <span class='error'><?php echo $gradeerror;?></span><br>
