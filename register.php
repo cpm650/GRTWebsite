@@ -34,7 +34,7 @@ include "modules/navBar.php";
     $nameerror=$parent_nameerror=$schoolerror=$birthdayerror='';
     $parent_emailerror=$otherschoolerror=$parent_phoneerror='';
     $addresserror=$emergencyerror=$allergyerror=$healtherror='';
-    $fooderror=$gradeerror=$hidden='';
+    $fooderror=$gradeerror=$hidden=$othergradeerror='';
     $success='<h1 class="success">Register for GRT summer camp 2018!</h1><br><br>';
     if($_SERVER['REQUEST_METHOD']=='POST'){
         if($_POST['school']=='select'){
@@ -47,6 +47,10 @@ include "modules/navBar.php";
         }
         if($_POST['grade']=='select'){
             $gradeerror='Please select your grade level';
+            $error=1;
+        }
+        if(($_POST['grade']=='other')&&(empty($_POST['other_grade']))){
+            $othergradeerror='Which grade will you be in?';
             $error=1;
         }
         if((empty($_POST['firstname']))||(empty($_POST['lastname']))){
@@ -102,6 +106,8 @@ include "modules/navBar.php";
             $lastname=test_input($_POST['lastname']);
             if($_POST['school']!='other') {$school=test_input($_POST['school']);}
             else {$school=test_input($_POST['other_school']);}
+            if($_POST['grade']!='other') {$grade=test_input($_POST['grade']);}
+            else {$grade=test_input($_POST['other_grade']);}
             $parent_firstname=test_input($_POST['parent_firstname']);
             $parent_lastname=test_input($_POST['parent_lastname']);
             $parent_email=test_input($_POST['parent_email']);
@@ -120,7 +126,7 @@ include "modules/navBar.php";
             fwrite($fileout,$school.','.$parent_firstname.','.$parent_lastname.',');
             fwrite($fileout,$parent_email.','.$parent_phone.','.$address.',');
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
-            fwrite($fileout,$food.','.$health.','.$_POST['grade'].','.$comment.','.date("Y-m-d H:i:s", time()).';');
+            fwrite($fileout,$food.','.$health.','.$grade.','.$comment.','.date("Y-m-d H:i:s", time()).';');
             fclose($fileout);
             $success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
             $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<br><br>Please contact us at <a href="mailto:gunnrobotics192@gmail.com">gunnrobotics192@gmail.com</a> for scholarship information or questions.</div><img src="imageAssets/summer/success.jpg"></div></div></div>';
@@ -134,15 +140,17 @@ include "modules/navBar.php";
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='subsection'>
-        <div class='sectionTitle'>Your information</div>  
+        <div class='sectionTitle'>Camper information</div>  
         <div class='sectionBody'>
-        First name:<input type="text" name="firstname"><br>
-        Last name:<input type="text" name="lastname"><br>
+        First name:&nbsp;&nbsp;<input type="text" name="firstname"><br>
+        Last name:&nbsp;&nbsp;<input type="text" name="lastname"><br>
         <span class='error'><?php echo $nameerror;?></span><br>
         Birthday:<input type="date" name="birthday"><br>
         Which school will you be going to next semester?<br>
         <select name='school'>
             <option value='select'>Select</option>
+            <option value='terman'>Terman Middle School</option>
+            <option value='jls'>JLS Middle School</option>
             <option value='addison'>Addison Elementary</option>
             <option value='barron park'>Barron Park Elementary</option>
             <option value='duveneck'>Duveneck Elementary</option>
@@ -168,9 +176,13 @@ include "modules/navBar.php";
             <option value='6'>6</option>
             <option value='7'>7</option>
             <option value='8'>8</option>
+            <option value='other'>Other</option>
             <!--<option value='mid'>&gt;8</option>-->
         </select>
         <br>
+        If other, please specify:<br>
+        <input type="text" name="other_grade"><br>
+        <span class="error"><?php echo $othergradeerror;?></span>
         <span class='error'><?php echo $gradeerror;?></span><br>
         Are you vegetarian?<br>
         <input type='radio' name='vegetarian' value='no' checked>No<br>
@@ -184,8 +196,8 @@ include "modules/navBar.php";
     <div class='subsection'>
         <div class='sectionTitle'>Emergency contact information</div>
         <div class='sectionBody'>
-        Parent's first name:<input type="text" name="parent_firstname"><br>
-        Parent's last name:<input type="text" name="parent_lastname"><br>
+        Parent's first name:&nbsp;&nbsp;<input type="text" name="parent_firstname"><br>
+        Parent's last name:&nbsp;&nbsp;<input type="text" name="parent_lastname"><br>
         <span class='error'><?php echo $parent_nameerror;?></span><br>
         Parent's email:<input type="text" name="parent_email">
         <span class='error'><?php echo $parent_emailerror;?></span><br>
