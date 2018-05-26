@@ -67,6 +67,7 @@
         <title>Summer</title>
         <subNavBar>
             <page>Information</page>
+            <page>Register:register.php</page>
         </subNavBar>
     </category>
     <category>

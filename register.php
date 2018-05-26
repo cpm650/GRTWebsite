@@ -128,8 +128,9 @@ include "modules/navBar.php";
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
             fwrite($fileout,$food.','.$health.','.$grade.','.$comment.','.date("Y-m-d H:i:s", time()).';');
             fclose($fileout);
-            $success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
-            $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<br><br>Please contact us at <a href="mailto:gunnrobotics192@gmail.com">gunnrobotics192@gmail.com</a> for scholarship information or questions.</div><img src="imageAssets/summer/success.jpg"></div></div></div>';
+            /*$success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
+            $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<br><br>Please contact us at <a href="mailto:gunnrobotics192@gmail.com">gunnrobotics192@gmail.com</a> for scholarship information or questions.</div><img src="imageAssets/summer/success.jpg"></div></div></div>';*/
+            $success='<h1 class="success">You&#39;ve been registered!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now on the waitlist for the 2018 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.<br>We will notify you if additional positions become available.</div><br></div><img src="imageAssets/summer/IMG_2449.JPG"></div></div>';
             $hidden='hidden';
         }
     }
@@ -140,6 +141,8 @@ include "modules/navBar.php";
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='subsection'>
+        <span class='title bold'>Unfortunately, we have reached our maximum capacity.<br>You can still register to be placed on our waitlist,<br>and we will notify you if additional positions become available.</span>
+        <br>
         <div class='sectionTitle'>Camper information</div>  
         <div class='sectionBody'>
         First name:&nbsp;&nbsp;<input type="text" name="firstname"><br>
@@ -186,7 +189,7 @@ include "modules/navBar.php";
         <span class='error'><?php echo $gradeerror;?></span><br>
         Are you vegetarian?<br>
         <input type='radio' name='vegetarian' value='no' checked>No<br>
-        <input type='radio' name='vegetarian' value='yes' checked>Yes<br>
+        <input type='radio' name='vegetarian' value='yes'>Yes<br>
         Anything else we should know?<br>
         <textarea name="comment" rows="5" cols="40"></textarea><br>
         </div>
