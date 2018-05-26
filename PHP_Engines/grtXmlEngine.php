@@ -94,13 +94,15 @@ class NavBar extends XMLDoc {
                         }
                     }*/
                     else{
+                        /*
                         if(strpos($subPages[$b],':')===false){
                             $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString($subPages[$b]);
                         }
                         else{
                             $pageAddress=formatString(substr($subPages[$b],strpos($subPages[$b],':')+1));
                             $subPages[$b]=substr($subPages[$b],0,strpos($subPages[$b],':'));
-                        }
+                        }*/
+                        $pageAddress = $this->data->category[$a]->title . ".php?pageContents=" . formatString($subPages[$b]);
                     }
 
                     $pageAddress = formatString($pageAddress);
