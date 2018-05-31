@@ -7,6 +7,7 @@
             <page>Leadership</page>
             <page>Outreach</page>
             <page>Awards</page>
+            <page>Contact</page>
         </subNavBar>
     </category>
     <category>
@@ -68,12 +69,6 @@
         <subNavBar>
             <page>Information</page>
             <page>Register:register.php</page>
-        </subNavBar>
-    </category>
-    <category>
-        <title>Contact</title>
-        <subNavBar>
-            <page>contact</page>
         </subNavBar>
     </category>
     <category>
