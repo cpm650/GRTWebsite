@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!-- This is the file for what is shown on the home page -->
 <!DOCTYPE html>
 <html lang="en">
@@ -44,10 +41,6 @@
 
     div#bottomImage{
         background-image: url('imageAssets/homeSlideshow/crimp.jpg');
-    }
-
-    ul#navList li a:hover {
-        background-color: rgba(0, 0, 0, .5); /*Default*/
     }
 
     div#bodyContainer{
@@ -98,6 +91,34 @@
         background-color: rgb(210, 210, 210);
     }
 
+    ul#navListHome {
+        float: right;
+        font-size: 16px;
+        height: 100%;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
+    ul#navListHome li {
+        display: inline-block;
+        position: relative;
+    }
+
+    ul#navListHome li a {
+        display: inline-block;
+        height: 100%;
+        padding: 15px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    ul#navListHome li a:hover {
+        background-color: rgba(0, 0, 0, .5); /*Default*/
+    }
+
     div#footer{
         position: absolute;
         text-align: center;
@@ -119,7 +140,7 @@
     <div class="wrapper" id="homeNav">
         <div id="GRTEmblem"><a href="index.html"><img src="imageAssets/logo.svg" alt="GRT Logo"></a></div> <!-- this thing matters-->
         <div id="navContainer">
-            <ul id="navList">
+            <ul id="navListHome">
                 <li><a href="about.php">About</a></li>
                 <li><a href="first.php">First</a></li>
                 <li><a href="subgroups.php">Subgroups</a></li>

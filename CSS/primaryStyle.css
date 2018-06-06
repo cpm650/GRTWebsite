@@ -170,7 +170,7 @@ a:hover{
 
 ul#navList {
     float: right;
-    font-size: 14px;
+    font-size: 16px;
     height: 100%;
     list-style-type: none;
     margin: 0px;
@@ -183,6 +183,18 @@ ul#navList li {
     display: inline-block;
     position: relative;
     height: 100%;
+}
+
+ul#navList li a {
+    display: inline-block;
+    height: 100%;
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+ul#navList li a:hover {
+    background-color: rgb(97, 0, 0);
 }
 
 .pointer{
@@ -203,18 +215,6 @@ ul#navList li {
     display: block;
     width: 30px;
     margin: 0px auto;
-}
-
-ul#navList li a {
-    display: inline-block;
-    height: 100%;
-    padding: 20px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-ul#navList li a:hover {
-    background-color: rgb(97, 0, 0);
 }
 
 /*Sub Navigation for most pages*/
