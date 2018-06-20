@@ -31,7 +31,7 @@ include "modules/navBar.php";
 ?>
 <?php
     $error=0;
-    $nameerror=$parent_nameerror=$schoolerror=$birthdayerror='';
+    $nameerror=$parent_nameerror=$schoolerror=$birthday_error='';
     $parent_emailerror=$otherschoolerror=$parent_phoneerror='';
     $addresserror=$emergencyerror=$allergyerror=$healtherror='';
     $fooderror=$gradeerror=$hidden=$othergradeerror='';
@@ -62,7 +62,7 @@ include "modules/navBar.php";
             $error=1;
         }
         if(empty($_POST['birthday'])){
-            $birthday_error='required';
+            $birthday_error='Required';
             $error=1;
         }
         if(empty($_POST['parent_email'])){
@@ -140,17 +140,19 @@ include "modules/navBar.php";
     <div <?php echo $hidden;?>>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
-    <div class='subsection'>
+    <div class='formsubsection'>
         <span class='title bold'>Unfortunately, we have reached our maximum capacity.<br>You can still register to be placed on our waitlist,<br>and we will notify you if additional positions become available.</span>
         <br>
         <div class='sectionTitle'>Camper information</div>  
-        <div class='sectionBody'>
-        First name:&nbsp;&nbsp;<input type="text" name="firstname"><br>
-        Last name:&nbsp;&nbsp;<input type="text" name="lastname"><br>
+        <div class='formBody'>
+        <div class='form-column'>
+        First name:<br><input type="text" style='width:60%' class='form-control' name="firstname">
+        Last name:<br><input type="text" style='width:60%' class='form-control' name="lastname">
         <span class='error'><?php echo $nameerror;?></span><br>
-        Birthday:<input type="date" name="birthday"><br>
+        Birthday:<br><input type="date" name="birthday" style='width:60%' class='form-control'>
+        <span class='error'><?php echo $birthday_error;?></span><br>
         Which school will you be going to next semester?<br>
-        <select name='school'>
+        <select name='school' style='width:60%' class='form-control'>
             <option value='select'>Select</option>
             <option value='terman'>Terman Middle School</option>
             <option value='jls'>JLS Middle School</option>
@@ -167,13 +169,14 @@ include "modules/navBar.php";
             <option value='palo verde'>Palo Verde Elementary</option>
             <option value='walter hays'>Walter Hays Elementary</option>
             <option value='other'>Other</option>
-        </select><span class="error"><?php echo $schoolerror;?></span><br>
+        </select><span class="error"><?php echo $schoolerror;?></span>
         If other, please specify:<br>
-        <input type="text" name="other_school"><br>
+        <input type="text" name="other_school" style='width:60%' class='form-control'>
         <span class="error"><?php echo $otherschoolerror?></span>
-        <br>
+        </div>
+        <div class='form-column'>
         Which grade will you be in next semester?<br>
-        <select name='grade'>
+        <select name='grade' style='width:25%' class='form-control'>
             <option value='select'>Select</option>
             <option value='5'>5</option>
             <option value='6'>6</option>
@@ -182,9 +185,8 @@ include "modules/navBar.php";
             <option value='other'>Other</option>
             <!--<option value='mid'>&gt;8</option>-->
         </select>
-        <br>
         If other, please specify:<br>
-        <input type="text" name="other_grade"><br>
+        <input type="text" name="other_grade" style='width:60%' class='form-control'>
         <span class="error"><?php echo $othergradeerror;?></span>
         <span class='error'><?php echo $gradeerror;?></span><br>
         Are you vegetarian?<br>
@@ -193,50 +195,50 @@ include "modules/navBar.php";
         Anything else we should know?<br>
         <textarea name="comment" rows="5" cols="40"></textarea><br>
         </div>
-    </div>
-    </div>
-    <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
-    <div class='subsection'>
-        <div class='sectionTitle'>Emergency contact information</div>
-        <div class='sectionBody'>
-        Parent's first name:&nbsp;&nbsp;<input type="text" name="parent_firstname"><br>
-        Parent's last name:&nbsp;&nbsp;<input type="text" name="parent_lastname"><br>
-        <span class='error'><?php echo $parent_nameerror;?></span><br>
-        Parent's email:<input type="text" name="parent_email">
-        <span class='error'><?php echo $parent_emailerror;?></span><br>
-        Parent's phone number:<input type="text" name="parent_phone">
-        <span class='error'><?php echo $parent_phoneerror;?></span><br><br>
-        Home address:<span class='error'><?php echo $addresserror;?></span><br>
-        <input type="text" name="address"><br>
-        Emergency contact number<span class='error'><?php echo $emergencyerror;?></span><br>
-        <input type="text" name="emergency"><br>
         </div>
     </div>
     </div>
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
-    <div class='subsection'>
-        <div class='sectionTitle'>Safety</div>
-        <div class='sectionBody'>
+    <div class='formsubsection'>
+        <div class='sectionTitle'>Emergency contact &amp; Safety</div>
+        <div class='formBody'>
+        <div class='form-column'>
+        Parent's first name:<br><input type="text" style='width:60%' class='form-control' name="parent_firstname">
+        Parent's last name:<br><input type="text" style='width:60%' class='form-control' name="parent_lastname">
+        <span class='error'><?php echo $parent_nameerror;?></span><br>
+        Parent's email:<br><input type="text" style='width:60%' class='form-control' name="parent_email">
+        <span class='error'><?php echo $parent_emailerror;?></span><br>
+        Parent's phone number:<br><input type="text" style='width:60%' class='form-control' name="parent_phone">
+        <span class='error'><?php echo $parent_phoneerror;?></span><br>
+        Home address:<br>
+        <input type="text" style='width:60%' class='form-control' name="address">
+        <span class='error'><?php echo $addresserror;?></span><br>
+        Emergency contact number<br>
+        <input type="text" style='width:60%' class='form-control' name="emergency">
+        <span class='error'><?php echo $emergencyerror;?></span><br>
+        </div>
+        <div class='form-column'>
         Are you allergic to anything?<br>
         <input type="radio" name="allergy" value="no" checked>No<br>
-        <input type="radio" name="allergy" value="yes">Yes<br>
+        <input type="radio"  name="allergy" value="yes">Yes<br>
         If yes, what allergies do you have?<br>
-        <input type="text" name="yes_allergy"><br>
+        <input type="text" style='width:60%' class='form-control' name="yes_allergy">
         <span class='error'><?php echo $allergyerror;?></span><br>
         Do you have any food restrictions?<br>
         <input type="radio" name="food" value='no' checked>No<br>
         <input type="radio" name="food" value='yes'>Yes<br>
         If yes, what food restrictions do you have?<br>
-        <input type="text" name="yes_food"><br>
+        <input type="text" style='width:60%' class='form-control' name="yes_food">
         <span class='error'><?php echo $fooderror;?></span><br>
         Do you have any health conditions? <br>
         <input type="radio" name="health" value='no' checked>No<br>
         <input type="radio" name="health" value='yes'>Yes<br>
         If yes, what health conditions do you have?<br>
-        <input type="text" name="yes_health"><br>
+        <input type="text" style='width:60%' class='form-control' name="yes_health">
         <span class='error'><?php echo $healtherror;?></span><br>
         </div>
-    <button class='btn btn-lg btn-block button-red' type='submit'>&gt;&gt;Let's go!&lt;&lt;</button>
+        </div>
+    <br><br><button class='btn btn-lg btn-block button-red' type='submit'>&gt;&gt;Let's go!&lt;&lt;</button>
     </div>
     </div>
     <!--<input type="submit" value="submit" name="submit">-->
