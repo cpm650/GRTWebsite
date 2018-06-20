@@ -13,11 +13,6 @@ $navBar = new navBar();
     <title>GRT | Summer</title>
     <style>
         .error {color: #FF0000;}
-        .button-red{
-            color: #fff;
-            background-color:rgb(170,10,10);
-            border-color:rgb(170,10,10);
-        }
         .success{color:rgb(170,10,10);text-align:center;}
         .center{text-align:center;}
     </style>
@@ -146,13 +141,13 @@ include "modules/navBar.php";
         <div class='sectionTitle'>Camper information</div>  
         <div class='formBody'>
         <div class='form-column'>
-        First name:<br><input type="text" style='width:60%' class='form-control' name="firstname">
-        Last name:<br><input type="text" style='width:60%' class='form-control' name="lastname">
+        First name:<br><input type="text" style='width:70%' class='form-control' name="firstname">
+        Last name:<br><input type="text" style='width:70%' class='form-control' name="lastname">
         <span class='error'><?php echo $nameerror;?></span><br>
-        Birthday:<br><input type="date" name="birthday" style='width:60%' class='form-control'>
+        Birthday:<br><input type="date" name="birthday" style='width:70%' class='form-control'>
         <span class='error'><?php echo $birthday_error;?></span><br>
         Which school will you be going to next semester?<br>
-        <select name='school' style='width:60%' class='form-control'>
+        <select name='school' style='width:70%' class='form-control'>
             <option value='select'>Select</option>
             <option value='terman'>Terman Middle School</option>
             <option value='jls'>JLS Middle School</option>
@@ -171,7 +166,7 @@ include "modules/navBar.php";
             <option value='other'>Other</option>
         </select><span class="error"><?php echo $schoolerror;?></span>
         If other, please specify:<br>
-        <input type="text" name="other_school" style='width:60%' class='form-control'>
+        <input type="text" name="other_school" style='width:70%' class='form-control'>
         <span class="error"><?php echo $otherschoolerror?></span>
         </div>
         <div class='form-column'>
@@ -186,14 +181,14 @@ include "modules/navBar.php";
             <!--<option value='mid'>&gt;8</option>-->
         </select>
         If other, please specify:<br>
-        <input type="text" name="other_grade" style='width:60%' class='form-control'>
+        <input type="text" name="other_grade" style='width:70%' class='form-control'>
         <span class="error"><?php echo $othergradeerror;?></span>
         <span class='error'><?php echo $gradeerror;?></span><br>
         Are you vegetarian?<br>
         <input type='radio' name='vegetarian' value='no' checked>No<br>
         <input type='radio' name='vegetarian' value='yes'>Yes<br>
         Anything else we should know?<br>
-        <textarea name="comment" rows="5" cols="40"></textarea><br>
+        <textarea name="comment" class="form-control" rows="5"></textarea><br>
         </div>
         </div>
     </div>
@@ -203,18 +198,18 @@ include "modules/navBar.php";
         <div class='sectionTitle'>Emergency contact &amp; Safety</div>
         <div class='formBody'>
         <div class='form-column'>
-        Parent's first name:<br><input type="text" style='width:60%' class='form-control' name="parent_firstname">
-        Parent's last name:<br><input type="text" style='width:60%' class='form-control' name="parent_lastname">
+        Parent's first name:<br><input type="text" style='width:70%' class='form-control' name="parent_firstname">
+        Parent's last name:<br><input type="text" style='width:70%' class='form-control' name="parent_lastname">
         <span class='error'><?php echo $parent_nameerror;?></span><br>
-        Parent's email:<br><input type="text" style='width:60%' class='form-control' name="parent_email">
+        Parent's email:<br><input type="text" style='width:70%' class='form-control' name="parent_email">
         <span class='error'><?php echo $parent_emailerror;?></span><br>
-        Parent's phone number:<br><input type="text" style='width:60%' class='form-control' name="parent_phone">
+        Parent's phone number:<br><input type="text" style='width:70%' class='form-control' name="parent_phone">
         <span class='error'><?php echo $parent_phoneerror;?></span><br>
         Home address:<br>
-        <input type="text" style='width:60%' class='form-control' name="address">
+        <input type="text" style='width:70%' class='form-control' name="address">
         <span class='error'><?php echo $addresserror;?></span><br>
         Emergency contact number<br>
-        <input type="text" style='width:60%' class='form-control' name="emergency">
+        <input type="text" style='width:70%' class='form-control' name="emergency">
         <span class='error'><?php echo $emergencyerror;?></span><br>
         </div>
         <div class='form-column'>
@@ -222,19 +217,19 @@ include "modules/navBar.php";
         <input type="radio" name="allergy" value="no" checked>No<br>
         <input type="radio"  name="allergy" value="yes">Yes<br>
         If yes, what allergies do you have?<br>
-        <input type="text" style='width:60%' class='form-control' name="yes_allergy">
+        <input type="text" style='width:70%' class='form-control' name="yes_allergy">
         <span class='error'><?php echo $allergyerror;?></span><br>
         Do you have any food restrictions?<br>
         <input type="radio" name="food" value='no' checked>No<br>
         <input type="radio" name="food" value='yes'>Yes<br>
         If yes, what food restrictions do you have?<br>
-        <input type="text" style='width:60%' class='form-control' name="yes_food">
+        <input type="text" style='width:70%' class='form-control' name="yes_food">
         <span class='error'><?php echo $fooderror;?></span><br>
         Do you have any health conditions? <br>
         <input type="radio" name="health" value='no' checked>No<br>
         <input type="radio" name="health" value='yes'>Yes<br>
         If yes, what health conditions do you have?<br>
-        <input type="text" style='width:60%' class='form-control' name="yes_health">
+        <input type="text" style='width:70%' class='form-control' name="yes_health">
         <span class='error'><?php echo $healtherror;?></span><br>
         </div>
         </div>

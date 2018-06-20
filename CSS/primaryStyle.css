@@ -94,6 +94,18 @@ a:hover{
     font-weight: 600;
 }
 
+.button-red{
+    color: #fff;
+    background-color:rgb(170,10,10);
+    border-color:rgb(170,10,10);
+}
+
+.button-gray{
+    color: #fff;
+    background-color:rgba(50,50,50,0.5);
+    border-color:rgba(50,50,50,0.5);
+}
+
 /* General Structuring */
 .subsection{
     width: 60%;
@@ -120,7 +132,7 @@ a:hover{
 }
 /*testing*/
 .formsubsection{
-    width: 70%;
+    width: 65%;
     padding: 0px;
     margin: 0px auto;
 }
@@ -128,7 +140,7 @@ a:hover{
     border-width: 8px;
     border-color: rgba(240, 10, 10, 0.75);
     border-style: solid;
-    border-radius: 4px;
+    border-radius: 6px;
     display: inline-block;
     width: 100%;
 }
