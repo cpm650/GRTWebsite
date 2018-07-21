@@ -136,7 +136,7 @@ include "modules/navBar.php";
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='formsubsection'>
-        <span class='title bold'>Unfortunately, we have reached our maximum capacity.<br>You can still register to be placed on our waitlist,<br>and we will notify you if additional positions become available.</span>
+        <span class='title bold'>Unfortunately, the registration for the 2018 summer camp had already ended.</span>
         <br>
         <div class='sectionTitle'>Camper information</div>  
         <div class='formBody'>
