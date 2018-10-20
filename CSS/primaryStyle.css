@@ -61,6 +61,7 @@ a:hover{
 
 #content-wrapper{
     margin: 80px auto 130px auto;
+    position:relative;
 }
 
 .subsection-wrapper{
@@ -109,6 +110,7 @@ a:hover{
 
 /* General Structuring */
 .subsection{
+    /*position:relative;*/
     width: 60%;
     padding: 0px;
     margin: 0px auto;
