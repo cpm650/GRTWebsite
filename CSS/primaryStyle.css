@@ -160,8 +160,17 @@ a:hover{
     text-align: center;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    /*font-weight: 700;*/
+    /*Here I keep the old font weight as a comment.
+    In 2018, nobody really uses bold fonts as
+    the titles anymore. I'm using a lighter weight.
+    Let this font weight be a memory of the previous
+    webmaster, and the age when bold fonts are everywhere.
+    */
+    /*Interestingly, setting the weight too low
+    replicates the navbar glitch seen in chrome*/
+    font-weight: 400;
+    Letter-spacing: 1px;
     margin: 0px auto 15px auto;
 }
 
