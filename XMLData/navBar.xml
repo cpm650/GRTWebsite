@@ -3,12 +3,7 @@
     <category>
         <title>About</title>
         <subNavBar>
-            <page>Overview</page>
-            <page>Team</page>
-            <page>Leadership</page>
-            <page>Outreach</page>
-            <page>Awards</page>
-            <page>Contact</page>
+            <page>About</page>
         </subNavBar>
     </category>
     <category>
@@ -21,6 +16,7 @@
         <title>First</title>
         <subNavBar>
             <page>First</page>
+            <page>Accolades</page>
             <page>2018</page>
             <page>2016</page>
             <page>2015</page>
