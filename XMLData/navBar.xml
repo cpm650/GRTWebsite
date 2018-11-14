@@ -3,11 +3,18 @@
     <category>
         <title>About</title>
         <subNavBar>
+            <page>Overview</page>
             <page>Team</page>
             <page>Leadership</page>
             <page>Outreach</page>
             <page>Awards</page>
             <page>Contact</page>
+        </subNavBar>
+    </category>
+    <category>
+        <title>Blog</title>
+        <subNavBar>
+            <page>Blog</page>
         </subNavBar>
     </category>
     <category>
@@ -69,12 +76,6 @@
         <title>Summer</title>
         <subNavBar>
             <page>Information</page>
-        </subNavBar>
-    </category>
-    <category>
-        <title>Blog</title>
-        <subNavBar>
-            <page>Blog</page>
         </subNavBar>
     </category>
     <category>

@@ -41,6 +41,18 @@ $navBar = new navBar();
         float:right;
         font-size:14px;
     }
+    .timeline-parent{
+        display:flex;
+        flex-flow:row nowrap;
+        width:100%;
+    }
+    .timeline-child{
+        margin:0;
+        padding:30px;
+        width:33%;
+        height:150px;
+        font-size:14px;
+    }
     </style>
 
 </head>
@@ -65,6 +77,25 @@ $navBar = new navBar();
 <!--            <p>The Gunn Robotics Team (GRT) is a student-managed team that designs, builds and enters a robot in several FIRST Robotics competitions each year.  A major part of our team identity is our student ownership.  Every aspect of the team that can be executed or managed by a student, is:  leadership, organization and planning, gearbox and mechanism design; prototyping and computer simulations; fabrication using milling machines, lathes, CNC, welding and more; coding and animation; fund-raising; outreach.  Our students do it all.  We CAD our own designs, write our own software, and wire our own robots; we manage our sponsorships, organize and staff outreach events.  Being on the Gunn Robotics Team gives every student the opportunity to make real decisions, learn from the results, and produce something amazing in the process.</p>-->
     </div>
     </div>
+    <br><br><br>
+    <div class="subsection-wide">
+    <div class="sectionTitle">
+    OUR HISTORY
+    </div>
+    <ul class="timeline-parent" style="list-style:none">
+        <li class="timeline-child">
+        <p>GRT was founded In 1996 by Bill Dunbar, a mechanical engineer turned physics teacher at Henry M. Gunn High School in Palo Alto, CA. The team took over the campus wood and metal shop, at the time abandoned and slated for demolition.</p>
+        </li>
+        <li class="timeline-child">
+        <p>The Gunn robotics team entered the FIRST Robotics competition In 1997, and that summer traveled to the National Championships In Orlando, Florida.</p>
+        </li>
+        <li class="timeline-child">
+        <p>GRT has grown into a popular program at Henry M. Gunn HS, with two full classes meeting throughout the school year, plus regular after-hour and weekend shop sessions.</p>
+        </li>
+    </ul>
+    <img src="imageAssets/about/about_timeline.png">
+    </div>
+    <!--End of subsection is the above tab-->
     </div>
     </div>
     <?php
