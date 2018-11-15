@@ -17,25 +17,10 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> Bosch provides most of the GRT mentors. It is a German Robotics Company specializing in Autonomous technologies. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors. </p>
+            <p> Most of the GRT mentors come from <a href="https://www.bosch.us/">Bosch</a>, a leading multinational engineering corporation. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors. </p>
             <div class="image-container">
                 <center>
                 <img alt="Ball Pickup" src="imageAssets/team/bosch.png" style="width:50%"/>
-                </center>
-            </div>
-            ]]>
-        </SSBody>
-    </section>
-    <section>
-        <SSTitle>
-            SRI
-        </SSTitle>
-        <SSBody>
-            <![CDATA[
-            <p> SRI is an independant research center that works with clients to turn ideas into products. One of our mentors, Karl Van Dyk, is from SRT.</p>
-            <div class="image-container">
-                <center>
-                <img alt="Ball Pickup" src="imageAssets/team/sri.png" style="width:50%"/>
                 </center>
             </div>
             ]]>
@@ -47,7 +32,7 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> Madco is our local welding and gas supplier, and, as a sponsor of GRT, donates cylinders of gas required for welding. </p>
+            <p> <a href="http://www.madcogases.com/">Madco</a> is our local welding and gas supplier, and, as a sponsor of GRT, donates cylinders of gas required for welding. </p>
             <div class="image-container">
                 <center>
                 <img alt="Ball Pickup" src="imageAssets/team/madco.png" style="width:50%"/>
@@ -62,7 +47,7 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> Non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
+            <p> <a href="https://papie.org/">PiE</a> is a non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
             <div class="image-container">
                 <center>
                 <img alt="Ball Pickup" src="imageAssets/team/pausd.png" style="width:50%"/>
