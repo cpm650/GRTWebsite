@@ -188,6 +188,34 @@ a:hover{
     width: 34px;
 }
 
+/*Flex box for timeline and sponsors*/
+.timeline-parent{
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+}
+.timeline-child{
+    margin:0;
+    padding:30px;
+    width:33%;
+    height:150px;
+    font-size:14px;
+}
+.sponsor-child{
+    width:33%;
+    margin:0;
+    padding:20px;
+    height:300px;
+    font-size:14px;
+    border-width:5px;
+    border-left-style:solid;
+    border-color:rgb(170,10,10);
+    transition:0.3s;
+}
+.sponsor-child:hover{
+    background-color:rgba(170,10,10,0.3);
+}
+
 /*Navbar and subNavigation*/
 #navbar {
     border-style: none;

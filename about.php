@@ -42,18 +42,6 @@ $navBar = new navBar();
         float:right;
         font-size:14px;
     }
-    .timeline-parent{
-        display:flex;
-        flex-flow:row nowrap;
-        width:100%;
-    }
-    .timeline-child{
-        margin:0;
-        padding:30px;
-        width:33%;
-        height:150px;
-        font-size:14px;
-    }
     </style>
 
 </head>
@@ -95,6 +83,27 @@ $navBar = new navBar();
         </li>
     </ul>
     <img src="imageAssets/about/about_timeline.png">
+    </div>
+    <!--End of subsection is the above tab-->
+    <br><br>
+    <div class="subsection-wide">
+        <div class="sectionTitle">
+            SPONSORS
+        </div>
+    <ul class="timeline-parent" style="list-style:none">
+        <li class="sponsor-child">
+        <img alt="Bosch logo" src="imageAssets/team/bosch_logo.png"/><br>
+        <p>Most of the GRT mentors come from <a href="https://www.bosch.us/">Bosch</a>, a leading multinational engineering corporation. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors.</p>
+        </li>
+        <li class="sponsor-child">
+        <img alt="Madco logo" src="imageAssets/team/madco.png"/><br>
+        <p> <a href="http://www.madcogases.com/">Madco</a> is our local welding and gas supplier, and, as a sponsor of GRT, donates cylinders of gas required for welding. </p>
+        </li>
+        <li class="sponsor-child" style="border-right-style:solid;">
+        <img alt="PiE logo" src="imageAssets/team/pie_logo.png"/><br>
+        <p> <a href="https://papie.org/">PiE</a> is a non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
+        </li>
+    <ul>
     </div>
     <!--End of subsection is the above tab-->
     </div>
