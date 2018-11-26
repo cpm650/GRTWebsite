@@ -92,15 +92,21 @@ $navBar = new navBar();
         </div>
     <ul class="timeline-parent" style="list-style:none">
         <li class="sponsor-child">
+        <a href="https://www.bosch.us/">
         <img alt="Bosch logo" src="imageAssets/team/bosch_logo.png"/><br>
+        </a>
         <p>Most of the GRT mentors come from <a href="https://www.bosch.us/">Bosch</a>, a leading multinational engineering corporation. Bosch has graciously donated many contributions to GRT, and are currently the teams largest sponsor and biggest outreach of mentors.</p>
         </li>
         <li class="sponsor-child">
+        <a href="http://www.madcogases.com/">
         <img alt="Madco logo" src="imageAssets/team/madco.png"/><br>
+        </a>
         <p> <a href="http://www.madcogases.com/">Madco</a> is our local welding and gas supplier, and, as a sponsor of GRT, donates cylinders of gas required for welding. </p>
         </li>
         <li class="sponsor-child" style="border-right-style:solid;">
+        <a href="https://papie.org/">
         <img alt="PiE logo" src="imageAssets/team/pie_logo.png"/><br>
+        </a>
         <p> <a href="https://papie.org/">PiE</a> is a non-profit education foundation dedicated to supporting all Palo Alto public schools. PAUSD generously provides funds for mentors.</p>
         </li>
     <ul>
