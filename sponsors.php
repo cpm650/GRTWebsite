@@ -1,3 +1,3 @@
 <?php
-header('Location: index.html#sponsors_home')
+header('Location: index.html#sponsors_home');
 ?>
