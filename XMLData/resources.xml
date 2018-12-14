@@ -20,7 +20,7 @@
                 <li><a target="_blank" href="http://spartanrobotics.org/">Team 971 - Mountain View - Spartan Robotics</a></li>
                 <li><a target="_blank" href="http://www.gatorbotics.com/">Team 1700 - Castilleja Robotics - Gatorbotics</a></li>
                 <li><a target="_blank" href="http://www.spacecookies.org/">Team 1868 - The Space Cookies</a></li>
-                <li><a target="_blank" href="http://team6036.weebly.com/">Team 6036 - Terrance Tech</a></li>
+                <li><a target="_blank" href="http://team6036.weebly.com/">Team 6036 - Peninsula Robotics</a></li>
 
             </ul>
             ]]>
@@ -33,13 +33,13 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a>- controls electronics</li>
+                <li><a target="_blank" href="http://www.andymark.com/">AndyMark</a> - Controls electronics</li>
 
-                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a>- motors, gearboxes, wheels</li>
+                <li><a target="_blank" href="http://www.banebots.com/">BaneBots, LLC</a> - Motors, gearboxes, wheels</li>
 
-                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a>- Victor Speed Controllers, robot controllers, wheels, gears</li>
+                <li><a target="_blank" href="http://www.ifirobotics.com/">IFI Robotics</a> - Victor Speed Controllers, robot controllers, wheels, gears</li>
 
-                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a>- solenoid valves, bearings, planetary gear boxes, wheels</li>
+                <li><a target="_blank" href="http://vexrobotics.com/">VEX Robotics</a> - Solenoid valves, bearings, planetary gear boxes, wheels</li>
 
 
             </ul>
@@ -53,17 +53,17 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://www.yelp.com/biz/alan-steel-and-supply-co-redwood-city">Alan Steel & Supply Co.</a>- sheet metal and aluminum boxbeam</li>
-                <li><a target="_blank" href="http://www.bimba.com/">Bimba</a>- pneumatics Components</li>
-                <li><a target="_blank" href="http://coastaluminum.com/product-catalog/">Coast Aluminum</a>- aluminum, boxbeam, rod stock and sheets</li>
-                <li><a target="_blank" href="http://homedepot.com/">Home Depot</a>- wood, paintbrushes, paint, hinges, roofing</li>
-                <li><a target="_blank" href="http://www.joann.com/">Joann Fabrics</a>- bumper cloth</li>
-                <li><a target="_blank" href="http://www.madcogases.com/">Madco</a>- argon for welding</li>
-                <li><a target="_blank" href="http://mscdirect.com/">MSC</a>- end mills, bits, shop repair supplies</li>
-                <li><a target="_blank" href="http://mcmaster.com/">McMaster-Carr</a>- springs, fasteners, pneumatic valves and fittings, machining lubricant, bandsaws</li>
-                <li><a target="_blank" href="http://osh.com/">Orchard Supply</a>- wood, paint, paintbrushes, hinges, fasteners</li>
-                <li><a target="_blank" href="http://tapplastics.com/">TAP Plastics</a>- plastic stock, acrylic glue</li>
-                <li><a target="_blank" href="http://usabearingsandbelts.com/">USA Bearings + Belts</a>- ball bearings + belts (surprise!)</li>
+                <li><a target="_blank" href="http://www.yelp.com/biz/alan-steel-and-supply-co-redwood-city">Alan Steel & Supply Co.</a> - Sheet metal and aluminum boxbeam</li>
+                <li><a target="_blank" href="http://www.bimba.com/">Bimba</a> - Pneumatics components</li>
+                <li><a target="_blank" href="http://coastaluminum.com/product-catalog/">Coast Aluminum</a> - Aluminum, boxbeam, rod stock and sheets</li>
+                <li><a target="_blank" href="http://homedepot.com/">Home Depot</a> - Wood, paintbrushes, paint, hinges, roofing</li>
+                <li><a target="_blank" href="http://www.joann.com/">Joann Fabrics</a> - Bumper cloth</li>
+                <li><a target="_blank" href="http://www.madcogases.com/">Madco</a> - Argon for welding</li>
+                <li><a target="_blank" href="http://mscdirect.com/">MSC</a> - End mills, bits, shop repair supplies</li>
+                <li><a target="_blank" href="http://mcmaster.com/">McMaster-Carr</a> - Springs, fasteners, pneumatic valves and fittings, machining lubricant, bandsaws</li>
+                <li><a target="_blank" href="http://osh.com/">Orchard Supply</a> - Wood, paint, paintbrushes, hinges, fasteners</li>
+                <li><a target="_blank" href="http://tapplastics.com/">TAP Plastics</a> - Plastic stock, acrylic glue</li>
+                <li><a target="_blank" href="http://usabearingsandbelts.com/">USA Bearings + Belts</a> - Ball bearings + belts (surprise!)</li>
             </ul>
             ]]>
         </SSBody>
@@ -76,15 +76,15 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://first.wpi.edu/Images/CMS/First/Getting_Started_with_Java_for_FRC.pdf">Getting Started with Java for FRC (pdf)</a>- Essential reading for understanding Java for the cRIO</li>
-                <li><a target="_blank" href="http://firstforge.wpi.edu/sf/docman/do/listDocuments/projects.wpilib/docman.root">WPILibJ AP</a>- API for the WPI Robotics library used for FRC</li>
-                <li><a target="_blank" href="http://first.wpi.edu/FRC/frcjava.html">WPI FIRST Java Resource Center</a>- wiki, updates, and news for WPILibJ and Java for FRC</li>
-                <li><a target="_blank" href="http://code.google.com/p/grtframework/">grtframework</a>- googlecode project page</li>
-                <li><a target="_blank" href="http://code.google.com/p/grt192/">grt192</a>- googlecode project page</li>
-                <li><a target="_blank" href="http://electricalwhat.com/">Electrical What?!</a>- image based lookup for schematic symbols</li>
-                <li><a target="_blank" href="http://www.sparkfun.com/">Sparkfun Electronics</a>- electronics, sensors, kits, tutorials</li>
-                <li><a target="_blank" href="http://www.jameco.com/">Jameco Electronics</a>- electronics (esp. bulk); see also Digi-Key</li>
-                <li><a target="_blank" href="http://www.digikey.com/">Digi-Key Corp</a>- electronics (esp. bulk); see also Jameco</li>
+                <li><a target="_blank" href="http://first.wpi.edu/Images/CMS/First/Getting_Started_with_Java_for_FRC.pdf">Getting Started with Java for FRC (pdf)</a> - Essential reading for understanding Java for the cRIO</li>
+                <li><a target="_blank" href="http://firstforge.wpi.edu/sf/docman/do/listDocuments/projects.wpilib/docman.root">WPILibJ AP</a> - API for the WPI Robotics library used for FRC</li>
+                <li><a target="_blank" href="http://first.wpi.edu/FRC/frcjava.html">WPI FIRST Java Resource Center</a> - Wiki, updates, and news for WPILibJ and Java for FRC</li>
+                <li><a target="_blank" href="http://code.google.com/p/grtframework/">grtframework</a> - GoogleCode project page</li>
+                <li><a target="_blank" href="http://code.google.com/p/grt192/">grt192</a> - GoogleCode project page</li>
+                <li><a target="_blank" href="http://electricalwhat.com/">Electrical What?!</a> - Image based lookup for schematic symbols</li>
+                <li><a target="_blank" href="http://www.sparkfun.com/">Sparkfun Electronics</a> - Electronic, sensors, kits, tutorials</li>
+                <li><a target="_blank" href="http://www.jameco.com/">Jameco Electronics</a> - Electronics (esp. bulk); see also Digi-Key</li>
+                <li><a target="_blank" href="http://www.digikey.com/">Digi-Key Corp</a> - Electronics (esp. bulk); see also Jameco</li>
             </ul>
             ]]>
         </SSBody>
@@ -96,10 +96,10 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://whitney-tool.com/html/calculatorSpeedFeed.html">Whitney Tool Speed and Feed Calculator</a>- Speed and Feed Rates for milling, lathing, drilling</li>
-                <li><a target="_blank" href="http://bostongear.com/pdf/gear_theory.pdf">Gear Theory From Boston Gear</a>- information on various gears (spur, helical, miter/bevel, worm gears) with general formulas for torque, pitch diameter, and velocity.</li>
-                <li><a target="_blank" href="http://www.sdp-si.com/">SDP-SI</a>- Gears, timing belts, etc.</li>
-                <li><a target="_blank" href="http://www.usabearingsandbelts.com/">USA Bearings</a>- Bearings</li>
+                <li><a target="_blank" href="http://whitney-tool.com/html/calculatorSpeedFeed.html">Whitney Tool Speed and Feed Calculator</a> - Speed and Feed Rates for milling, lathing, drilling</li>
+                <li><a target="_blank" href="http://bostongear.com/pdf/gear_theory.pdf">Gear Theory From Boston Gear</a> - Information on various gears (spur, helical, miter/bevel, worm gears) with general formulas for torque, pitch diameter, and velocity.</li>
+                <li><a target="_blank" href="http://www.sdp-si.com/">SDP-SI</a> - Gears, timing belts, etc.</li>
+                <li><a target="_blank" href="http://www.usabearingsandbelts.com/">USA Bearings</a> - Bearings</li>
             </ul>
             ]]>
         </SSBody>
@@ -111,10 +111,10 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="http://www.firstcadlibrary.com/">FIRST CAD Library</a>- an excellent source of CADs of Kit of Parts materials.</li>
-                <li><a target="_blank" href="http://students.autodesk.com/?nd=first_home">Autodesk FIRST Education Community</a>- source for software, training, and help</li>
-                <li><a target="_blank" href="http://team1323.com/cad/index.html">Team 1323 CAD library</a>- CADs of FIRST parts</li>
-                <li><a target="_blank" href="http://www.catalogds.com/db/service?d=first&c=browse">PTC Creo FIRST CADs</a>- field and KoP CADs</li>
+                <li><a target="_blank" href="http://www.firstcadlibrary.com/">FIRST CAD Library</a> - An excellent source of CADs of Kit of Parts materials.</li>
+                <li><a target="_blank" href="http://students.autodesk.com/?nd=first_home">Autodesk FIRST Education Community</a> - source for software, training, and help</li>
+                <li><a target="_blank" href="http://team1323.com/cad/index.html">Team 1323 CAD library</a> - CADs of FIRST parts</li>
+                <li><a target="_blank" href="http://www.catalogds.com/db/service?d=first&c=browse">PTC Creo FIRST CADs</a> - Field and KoP CADs</li>
             </ul>
             ]]>
         </SSBody>
@@ -126,7 +126,7 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a href="https://www.homeadvisor.com/r/tinkering-project-resources/">Guide to tinkering by HomeAdvisor</a>- Collection of fun tinkering projects--suggested by Abigail Lynwood</li>
+                <li><a href="https://www.homeadvisor.com/r/tinkering-project-resources/">Guide to tinkering by HomeAdvisor</a> - Collection of fun tinkering projects--suggested by Abigail Lynwood</li>
                 <li><a href="https://www.instructables.com/">Instructables</a> - DIY guides</li>
             </ul>
             ]]>
@@ -139,7 +139,7 @@
         <SSBody>
             <![CDATA[
             <ul>
-                <li><a target="_blank" href="https://www.mapcon.com/us-en/guide-to-robotics">Mapcon Robotics Guide</a>- An accessible and thorough resource for learning about Robotics--suggested by Ms. Zimri and her Junior Scouts.</li>
+                <li><a target="_blank" href="https://www.mapcon.com/us-en/guide-to-robotics">Mapcon Robotics Guide</a> - An accessible and thorough resource for learning about Robotics--suggested by Ms. Zimri and her Junior Scouts.</li>
             </ul>
             ]]>
         </SSBody>
