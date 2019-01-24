@@ -1,0 +1,24 @@
+.dash-top{
+    width:100%;
+    height:30%;
+    top:10%;
+    background-color:rgb(230,230,230);
+    display: block;
+    position: absolute;
+}
+
+.dash-parent{
+    display:flex;
+    flex-flow:row nowrap;
+    list-style:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+.dash-child{
+    margin:0;
+    background-color:white;
+    border-radius:30px;
+    height:100%;
+}
