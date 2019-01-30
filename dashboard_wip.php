@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="CSS/primaryStyle.css" type="text/css" />
     <link rel="stylesheet" href="CSS/dashboard.css" type="text/css" />
 </head>
-<body>
+<body style="background-color: rgb(230,230,230)">
 <div class="dash-top">
 <ul class="dash-parent">
-<li class="dash-child" style="width:30%">Test</li>
+    <li class="dash-child" style="width:20%">
+    <div class="cell-title">Sign-ups</div>
+    <div class="cell-content">35</div>
+    </li>
 </ul>
 </div>
 </body>
