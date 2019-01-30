@@ -6,6 +6,9 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
+            <div class="wrap-image">
+            <img src="imageAssets/mentors/Seth.jpg" alt="Seth lecturing about rivet spacing">
+            </div>
             <b2><span class="bold">What area of expertise do you bring to GRT?</span></b2>
             <p>I have a lot of experience with practical mechanism design, fabrication and test, having spent years getting things to work in real life.  I bring my experience in mechanical and pneumatic systems, project management, leadership, general hardware repair, shop safety and playing well with others, and enjoy winding down from my workday by mentoring GRT students 10-20 hours a week all year long.</p>
 
@@ -18,9 +21,6 @@
             <b2><span class="bold">What is your favorite GRT experience?</span></b2>
             <p>I love to watch the students work through their ideas to reach a solution, when the lightbulb goes off.</p>
 
-            <div class="wrap-image">
-            <img src="imageAssets/mentors/Seth.jpg" alt="Seth lecturing about rivet spacing">
-            </div>
             <div class="wrap-image">
             <img src="imageAssets/mentors/WoodieFlowers.jpg" alt="Seth's Woodie Flower Banner">
             </div>
