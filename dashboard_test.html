@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <link src="./keen-dataviz.css" rel="stylesheet" />
+</head>
+<body>
+<div id="pie-grade">
+</div>
+  <script src="./keen-dataviz.js" type="text/javascript"></script>
+    <script>
+    console.log('Hi!');
+    const chart = new KeenDataviz({
+        container: '#pie-grade', // querySelector
+        title: 'pie-grade',
+        type: 'area'
+    });
+    chart.render({result:[1,2,3,4,5]});
+    </script>
+<!--
+<div class="chart-wrapper">
+  <div class="chart-title">
+    Pageviews by browser (past 24 hours)
+  </div>
+  <div class="chart-stage" id="pie-grade">
+  </div>
+  <div class="chart-notes">
+    This is a sample text region to describe this chart.
+  </div>
+</div>
+-->
+</body>
