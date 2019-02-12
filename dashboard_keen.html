@@ -65,7 +65,7 @@
           <div class="chart-title">
             Pageviews by browser (past 24 hours)
           </div>
-          <div class="chart-stage" id="pie-grade">
+          <div class="chart-stage" id="area" style="height:350px">
           </div>
           <div class="chart-notes">
             This is a sample text region to describe this chart.
@@ -78,8 +78,8 @@
           <div class="chart-title">
             Pageviews by browser (past 5 days)
           </div>
-          <div class="chart-stage">
-            <img data-src="holder.js/100%x350/white">
+          <div class="chart-stage" id="pie-grade" style="height:350px">
+              <!--<img data-src="holder.js/100%x350/white">-->
           </div>
           <div class="chart-notes">
             Notes go down here
@@ -114,11 +114,16 @@
   <script type="text/javascript" src="JS/keen-dataviz.js"></script>
     <script>
     console.log('Hi!');
-    const chart = new KeenDataviz({
-        container: '#pie-grade', // querySelector
-        type: 'area'
+    const area_chart = new KeenDataviz({
+        container: '#area', // querySelector
+        type: 'area',
     });
-    chart.render({result:[1,2,3,4,50]});
+    area_chart.render({result:[1,2,3,4,50]});
+    const pie_chart = new KeenDataviz({
+        container: '#pie-grade', // querySelector
+        type: 'pie',
+    });
+    pie_chart.render({result:['Terman',20]['JLS',80]});
     </script>
 
   <!-- Project Analytics -->

@@ -194,6 +194,7 @@ a:hover{
     display:flex;
     flex-flow:row nowrap;
     width:100%;
+    justify-content:center;
 }
 .timeline-child{
     margin:0;
