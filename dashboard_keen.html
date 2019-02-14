@@ -78,7 +78,7 @@
           <div class="chart-title">
             Pageviews by browser (past 5 days)
           </div>
-          <div class="chart-stage" id="pie-grade" style="height:350px">
+          <div class="chart-stage" id="pie-grade" style="height:350px;">
               <!--<img data-src="holder.js/100%x350/white">-->
           </div>
           <div class="chart-notes">
@@ -118,12 +118,14 @@
         container: '#area', // querySelector
         type: 'area',
     });
-    area_chart.render({result:[1,2,3,4,50]});
+    /*area_chart.render({result:[1,2,3,4,50]});*/
+    area_chart.render({result: ['data1', 300, 350, 300, 0, 0, 0]});
     const pie_chart = new KeenDataviz({
         container: '#pie-grade', // querySelector
         type: 'pie',
+        title: 'Schools'
     });
-    pie_chart.render({result:['Terman',20]['JLS',80]});
+    pie_chart.render({result:[['Terman',20],['JLS',80]]});
     </script>
 
   <!-- Project Analytics -->
