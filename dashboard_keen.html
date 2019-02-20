@@ -61,30 +61,44 @@
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Pageviews by browser (past 24 hours)
+            Total sign-ups
           </div>
-          <div class="chart-stage" id="area" style="height:350px">
+          <div class="chart-stage" id="count" style="height:350px">
           </div>
-          <div class="chart-notes">
+          <!--<div class="chart-notes">
             This is a sample text region to describe this chart.
-          </div>
+          </div>-->
         </div>
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Pageviews by browser (past 5 days)
+            School distribution
+          </div>
+          <div class="chart-stage" id="pie-school" style="height:350px;">
+              <!--<img data-src="holder.js/100%x350/white">-->
+          </div>
+          <!--<div class="chart-notes">
+            Notes go down here
+          </div>-->
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Grade distribution
           </div>
           <div class="chart-stage" id="pie-grade" style="height:350px;">
               <!--<img data-src="holder.js/100%x350/white">-->
           </div>
-          <div class="chart-notes">
+          <!--<div class="chart-notes">
             Notes go down here
-          </div>
+          </div>-->
         </div>
       </div>
 
@@ -96,11 +110,7 @@
           <div class="chart-title">
             Impressions by advertiser
           </div>
-          <div class="chart-stage">
-            <img data-src="holder.js/100%x150/white">
-          </div>
-          <div class="chart-notes">
-            Notes go down here
+          <div class="chart-stage" id="history" style="height:250px;">
           </div>
         </div>
       </div>
@@ -109,24 +119,34 @@
 
   </div>
   <div class="container-fluid">
-    <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
+    <p class="small text-muted">Built with <a href="https://keen.io">Keen IO</a></p>
   </div>
 
   <script type="text/javascript" src="JS/keen-dataviz.js"></script>
     <script>
     console.log('Hi!');
     const area_chart = new KeenDataviz({
-        container: '#area', // querySelector
-        type: 'area',
+        container: '#count', // querySelector
+        type: 'metric'
     });
     /*area_chart.render({result:[1,2,3,4,50]});*/
-    area_chart.render({result: ['data1', 300, 350, 300, 0, 0, 0]});
+    /*area_chart.render({result: ['data1', 300, 350, 300, 0, 0, 0]});*/
+    area_chart.render({result: 14});
+    const pie_school = new KeenDataviz({
+        container: '#pie-school', // querySelector
+        type: 'pie',
+    });
+    pie_school.render({result:[['Terman',4],['JLS',5],['Juana Briones',5]]});
     const pie_chart = new KeenDataviz({
         container: '#pie-grade', // querySelector
         type: 'pie',
-        title: 'Schools'
     });
-    pie_chart.render({result:[['Terman',20],['JLS',80]]});
+    pie_chart.render({result:[['7',3],['8',7],['9',4]]});
+    const history_chart = new KeenDataviz({
+        container: '#history',
+        type: 'area',
+    });
+    history_chart.render({result:[3,4,3,5,6,4,3]});
     </script>
 
   <!-- Project Analytics -->

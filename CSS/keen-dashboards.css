@@ -8,10 +8,6 @@
   border: 1px solid #e7e7e7;
   border-radius: 2px;
   box-sizing: border-box;
-
-  height:100%;
-  width:100%;
-  position:relative;
 }
 .keen-dataviz-title {
   border-bottom: 1px solid #e7e7e7;
