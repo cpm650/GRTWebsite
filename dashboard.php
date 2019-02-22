@@ -1,3 +1,10 @@
+<?php
+    $summer_data=file_get_contents('../../summer_data.csv');
+    $summer_parsed=str_getcsv($summer_data,"\n");
+    $summer_all=array();
+    foreach($summer_parsed as $summer_tmp) array_push($summer_all,str_getcsv($summer_tmp));
+    $test="{result:[['Terman',4],['JLS',5],['Juana Briones',5]]}";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -118,6 +125,7 @@
     </div>
 
   </div>
+  <?php echo $summer_all[16][0]?>
   <div class="container-fluid">
     <p class="small text-muted">Built with <a href="https://keen.io">Keen IO</a></p>
   </div>
@@ -136,7 +144,7 @@
         container: '#pie-school', // querySelector
         type: 'pie',
     });
-    pie_school.render({result:[['Terman',4],['JLS',5],['Juana Briones',5]]});
+    pie_school.render(<?php echo $test?>);
     const pie_chart = new KeenDataviz({
         container: '#pie-grade', // querySelector
         type: 'pie',
