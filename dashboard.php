@@ -4,6 +4,11 @@
     $summer_all=array();
     foreach($summer_parsed as $summer_tmp) array_push($summer_all,str_getcsv($summer_tmp));
     $test="{result:[['Terman',4],['JLS',5],['Juana Briones',5]]}";
+    $grades=array(5=>0,6=>0,7=>0,8=>0,'mid'=>0);
+    foreach($summer_all as $summer_tmp) {$grades[$summer_tmp[14]]+=1;}
+    $grades_pie='{result:[[\'5\','.strval($grades[5]).'],[\'6\','.strval($grades[6]);
+    $grades_pie=$grades_pie.'],[\'7\','.strval($grades[7]).'],[\'8\','.strval($grades[8]);
+    $grades_pie=$grades_pie.'],[\'9+\','.strval($grades['mid']).']]}';
 ?>
 <!DOCTYPE html>
 <html>
@@ -125,7 +130,7 @@
     </div>
 
   </div>
-  <?php echo $summer_all[16][0]?>
+  <?php echo $summer_all[2][14]; echo $grades['mid'];?>
   <div class="container-fluid">
     <p class="small text-muted">Built with <a href="https://keen.io">Keen IO</a></p>
   </div>
@@ -149,7 +154,7 @@
         container: '#pie-grade', // querySelector
         type: 'pie',
     });
-    pie_chart.render({result:[['7',3],['8',7],['9',4]]});
+    pie_chart.render(<?php echo $grades_pie?>);
     const history_chart = new KeenDataviz({
         container: '#history',
         type: 'area',
