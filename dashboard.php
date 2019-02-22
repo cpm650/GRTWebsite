@@ -144,7 +144,7 @@
     });
     /*area_chart.render({result:[1,2,3,4,50]});*/
     /*area_chart.render({result: ['data1', 300, 350, 300, 0, 0, 0]});*/
-    area_chart.render({result: 14});
+    area_chart.render({result: <?php echo (count($summer_all)-1)?>});
     const pie_school = new KeenDataviz({
         container: '#pie-school', // querySelector
         type: 'pie',
