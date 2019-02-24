@@ -136,8 +136,8 @@ include "modules/navBar.php";
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class='wrapper subsection-wrapper' style='background-color:rgb(255,255,255)'>
     <div class='formsubsection'>
-        <span class='title bold'>Unfortunately, the registration for the 2018 summer camp had already ended.</span>
-        <br>
+        <!--<span class='title bold'>Unfortunately, the registration for the 2018 summer camp had already ended.</span>
+        <br>-->
         <div class='sectionTitle'>Camper information</div>  
         <div class='formBody'>
         <div class='form-column'>
@@ -149,7 +149,7 @@ include "modules/navBar.php";
         Which school will you be going to next semester?<br>
         <select name='school' style='width:70%' class='form-control'>
             <option value='select'>Select</option>
-            <option value='terman'>Terman Middle School</option>
+            <option value='fletcher'>Fletcher Middle School</option>
             <option value='jls'>JLS Middle School</option>
             <option value='addison'>Addison Elementary</option>
             <option value='barron park'>Barron Park Elementary</option>
