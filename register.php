@@ -121,7 +121,8 @@ include "modules/navBar.php";
             fwrite($fileout,$school.','.$parent_firstname.','.$parent_lastname.',');
             fwrite($fileout,$parent_email.','.$parent_phone.','.$address.',');
             fwrite($fileout,$emergency.','.$_POST['vegetarian'].','.$allergy.',');
-            fwrite($fileout,$food.','.$health.','.$grade.','.$comment.','.date("Y-m-d H:i:s", time()).';');
+            fwrite($fileout,$food.','.$health.','.$grade.','.$comment.',');
+            fwrite($fileout,date("Y-m-d H:i:s", time()).','.$_POST['session_choice'].';');
             fclose($fileout);
             $success='<h1 class="success">Get Excited!</h1><div class="wrapper subsection-wrapper" style="background-color:rgb(255,255,255)"><div class="subsection"><div class="sectionBody"><div class="bold center">You are now registered for the 2019 GRT summer camp!<br>An email will be sent to your parent&#39;s email address soon.</div><br>';
             $success=$success.'<div class="success bold">This summer camp is a fundraiser for the Gunn HS Robotics Team.<br>A donation of $350 is recommended to cover material costs and snacks.<br>To donate, mail a check addressed to &#34;GRT Booster&#34; to<br>Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306.<br><br>Please contact us at <a href="mailto:gunnrobotics192@gmail.com">gunnrobotics192@gmail.com</a> for scholarship information or questions.</div><img src="imageAssets/summer/success.jpg"></div></div></div>';
@@ -144,8 +145,6 @@ include "modules/navBar.php";
         First name:<br><input type="text" style='width:70%' class='form-control' name="firstname">
         Last name:<br><input type="text" style='width:70%' class='form-control' name="lastname">
         <span class='error'><?php echo $nameerror;?></span><br>
-        Birthday:<br><input type="date" name="birthday" style='width:70%' class='form-control'>
-        <span class='error'><?php echo $birthday_error;?></span><br>
         Which school will you be going to next semester?<br>
         <select name='school' style='width:70%' class='form-control'>
             <option value='select'>Select</option>
@@ -168,6 +167,9 @@ include "modules/navBar.php";
         If other, please specify:<br>
         <input type="text" name="other_school" style='width:70%' class='form-control'>
         <span class="error"><?php echo $otherschoolerror?></span>
+        <br>Which session do you prefer?<br>
+        <input type="radio" name="session_choice" value='1' checked>1st, June 4th-8th<br>
+        <input type="radio" name="session_choice" value='2'>2nd, June 10th-14th
         </div>
         <div class='form-column'>
         Which grade will you be in next semester?<br>
@@ -184,11 +186,13 @@ include "modules/navBar.php";
         <input type="text" name="other_grade" style='width:70%' class='form-control'>
         <span class="error"><?php echo $othergradeerror;?></span>
         <span class='error'><?php echo $gradeerror;?></span><br>
+        Birthday:<br><input type="date" name="birthday" style='width:70%' class='form-control'>
+        <span class='error'><?php echo $birthday_error;?></span><br>
         Are you vegetarian?<br>
         <input type='radio' name='vegetarian' value='no' checked>No<br>
         <input type='radio' name='vegetarian' value='yes'>Yes<br>
         Anything else we should know?<br>
-        <textarea name="comment" class="form-control" rows="5"></textarea><br>
+        <textarea name="comment" class="form-control" rows='2'></textarea><br>
         </div>
         </div>
     </div>

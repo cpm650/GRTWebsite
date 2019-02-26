@@ -85,21 +85,17 @@
         </div>
       </div>
 
-      <div class="col-sm-4">
+      <!--<div class="col-sm-4">
         <div class="chart-wrapper">
           <div class="chart-title">
             School distribution
           </div>
           <div class="chart-stage" id="pie-school" style="height:350px;">
-              <!--<img data-src="holder.js/100%x350/white">-->
           </div>
-          <!--<div class="chart-notes">
-            Notes go down here
-          </div>-->
         </div>
-      </div>
+      </div>-->
 
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <div class="chart-wrapper">
           <div class="chart-title">
             Grade distribution
@@ -144,11 +140,11 @@
     /*area_chart.render({result:[1,2,3,4,50]});*/
     /*area_chart.render({result: ['data1', 300, 350, 300, 0, 0, 0]});*/
     area_chart.render({result: <?php echo (count($summer_all)-1)?>});
-    const pie_school = new KeenDataviz({
+    /*const pie_school = new KeenDataviz({
         container: '#pie-school', // querySelector
         type: 'pie',
     });
-    pie_school.render({result:[['Terman',4],['JLS',5],['Juana Briones',5]]});
+    pie_school.render({result:[['Terman',4],['JLS',5],['Juana Briones',5]]});*/
     const pie_chart = new KeenDataviz({
         container: '#pie-grade', // querySelector
         type: 'pie',
