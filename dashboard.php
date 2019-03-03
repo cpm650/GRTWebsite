@@ -8,6 +8,27 @@
     $grades_pie='{result:[[\'5\','.strval($grades[5]).'],[\'6\','.strval($grades[6]);
     $grades_pie=$grades_pie.'],[\'7\','.strval($grades[7]).'],[\'8\','.strval($grades[8]);
     $grades_pie=$grades_pie.'],[\'9+\','.strval($grades['mid']).']]}';
+    $access_error='';
+    if($_SERVER['REQUEST_METHOD']=='POST'){
+        if($_POST['access_code']=='lotsofcampers'){
+            if(file_exists('../../summer_data.csv'))
+            {
+                //echo "file_exists";
+                ob_end_clean();
+                header('Content-Description: File Transfer');
+                header('Content-Type: application/octet-stream');
+                header('Content-Disposition: attachment; filename="signups.csv"');
+                header('Expires: 0');
+                header('Cache-Control: must-revalidate');
+                header('Pragma: public');
+                header('Content-Length: ' . filesize('../../summer_data.csv'));
+                readfile('../../summer_data.csv');
+            }
+        }
+        else{
+            $access_error='Invalid code';
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,6 +36,13 @@
   <meta charset="utf-8">
   <title>GRT | Dashboard</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <style type="text/css">
+        .button-red{
+            color: #fff;
+            background-color:rgb(170,10,10);
+            border-color:rgb(170,10,10);
+        }
+    </style>
 
   <!-- Demo Dependencies -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
@@ -109,13 +137,27 @@
         </div>
       </div>
 
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Download data
+          </div>
+          <div class="chart-stage" style="height:350px;">
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            Access code:<input type="text" class="form-control" name="access_code"><br>
+            <button class='btn btn-lg btn-block button-red' type='submit'>Download</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </div>
     <div class="row">
 
       <div class="col-sm-12">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Impressions by advertiser
+            Signup history (Not working yet)
           </div>
           <div class="chart-stage" id="history" style="height:250px;">
           </div>
