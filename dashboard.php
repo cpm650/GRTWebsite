@@ -10,7 +10,10 @@
     $grades_pie=$grades_pie.'],[\'9+\','.strval($grades['mid']).']]}';
     $access_error='';
     if($_SERVER['REQUEST_METHOD']=='POST'){
-        if($_POST['access_code']=='lotsofcampers'){
+        $access_file=fopen('../../access_code.txt','r') or die('Cannot find access code');
+        $code=trim(fread($access_file,100));
+        fclose($access_file);
+        if($_POST['access_code']==$code){
             if(file_exists('../../summer_data.csv'))
             {
                 //echo "file_exists";
@@ -144,7 +147,8 @@
           </div>
           <div class="chart-stage" style="height:350px;">
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-            Access code:<input type="text" class="form-control" name="access_code"><br>
+            Access code:<input type="text" class="form-control" name="access_code">
+            <span style='color: #FF0000;'><?php echo $access_error?></span><br>
             <button class='btn btn-lg btn-block button-red' type='submit'>Download</button>
             </form>
           </div>
