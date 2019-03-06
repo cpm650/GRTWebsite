@@ -7,7 +7,7 @@
         <SSBody>
             <![CDATA[
             <!--<span class='title bold'>Unfortunately, we have reached our maximum capacity, and registrations will now be placed on our waitlist. If you register, we will notify you if additional positions become available.</span>-->
-                <p class='bold'>Come join the Gunn HS Robotics Team in summer 2019 to enjoy a thrilling and valuable robotics experience! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete robotic challenges while learning the fundamental skills for being an engineer.</p>
+                <p class='bold'>Come enjoy a thrilling and valuable robotics experience with GRT! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete robotic challenges while learning the fundamental skills for being an engineer.</p>
                 <img src='imageAssets/summer/IMG_8135.JPG' alt='Come tour our shop!'>
             ]]>
         </SSBody>
@@ -22,7 +22,7 @@
                 <iframe class="map-bottom" src="https://www.google.com/maps/embed/v1/place&#63;key=AIzaSyCyIkrDoUFbj8yZHBkiH03I0yyh1VsTfvI&amp;q=Henry+M+Gunn+High+School" allowfullscreen="" width="598" height="450">
                 </iframe>
                 <p><span class='title bold'>Who is the camp for&#63;</span>The summer camp is designed for campers from rising 5th graders to rising 8th graders.</p>
-                <p><span class='title bold'>Should I donate to the camp&#63;</span>We recommend a donation of $350 to cover material costs and snacks. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
+                <p><span class='title bold'>Should I donate to the camp&#63;</span>We request a donation of $350 to cover material costs and snacks. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="A7GSDB75JHSNA" />
