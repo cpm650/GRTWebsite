@@ -14,6 +14,7 @@
         $code=trim(fread($access_file,100));
         fclose($access_file);
         if($_POST['access_code']==$code){
+            $access_error='';
             if(file_exists('../../summer_data.csv'))
             {
                 //echo "file_exists";
@@ -45,6 +46,15 @@
             background-color:rgb(170,10,10);
             border-color:rgb(170,10,10);
         }
+        /*#home{
+            background-image:url('imageAssets/summer/GRT_home.png');
+            background-size:auto;
+            text-align:center;
+            height:160px;
+        }*/
+        /*a#home:hover{
+            background-color:rgba(100,100,100,0.5);
+        }*/
     </style>
 
   <!-- Demo Dependencies -->
@@ -73,32 +83,7 @@
   <link rel="stylesheet" type="text/css" href="CSS/keen-dashboards.css" />
   <!--<script src="JS/dashboard.js" type="text/javascript"></script>-->
 </head>
-<body class="keen-dashboard" style="padding-top: 80px;">
-
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="navbar-brand" href="./">Dashboard Starter UI</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-          <li><a href="https://keen.io">Home</a></li>
-          <li><a href="https://keen.io/team">Team</a></li>
-          <li><a href="https://github.com/keenlabs/dashboards/tree/gh-pages/layouts/two-and-one">Source</a></li>
-          <li><a href="https://groups.google.com/forum/#!forum/keen-io-devs">Community</a></li><li><a href="http://stackoverflow.com/questions/tagged/keen-io?sort=newest&pageSize=15">Technical Support</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<body class="keen-dashboard" style="padding-top: 10px;">
 
   <div class="container-fluid">
     <div class="row">
@@ -145,13 +130,16 @@
           <div class="chart-title">
             Download data
           </div>
-          <div class="chart-stage" style="height:350px;">
+          <div class="chart-stage" style="height:150px;">
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             Access code:<input type="text" class="form-control" name="access_code">
             <span style='color: #FF0000;'><?php echo $access_error?></span><br>
             <button class='btn btn-lg btn-block button-red' type='submit'>Download</button>
             </form>
           </div>
+        </div>
+        <div id="home" style='height:160px;'>
+            <a href='index.html'><img src='imageAssets/summer/GRT_home.png' style='height:160px;'></a>
         </div>
       </div>
 
