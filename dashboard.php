@@ -3,11 +3,15 @@
     $summer_parsed=str_getcsv($summer_data,"\n");
     $summer_all=array();
     foreach($summer_parsed as $summer_tmp) array_push($summer_all,str_getcsv($summer_tmp));
-    $grades=array(5=>0,6=>0,7=>0,8=>0,'mid'=>0);
-    foreach($summer_all as $summer_tmp) {$grades[$summer_tmp[14]]+=1;}
+    $grades=array(5=>0,6=>0,7=>0,8=>0,'other'=>0);
+    foreach($summer_all as $summer_tmp)
+    {
+        if(array_key_exists($summer_tmp[14],$grades)) {$grades[$summer_tmp[14]]+=1;}
+        else {$grades['other']+=1;}
+    }
     $grades_pie='{result:[[\'5\','.strval($grades[5]).'],[\'6\','.strval($grades[6]);
     $grades_pie=$grades_pie.'],[\'7\','.strval($grades[7]).'],[\'8\','.strval($grades[8]);
-    $grades_pie=$grades_pie.'],[\'9+\','.strval($grades['mid']).']]}';
+    $grades_pie=$grades_pie.'],[\'9+\','.strval($grades['other']).']]}';
     $access_error='';
     if($_SERVER['REQUEST_METHOD']=='POST'){
         $access_file=fopen('../../access_code.txt','r') or die('Cannot find access code');
