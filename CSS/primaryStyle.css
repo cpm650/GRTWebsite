@@ -22,6 +22,7 @@ html, body {
     max-width: 100%;
     max-height: 100%;
 }
+
 img{
     display: inline-block;
     margin: 10px auto;
@@ -85,6 +86,14 @@ a:hover{
 .imaged-subsection-wrapper{
     padding: 80px 0px 110px 0px;
     margin-bottom: 110px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 /* General Text Formatting */
