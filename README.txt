@@ -1,5 +1,5 @@
 This product includes software developed by the OpenSSL Project
-for use in the OpenSSL Toolkit (http://www.openssl.org/)
+for use in the OpenSSL Toolkit: (http://www.openssl.org/)
  
 ========
 This project contains all the source code for the Gunn Robotics Team Website.
