@@ -2,12 +2,12 @@
 <pageSections>
     <section>
         <SSTitle>
-            2020 Gunn Robotics Summer Camp
+            2021 Gunn Robotics Summer Camp
         </SSTitle>
         <SSBody>
             <![CDATA[
             <!--<span class='title bold'>Unfortunately, we have reached our maximum capacity, and registrations will now be placed on our waitlist. If you register, we will notify you if additional positions become available.</span>-->
-	        <span class='title bold'>Thank you for your interest in the Gunn Robotics Team's summer camp! The dates for the camp are TBD. We will let you know immeddiately after they are finalized.</span><br>
+	        <span class='title bold'>Thank you for your interest in the Gunn Robotics Team's summer camp! Due to the Covid-19 pandemic, we will have to reassess the situation for summer camp and will update this page once we have finalized our plans. The text below is last year's information.</span><br>
                 <p class='bold'>Come enjoy a thrilling and valuable robotics experience with GRT! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete robotic challenges while learning the fundamental skills for being an engineer.</p>
                 <img src='imageAssets/summer/IMG_8135.JPG' alt='Come tour our shop!'>
             ]]>
@@ -19,13 +19,13 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <p><span class='title bold'>When and where is it&#63;</span>The summer camp will be held at the Gunn HS Robotics Lab (L-5) at Gunn High School. The two identical camp sessions will be held early in the summer, from June 8 - 12 and June 15 - 19. We recommend that younger 5th to 6th grade campers sign up for the first week, and that older 7th to 8th grade campers sign up for the second week.</p>
+                <p><span class='title bold'>Where is it&#63;</span>The summer camp will be held at the Gunn HS Robotics Lab (L-5) at Gunn High School.</p>
                 <iframe class="map-bottom" src="https://www.google.com/maps/embed/v1/place&#63;key=AIzaSyCyIkrDoUFbj8yZHBkiH03I0yyh1VsTfvI&amp;q=Henry+M+Gunn+High+School" allowfullscreen="" width="598" height="450">
                 </iframe>
                 <p><span class='title bold'>Who is the camp for&#63;</span>The summer camp is designed for campers from rising 5th graders to rising 8th graders.</p>
                 <p><span class='title bold'>Should I donate to the camp&#63;</span>We request a donation of $350 for each camper to cover material costs and snacks. We are grateful for any amount you can donate. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="cmd" value="_s-xclick" /∏
                 <input type="hidden" name="hosted_button_id" value="3AHZKUHP5FHJA" />
                 <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
