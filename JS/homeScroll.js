@@ -7,7 +7,7 @@ var frameTimeGap = 5; //user defined
 
 var timeToContinue;
 
-var imageSources = ["IMGP7082_crop.JPG", "1.png", "IMGP7004_crop.JPG", "2.png", "IMGP6968.JPG", "3.png"];
+var imageSources = ["IMGP7082_crop.JPG", "1.jpg", "IMGP7004_crop.JPG", "2.jpg", "IMGP6968.JPG", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 var imageIndex = 0;
 
 var topImage;
