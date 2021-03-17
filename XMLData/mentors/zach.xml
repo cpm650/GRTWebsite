@@ -2,11 +2,14 @@
 <pageSections>
     <section>
         <SSTitle>
-            Interview with Charlie Mayman
+            <!--Interview with Zach Walker-->
+            Sorry for the inconvenience. Currently Creating this Page...
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <img src="imageAssets/mentors/Charlie.jpg" alt="Charlie with the lathe">
+            
+            <!--
+            <img src="imageAssets/mentors/Charlie.JPG" alt="Charlie with the lathe">
             <b2><span class="bold">What area of expertise do you bring to GRT?</span></b2>
             <p>In addition to knowing several programming languages, I am fluent in the software development process in its many forms--especially the form it takes when software and hardware are co-developed, as they are at GRT. </p>
 
@@ -18,6 +21,8 @@
 
             <b2><span class="bold">What is your favorite GRT experience?</span></b2>
             <p>I recall a conversation with a student who had a brilliant algorithm that was too complex to implement. Through questioning I tried to suggest possible simplifications (engineering "approximations"). The algorithm was eventually abandoned, but was the start of turning a theoretician into an engineer.</p>
+            
+            -->
 
             ]]>
         </SSBody>
