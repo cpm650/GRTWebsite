@@ -1,10 +1,3 @@
-<!--
-<?php
-header("Location: blog/index.php");
-die();
-?>
--->
-
 <?php
 include "PHP_Engines/grtXmlEngine.php";
 
