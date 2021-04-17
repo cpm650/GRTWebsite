@@ -6,10 +6,22 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <!--<span class='title bold'>Unfortunately, we have reached our maximum capacity, and registrations will now be placed on our waitlist. If you register, we will notify you if additional positions become available.</span>-->
-	        <span class='title bold'>Thank you for your interest in the Gunn Robotics Team's summer camp! Due to the Covid-19 pandemic, we will have to reassess the situation for summer camp and will update this page once we have finalized our plans. The text below is last year's information.</span><br>
-                <p class='bold'>Come enjoy a thrilling and valuable robotics experience with GRT! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete robotic challenges while learning the fundamental skills for being an engineer.</p>
-                <img src='imageAssets/summer/IMG_8135.JPG' alt='Come tour our shop!'>
+            <center>
+            <span class= 'title bold'> Come join one week intensive online summer camp in which students get an introduction into the basics of engineering and computer science. Taught by members of the Gunn Robotics Team. </span><br>
+            <p class='bold'>We are a student-led robotics team, experienced in peer-mentoring and teaching through a learn-by-doing mentality. We offer lessons and activities pertaining to the basics of engineering and robotics, as well as more specific skills that we have worked on extensively as a team.</p>
+            <h3> Tinkercad </h4>
+            <p> Give students an introduction to computer-aided design. Provide a basic understanding of CAD tools and allow them to creatively apply their skills in the form of a final project. </p>
+
+            <h3> VEXcodeVR </h3>
+            <p>Learn block-coding through engaging activities and lessons throughout the week, complete with a final project that allows students to use what they have learned as creatively as they would like. Provide a virtual introduction to robotics via event-based coding (block coding) and usage of various sensors. </p>            
+            <p class='bold'><a href="https://forms.gle/66mHmBpgUaWBh1j69">Sign Up Here</a></p>
+            <span class='bold'>Both classes will also participate in a blue box challenge that gives students an introduction to the design process. Students apply critical thinking skills to build an efficient model to face a certain challenge. They will get to design creatively and develop basic engineering skills using simple at home materials. </span>            
+            </center>
+                <!--
+                  <span class='title bold'>Thank you for your interest in the Gunn Robotics Team's summer camp! Due to the Covid-19 pandemic, we will have to reassess the situation for summer camp and will update this page once we have finalized our plans. The text below is last year's information.</span><br>
+                  <p class='bold'>Come enjoy a thrilling and valuable robotics experience with GRT! Campers will collaborate to build and code a fully-functioning VEX IQ robot to complete robotic challenges while learning the fundamental skills for being an engineer.</p>
+                  <img src='imageAssets/summer/IMG_8135.JPG' alt='Come tour our shop!'>
+                -->
             ]]>
         </SSBody>
     </section>
@@ -19,22 +31,77 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-                <p><span class='title bold'>Where is it&#63;</span>The summer camp will be held at the Gunn HS Robotics Lab (L-5) at Gunn High School.</p>
-                <iframe class="map-bottom" src="https://www.google.com/maps/embed/v1/place&#63;key=AIzaSyCyIkrDoUFbj8yZHBkiH03I0yyh1VsTfvI&amp;q=Henry+M+Gunn+High+School" allowfullscreen="" width="598" height="450">
-                </iframe>
-                <p><span class='title bold'>Who is the camp for&#63;</span>The summer camp is designed for campers from rising 5th graders to rising 8th graders.</p>
-                <p><span class='title bold'>Should I donate to the camp&#63;</span>We request a donation of $350 for each camper to cover material costs and snacks. We are grateful for any amount you can donate. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="3AHZKUHP5FHJA" />
-                <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form></p>
-            <!--<p><span class='title bold'>When should I register my camper&#63;</span>If you would like to attend, please register by the end of the day on Friday, May 25, 2018. If you have registered online, you will receive a confirmation email shortly after. If you have registered by mail, you will receive a confirmation email once your form is accepted.</p>-->
-                <p><span class='title bold'>How should I register my camper&#63;</span>Our registration application will be available in early spring.</p>
-                <p><span class='title bold'>Who are the counselors&#63;</span>GRT adult mentors will be present to supervise the summer camp. The counselors running the camp and teaching the course material are current students on the Gunn HS Robotics Team! All of our counselors are enthusiastic and eager to teach, and are all trained in the coding and assembly of VEX IQ robotics.</p>
-                <p><span class='title bold'>Will food be provided&#63;</span>We ask that your child bring their own lunch and reusable water bottle. We will provide snacks throughout the day.</p>
-                <p><span class='title bold'>I have other questions, who should I ask&#63;</span>If you have other questions, please contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a>.</p>
+            <center>
+            <p><span class='title bold'>Who is the camp for&#63;</span>Rising 6th - 8th graders</p>
+            <p><span class='title bold'>When will it be?</span>June 14 - 18 <br> Monday - Friday <br> 10 A.M. - 12:30 P.M.</p>
+            <p><span class='title bold'>Where is it&#63;</span>The summer camp will be held online over <span style="color:blue">Zoom</span>.</p>
+            <p><span class='title bold'>Should I donate to the camp&#63;</span>We request a donation of $350 for each camper to cover material costs. We are grateful for any amount you can donate. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="3AHZKUHP5FHJA" />
+                  <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+            </p>
+            <p><span class='title bold'>I have other questions, who should I ask&#63;</span>If you have other questions, please contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a>.</p>
+            </center>
+
+    <!-- DON"T DELETE THIS STUFF!! HAS MAP WHICH IS NICE TO HAVE AND COOL _ JOHN -->
+            <!--
+                    <p><span class='title bold'>Where is it&#63;</span>The summer camp will be held at the Gunn HS Robotics Lab (L-5) at Gunn High School.</p>
+                    <table style="width:100%">
+                        <tr>
+                            <td style="text-align:center"><iframe class="map-bottom" src="https://www.google.com/maps/embed/v1/place&#63;key=AIzaSyCyIkrDoUFbj8yZHBkiH03I0yyh1VsTfvI&amp;q=Henry+M+Gunn+High+School" allowfullscreen="" width="598" height="450">
+                            </iframe>
+                        </tr>
+                    </table>
+                    <p><span class='title bold'>Who is the camp for&#63;</span>The summer camp is designed for campers from rising 5th graders to rising 8th graders.</p>
+                    <p><span class='title bold'>Should I donate to the camp&#63;</span>We request a donation of $350 for each camper to cover material costs and snacks. We are grateful for any amount you can donate. To donate, please use our Paypal or mail a check addressed to "GRT Booster" to Gunn Robotics Team, 780 Arastradero Road, Palo Alto, CA 94306. Contact us at <a href='mailto:gunnrobotics192@gmail.com'>gunnrobotics192@gmail.com</a> for scholarship information.<br>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="3AHZKUHP5FHJA" />
+                    <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form></p>
+                <!--
+                  <p><span class='title bold'>When should I register my camper&#63;</span>If you would like to attend, please register by the end of the day on Friday, May 25, 2018. If you have registered online, you will receive a confirmation email shortly after. If you have registered by mail, you will receive a confirmation email once your form is accepted.</p>
+                -->
+                <!--
+                    <p><span class='title bold'>How should I register my camper&#63;</span>Our registration application will be available in early spring.</p>
+                    <p><span class='title bold'>Who are the counselors&#63;</span>GRT adult mentors will be present to supervise the summer camp. The counselors running the camp and teaching the course material are current students on the Gunn HS Robotics Team! All of our counselors are enthusiastic and eager to teach, and are all trained in the coding and assembly of VEX IQ robotics.</p>
+                    <p><span class='title bold'>Will food be provided&#63;</span>We ask that your child bring their own lunch and reusable water bottle. We will provide snacks throughout the day.</p>
+            
+                
+
+<!--
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+-->
+
             ]]>
         </SSBody>
     </section>
