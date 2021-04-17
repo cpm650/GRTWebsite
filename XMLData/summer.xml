@@ -14,7 +14,8 @@
 
             <h3> VEXcodeVR </h3>
             <p>Learn block-coding through engaging activities and lessons throughout the week, complete with a final project that allows students to use what they have learned as creatively as they would like. Provide a virtual introduction to robotics via event-based coding (block coding) and usage of various sensors. </p>            
-            <p class='bold'><a href="https://forms.gle/66mHmBpgUaWBh1j69">Sign Up Here</a></p>
+            <p class='bold'><a href="https://docs.google.com/forms/d/e/1FAIpQLSdfN3Bc52Hlv6L6EC5sqvWY1Epl4J3vcGF_uDw3Spz4YYdLYA/viewform?embedded=true">Sign Up Here (Open Link in New Tab)</a></p>
+            <p><button onclick="location.href='https://forms.gle/66mHmBpgUaWBh1j69'" type="button">www.example.com</button></p>
             <span class='bold'>Both classes will also participate in a blue box challenge that gives students an introduction to the design process. Students apply critical thinking skills to build an efficient model to face a certain challenge. They will get to design creatively and develop basic engineering skills using simple at home materials. </span>            
             </center>
                 <!--
