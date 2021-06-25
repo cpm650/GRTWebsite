@@ -7,34 +7,36 @@
         <SSBody>
             <![CDATA[
                 <p><span class="title bold">About</span>
-                The Animation Team is a subgroup that produces 3D animations to compete for the annual Safety Animation Award and Digital Animation Award. The subgroup works with software such as Autodesk Maya, Adobe Photoshop, and Adobe Premiere to create original and expressive animations while highlighting some of the medium's most exciting possibilities. Members of the Animation Team work together to write stories, model objects, animate characters, and develop scenes.
-            </p>
+                    The animation group produces 3D animations to compete for the annual FIRST Robotics Safety Animation Award and Digital Animation Award. The group works with software such as Autodesk Maya, Adobe Photoshop, and Adobe Premiere to create original and expressive animations while highlighting some of the medium's most exciting possibilities. Members work together to write stories, model objects, animate characters, and develop scenes.
+                </p>
 
-            <p><span class="title bold">Personal Projects</span>
-            When the Animation Team is not hard at work on a full-length animation, its members work on personal projects and website content to improve their animating skills. Personal modeling projects can be robotics related, but are also often a great way to bridge students' outside interests with the technical knowledge they are accumulating on the team. Even if a project isn't directly useful to GRT, the extra time spent experimenting in Maya helps teach new team members faster and more effective techniques. Pictured here are personal projects from 2017: cream-filled cookies, a senior project visualization and a mobile game asset.
+                <p><span class="title bold">Projects</span>
+                    Due to the COVID-19 outbreak, in 2021 the animation team continued to participate in the Safety Animation Project and FIRST Competition Project. For this competition, we follow a certain theme announced by FIRST and create a storyline and scenes and produce an animation including a soundtrack. The Safety Animation Project is focused on the theme of safety.
+                
+                </p>
 
-        </p>
+                <div width="100%" text-align="center">
+                    <iframe width="100%" height="500px" display="block" margin-left="auto" margin-right="auto" src="https://www.youtube.com/embed/videoseries?list=PLPDNSe7IWHTy2KebpvTLlg_2SjrqGteBk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 
-                     <div class="image-container">
-                      <img src="imageAssets/subgroups/Animation1.jpg" alt="cream-filled cookies and personal projects">
-</div>
+                <div class="image-container">
+                    <img src="imageAssets/subgroups/Animation1.jpg" alt="cream-filled cookies and personal projects">
+                </div>
 
 
-        <p><span class="title bold">Shop Project Graphics</span>
-        Each fall, GRT prepares for build season by producing its own offseason robotics competition. The project is meant to mirror the feeling of build season and give rookies a taste of the second semester rush. The Animation Team provides graphics to flesh-out the rulebook and represent important parts of the game visually. In 2017, the shop project required robots to open drawers to retrieve game pieces and move them across the field.
+                <p><span class="title bold">Additional Animation Projects</span>
+                For the 2020-21 FRC Game Design Challenge, the animation team worked with the Game Design project group to create a storyboard and script for an animation for their game submission.<br><br>In the 2018-2019 season, GRT prepared for the build season by producing its own offseason robotics competition. The project was meant to mirror the feeling of build season and gave rookies a taste of the second semester rush. The animation Team provided graphics to flesh-out the rulebook and represent important parts of the game visually.
 
-        </p>
+                </p>
 
                <div class="image-container">
                 <img src="imageAssets/subgroups/Animation2.jpg" alt="Cabinet Clash 2017">
 
-</div>
+                </div>
 
-        <p><span class="title bold">Training</span>
-        Animation Team rookies are not expected to have any animation knowledge prior to joining. At the beginning of each year, the Animation Lead organizes group modeling sessions in which both rookies and veterans can work together. Veterans are expected to teach rookies everything they need to know in order to participate. Some veterans will have more experience in certain areas of animation than others, and as such, will teach the most difficult techniques and tricks in that area. Rookies also utilize free, online resources such as YouTube tutorials, 3D modeling forums, and open source projects.
-
-        After the group sessions and any one-on-one lessons that rookies may have requested, the new batch of animators are ready to contribute to the group. By this point, they are expected to know how to model, texture, and rig. Animation of models, scene composition, lighting, camera angles, and rendering are all taught by the veterans most experienced in those areas. Rookies who seek these additional skills and techniques are trained on an individual level.
-        </p>
+                <p><span class="title bold">Training</span>
+                Animation team rookies are not required to have any animation knowledge prior to joining. At the beginning of each year, the animation lead organizes 3D modeling sessions in which both rookies and veterans can work together. Veterans teach rookies what they need to know to participate. Rookies also utilize free, online resources such as YouTube tutorials, 3D modeling forums, and open source projects. After training, all members know how to model, texture, and rig. Animation of models, scene composition, lighting, camera angles, and rendering are all taught by the veterans most experienced in those areas.
+                </p>
 
                 ]]>
         </SSBody>
