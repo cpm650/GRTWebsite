@@ -49,3 +49,4 @@ PHP is used to recreate the HTML required for "modules" such as the footer and h
 Additionally, the included XML engine is responsible for the the parsing of XML in response to GET requests for content distribution into usable HTML. This engine utilizes Object Oriented Programming instances (similar to Java) to allow flexibility in design via the permission of multiple XML parsings per page. An added benefit of this approach is the ease in training new Webmasters due to the prevalence of the Java programming language.
 
 Lastly, PHP is used in the contact form to send an email directly to the GRT Webmasters.
+
