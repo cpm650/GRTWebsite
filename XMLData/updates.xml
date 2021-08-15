@@ -27,17 +27,14 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> &emsp;At the end of our 2020-2021 GRT school season, we say goodbye to our wonderful seniors as well as continue to work on current projects and goals for the next school year. This year we participated in the virtual FRC 2021 season with submissions for the Animation Award, the Chairman’s Award, the Game Design Challenge, and the Innovation Challenge. We earned an engineering design award for Game Design, where we created our own game including rules, a CAD model of the playing field and a game animation.</p>
-            
-            <img src="/imageAssets/updates/grt-2021-picnic.jpg" alt="GRT Picnic 2021">
-            <img src="/imageAssets/updates/class-of-2021-graduation.jpg" alt="GRT Class of 2021 Graduation">
-
-            <p> &emsp;Since the re-opening of the Gunn HS campus in March, the majority of our rookies came on campus to participate in hands-on shop training including lathe, mill, and hand tools training. Our 2021-22 shop trainers are working in the shop over the summer to build a teaching curriculum for the fall and continue to practice machining.  This summer we are also participating in the KLA RoboGames (an event for FRC teams sponsored byAwards by KLA) and we have sent submissions for the innovations award, leadership award, community award, and mentor award.</p>
-            <p> &emsp;Also this summer, our team has two active projects: the trumpet project and the wheelchair project. For the wheelchair project (which was also submitted for the innovation challenge), our Innovation Team is working to manufacture a mechanism that attaches onto a wheelchair and allows the user to play soccer while still in the wheelchair. Having finished the design process, they are now transitioning to in-person manufacturing for our device, which is named the Wheelchair Soccer Buddy. For the trumpet project, we are building a mechanism to allow a child who is physically disabled to pursue his passion in music. To do so, we are designing a trumpet standhousing servo-powered valve actuators which will allow him to play in his most comfortable position and have the strength to operate the trumpet. We plan to continue building and testing our prototypes for both projects over the summer and finish the projects in the fall.</p>
-            
-            <img src="/imageAssets/updates/trumpet-cad.png" alt="Trumpet CAD">
-
-            <p> &emsp;Our plans for next year are to build technical skills that we could not teach this year because of Covid limitations, to hold several team-bonding events such as picnics and camping, and to do our best working as a team and having fun building a robot for the 2022 FIRST Robotics season.</p> 
+            <p> &emsp;This year our shop leads worked hard to create training videos for our shop equipment as in-person hands-on training was not a possibility. During the last two months of the school year, our rookies trained in person on the lathe, mill, and hand tools while some learned pneumatics, welding, and CNC for next year. Overall, we had a very unique and new experience because of the social distancing requirements; however, we were able to make due with the tools at hand and prepare the team for working in the shop.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/shop-working1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/shop-working2.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/shop-working3.png"></td>
+                </tr>
+            </table>
             ]]>
         </SSBody>
     </section>
@@ -57,14 +54,14 @@
                 <td style="text-align:center"><img src="/imageAssets/updates/climb.png"></td>
                 <td style="text-align:center"><img src="/imageAssets/updates/earth_pieces.png"></td>
                 </tr>
-                </table>
+            </table>
             <p> &emsp;Each group designed a different mechanism that was able to complete one of these objectives. A CAD for the base was provided to each group, and they CADed the mechanism on the pre-existing base. Here are a few images of what one group&apos;s mechanism looked like:</p>
             <table style="width:100%">
                 <tr>
                 <td style="text-align:center"><img src="/imageAssets/updates/robot_angled.png"></td>
                 <td style="text-align:center"><img src="/imageAssets/updates/robot_side.png"></td>
                 </tr>
-                </table>
+            </table>
             <p> <b> March 28, 2021 </b> </p>
             <p> &emsp;We have just wrapped up our 2021 build season! This year, because of COVID-19, the FIRST challenges we participated in were different from usual. We chose to work on the FIRST Innovation Challenge and the Game Design Challenge. The Innovation Challenge required teams to design a solution, create a business model, and present a pitch on a real-world problem. The Game Design Challenge had teams create a game that could be played by FIRST Robotics Competition teams. Our team split team members into groups for the Innovation Challenge and Game Design Challenge, while other team members worked in their specialized subgroups.</p> <p> &emsp;In the game design group, team members analyzed past FIRST games to help brainstorm ideas for a unique game design. After discussing the 4 different game possibilities that were suggested, the game design group decided on one game: FIRST: Operation Restoration. Then, members worked on designing elements of the exciting new game field using Onshape CAD. Other members created a <a href="https://docs.google.com/document/d/1crQj-iCeEyNO0d23MArrQ6oUAQLaYxVJETiL-zSIr2w/edit?usp=sharing">Game Manual</a> which was modelled off of previous FRC game manuals. Finally, a few team members created a <a href="https://drive.google.com/file/d/17toSpNJlSzaQwvffXiL3Qul_SIEephpF/view?usp=sharing">game video</a> and logo. Here is a picture of the game design team in their final Zoom call!</p> 
             <img src="imageAssets/updates/zoomers.jpg" alt="Zoomers just zoomin&apos;">
