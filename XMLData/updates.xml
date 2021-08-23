@@ -63,4 +63,28 @@
             ]]>
         </SSBody>
     </section>
+
+    <section>
+        <SSTitle>
+            End of the Year Animations Update
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p> &emsp;This year our animations group met with mentor Will Muto from Industrial Light and Magic to understand which animation techniques they should implement into their FIRST Animation contest. They spent the majority of their time developing their skills on Autodesk Maya animation software. Despite being completely virtual, they were able to collaborate with each other very well for their FIRST Animation project and are looking forward to working with each other next year.</p>
+            
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/animation1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/animation2.png"></td>
+                </tr>
+            </table>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/animation3.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/animation4.png"></td>
+                </tr>
+            </table>
+            ]]>
+        </SSBody>
+    </section>
 </pageSections>
