@@ -47,8 +47,8 @@
         </SSTitle>
         <SSBody>
             <![CDATA[
-            <p> &emsp;This year the controls group taught coding and electronics for Arduino kits to half of the team. They also wrote code for a galactic search challenge, which is to detect balls on a field, navigate to them, and collect them. Currently, they are exporting their code onto a new code organization system and working towards using motion sensors and computer vision to identify their robot’s position on a field. They also helped design a control system for the Innovation Challenge Project for the Innovations Team.</p>
-            ]]>
+            <p>&emsp;This year the controls group taught coding and electronics for Arduino kits to half of the team.  They also wrote code for a galactic search challenge, which is to detect balls on a field, navigate to them, and collect them.  Currently, they are exporting their code onto a new code organization system and working towards using motion sensors and computer vision to identify their robot's position on a field.  They also helped design a control system for the Innovation Challenge Project for the Innovations Team.</p>
+            ]]>]
         </SSBody>
     </section>
 </pageSections>
