@@ -10,8 +10,18 @@
             <p>The Wheelchair project started during the 2020-21 school year (to make a spring mechanism that attaches onto a wheelchair and launches a soccer ball, allowing a young student to pass the ball with others) continued over the summer with weekend shop hours.We decided to switch from a spring mechanism to a flywheel since our original idea was more dangerous and bulky, less precise, and short lasting. The new flywheel design operates by compressing and dragging the soccer ball along a track with a spinning wheel.  This summer we built a stand alone prototype to test and modify our design for safety and accuracy, and are now finishing testing and implementing new ideas onto our design.</p>
             <table style="width:100%">
                 <tr>
-                <td style="text-align:center"><img src="/imageAssets/updates/shop-working1.png"></td>
-                <td style="text-align:center"><img src="/imageAssets/updates/shop-working2.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/wheelchair-cad.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/wheelchair-prototype.png"></td>
+                </tr>
+            </table>
+            
+            
+            <p style="font-weight: bold">Trumpet Project</p>
+            <p>The Trumpet Project team also worked over the summer to finish developing and prototype testing the trumpet mechanism:  two 3D printed halves of a holder that houses a servo system and holds the trumpet on top of a stand. We met with the student we are developing this mechanism for to test out and improve our original design, tailoring it for his height, strength, and personal preference for playing. The controls group helped finish the circuitry and testing for arack and pinion system; however, we realized that a new housing section for the student’s trumpet control pad would be needed. We are currently in the design process for thenew housing design.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/trumpet-container-prototype.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/trumpet-prototype.jpeg"></td>
                 </tr>
             </table>
             ]]>
