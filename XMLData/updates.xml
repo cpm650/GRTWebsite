@@ -17,11 +17,49 @@
             
             
             <p style="font-weight: bold">Trumpet Project</p>
-            <p>The Trumpet Project team also worked over the summer to finish developing and prototype testing the trumpet mechanism:  two 3D printed halves of a holder that houses a servo system and holds the trumpet on top of a stand. We met with the student we are developing this mechanism for to test out and improve our original design, tailoring it for his height, strength, and personal preference for playing. The controls group helped finish the circuitry and testing for arack and pinion system; however, we realized that a new housing section for the student’s trumpet control pad would be needed. We are currently in the design process for thenew housing design.</p>
+            <p>The Trumpet Project team also worked over the summer to finish developing and prototype testing the trumpet mechanism: two 3D printed halves of a holder that houses a servo system and holds the trumpet on top of a stand. We met with the student we are developing this mechanism for to test out and improve our original design, tailoring it for his height, strength, and personal preference for playing. The controls group helped finish the circuitry and testing for arack and pinion system; however, we realized that a new housing section for the student's trumpet control pad would be needed. We are currently in the design process for the new housing design.</p>
             <table style="width:100%">
                 <tr>
                 <td style="text-align:center"><img src="/imageAssets/updates/trumpet-container-prototype.png"></td>
-                <td style="text-align:center"><img src="/imageAssets/updates/trumpet-prototype.jpeg"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/trumpet-prototype.jpg"></td>
+                </tr>
+            </table>
+
+
+            <p style="font-weight: bold">Controls</p>
+            <p>The Controls group finished improving and testing our robot's control mechanism and coding framework so that it moves based on individual commands. They tested a newly built tank teleoperation which drives the robot using an xbox controller, and assisted the trumpet project with writing code and wiring a circuit for pressing down the trumpet valves. At the end of the summer, we all learned how to wire the team's robot and wired two robot bases to use for practice and testing.</p>
+            
+            
+            <p style="font-weight: bold">Business Project</p>
+            <p>The Business group finished competing in our third annual KLA RoboGames run by our wonderful sponsors the KLA Foundation which give out awards celebrating different aspects of our team. We wrote for the Community Enrichment Award about the various outreach projects we are working on to improve our community and prote STEM, the Outstanding Mentor Award honoring our incredible mentor Ms. Granlund, the Innovation Award for our pitch towards creating a wheelchair attachment to allow an elementary schooler to play soccer with his brother, and the Leadership Award to acknowledge our great 2020-21 team captain Binh-Minh Nguyen.</p>
+            <p>At the start of summer, we held a weeklong summer camp for teaching middle schoolers code and design. We used TinkerCAD and VEXcode VR as an intro to code and challenged them to build a launcher out of household items to teach them the process of design.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/business1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/business2.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/business3.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/business4.png"></td>
+                </tr>
+            </table>
+            <p>We are now setting up a new community outreach project for our Business group to work on this fall.</p>
+            
+            
+            <p style="font-weight: bold">Drive-Train Update</p>
+            <p>Our DT group worked on the design and framework for our tank movement mechanism for our robot. Initially, we planned to use a two-speed gearbox to power a west coast drivetrain, which is a 3 wheeled tank where the middle two wheels are positioned slightly lower than the outer wheels. However, after deciding to use more powerful Neo motors for our tank, we switched over to a one-speed gearbox to save more space and are now CADing a prototype design for our robot.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/drivetrain-summer-cad.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/drivetrain-summer-cad2.png"></td>
+                </tr>
+            </table>
+            
+            
+            <p style="font-weight: bold">CNC Update</p>
+            <p>Our CNC group learned how to give our CNC mill steps for machining (CAM process) for CADed parts and export it into code for our CNC. We spent time practicing how to CNC old parts and collaborated with our Wheelchair project group, CNCing parts for their mechanism. We hope to get the program we use for CAMing, MasterCAM, working on our shop computers by the start of our fall season.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/cnc1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/cnc2.png"></td>
                 </tr>
             </table>
             ]]>
