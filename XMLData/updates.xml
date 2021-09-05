@@ -2,6 +2,24 @@
 <pageSections>
     <section>
         <SSTitle>
+            Summer 2021 GRT Update
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p style="font-weight: bold">Wheelchair Project</p>
+            <p>The Wheelchair project started during the 2020-21 school year (to make a spring mechanism that attaches onto a wheelchair and launches a soccer ball, allowing a young student to pass the ball with others) continued over the summer with weekend shop hours.We decided to switch from a spring mechanism to a flywheel since our original idea was more dangerous and bulky, less precise, and short lasting. The new flywheel design operates by compressing and dragging the soccer ball along a track with a spinning wheel.  This summer we built a stand alone prototype to test and modify our design for safety and accuracy, and are now finishing testing and implementing new ideas onto our design.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/shop-working1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/shop-working2.png"></td>
+                </tr>
+            </table>
+            ]]>
+        </SSBody>
+    </section>
+
+    <section>
+        <SSTitle>
             End of the year GRT Update 2021
         </SSTitle>
         <SSBody>
