@@ -2,6 +2,24 @@
 <pageSections>
     <section>
         <SSTitle>
+            November Update
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p>Throughout November, GRT has been competing between our two class periods in a competition designed to simulate build season for the FRC tournament. GRT uses this competition as training to discover and solve problems and to develop team coordination and planning to further prepare us for the FIRST robotics tournament.</p>
+            <table style="width:100%">
+                <tr>
+                <td style="text-align:center"><img src="/imageAssets/updates/novemberupdate1.png"></td>
+                <td style="text-align:center"><img src="/imageAssets/updates/novemberupdate2.png"></td>
+                </tr>
+            </table>
+            
+            ]]>
+        </SSBody>
+    </section>
+
+    <section>
+        <SSTitle>
             October Update
         </SSTitle>
         <SSBody>
