@@ -2,6 +2,20 @@
 <pageSections>
     <section>
         <SSTitle>
+            January Update
+        </SSTitle>
+        <SSBody>
+            <![CDATA[
+            <p>This January, we have been hard at work for the 2022 FIRST Robotics Competition, Rapid React. We split into four mechanism groups: intake, shooter, climb, and internals. Each group spent the first week brainstorming and prototyping so we wouldn’t come to a hasty decision without testing. Over the next two weeks we worked on 3D modeling, more prototyping, and redesigning. During the last few days of January we started machining parts for our first complete robot this season!</p>
+            <img src="/imageAssets/updates/january-update.png">
+            <p>Our animation team also submitted the 2022 FIRST animation: Droid Drop Off on January 27.</p>
+            <iframe src="https://www.youtube.com/watch?v=QS8HXqAl1dA"></iframe>
+            ]]>
+        </SSBody>
+    </section>
+
+    <section>
+        <SSTitle>
             November Update
         </SSTitle>
         <SSBody>
