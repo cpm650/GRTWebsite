@@ -161,11 +161,53 @@
         float:right;
         font-size:14px;
     }
+
+    #list-builder {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+        display: none;
+    }
+    #popup-box {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #911e26;
+        color: #FFFFFF;
+        width: 70%;
+        max-width: 600px;
+        padding: 30px;
+        border: 10px solid #FFFFFF;
+        display: none;
+        z-index: 20;
+    }
+    #popup-close {
+        position: absolute;
+        top: -25px;
+        right: -25px;
+        cursor: pointer;
+        width: 30px;
+    }
     </style>
 
     <script type="text/javascript" src="JS/homeScroll.js"></script>
 </head>
 <body onload="initImgScroll()">
+
+    <div id="list-builder"></div>
+    <div id="popup-box">
+        <img src="imageAssets/join/close.png" id="popup-close" />
+        <div id="popup-box-content">
+            <h1><a href="http://gunnrobotics.grtboosters.com/join.php">Apply today and join as a GRT member!</a></h1>
+        </div>
+    </div>
+
     <div class="bgImage wrapper" id="bottomImage">
         <div class="bgImage wrapper" id="topImage">
         </div>
