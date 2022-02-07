@@ -10,10 +10,11 @@
             <img src="/imageAssets/updates/january-update.png">
             <p>Our animation team also submitted the 2022 FIRST animation: Droid Drop Off on January 27.</p>
             <div style="text-align: center">
-                <iframe width="560" height="315" display: block; src="https://www.youtube.com/embed/QS8HXqAl1dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="350px" display: block; src="https://www.youtube.com/embed/QS8HXqAl1dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             ]]>
         </SSBody>
+        
     </section>
 
     <section>
